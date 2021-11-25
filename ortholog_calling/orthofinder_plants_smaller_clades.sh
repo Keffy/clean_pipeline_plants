@@ -6,6 +6,8 @@
 ### -oa to stop after finding the groups (--only-alignments)
 ### Used OrthoFinder version 2.5.2
 
+### Removing species from the analyses. The
+
 #######
 # Help
 ######
