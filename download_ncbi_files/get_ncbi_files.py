@@ -37,30 +37,35 @@ def get_ncbi_ftp_path(orgn):
     sleep(0.1)
     summary = Entrez.read(handle4)
     ftp_path = summary['DocumentSummarySet']['DocumentSummary'][0]['FtpPath_RefSeq']
-    assembly_acc = summary['DocumentSummarySet']['DocumentSummary'][0]['AssemblyAccession']
+    #assembly_acc = summary['DocumentSummarySet']['DocumentSummary'][0]['AssemblyAccession']
     handle1.close()
     handle2.close()
     handle3.close()
     handle4.close()
     sleep(1)
-    return(ftp_path,assembly_acc)
+    #return(ftp_path,assembly_acc)
+    return(ftp_path)
 
 
 def download_refseq(ftp_path, out_dir, species_lst):
     for ftp in ftp_path:
-        current_sp = species_lst.index(ftp)
+        current_sp = species_lst[ftp_path.index(ftp)]
         current_sp = current_sp.replace(" ", "_")
-        genome_ftp = ftp_path + "_genomic.fna.gz"
-        protein_ftp = ftp_path + "_protein.faa.gz"
+        genome_ftp = ftp + "/" + ftp.split("/")[-1] + "_genomic.fna.gz"
+        protein_ftp = ftp + "/" + ftp.split("/")[-1] + "_protein.faa.gz"
+        gff_ftp = ftp + "/" + ftp.split("/")[-1] + "_genomic.gff.gz"
         #get output filename
         genome_outfile = out_dir + "/" + current_sp + "_genomic.fna.gz"
         protein_outfile = out_dir + "/" + current_sp + "_protein.faa.gz"
+        gff_outfile = out_dir + "/" + current_sp + "_genomic.gff.gz"
         wget.download(genome_ftp, genome_outfile)
         wget.download(protein_ftp, protein_outfile)
+        wget.download(gff_ftp, gff_outfile)
 
 
 ### parse passed email argument
 
+parser = argparse.ArgumentParser()
 parser.add_argument("--email", help="You need to set your email address for NCBI.", required=True)
 parser.add_argument("--api_key", help="Supply an API key to NCBI for more requests per second.")
 parser.add_argument("--out_dir", help="Supply an output directory for file downloads.")
@@ -72,11 +77,11 @@ output_dir = arg_dict['out_dir']
 ### calls
 ### Species list:
 
-with open("../meta/species_no_us.txt", "r") as fn:
+with open("/datahome/people/krkehrli/clean_pipeline_plants/meta/species_no_us.txt", "r") as fn:
     species = fn.read().splitlines()
 
 
-ftp_accession_list = [get_ncbi_ftp_path(sp) for sp in species]
-ftp_paths, assembly_accessions = [i for i,j in ftp_accession_list]
+#ftp_accession_list = list(zip(*[get_ncbi_ftp_path(sp) for sp in species]))
+ftp_urls = [get_ncbi_ftp_path(sp) for sp in species]
 
-download_refseq(ftp_path, out_dir, species)
+download_refseq(ftp_urls, output_dir, species)
