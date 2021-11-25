@@ -77,7 +77,7 @@ output_dir = arg_dict['out_dir']
 ### calls
 ### Species list:
 
-with open("/datahome/people/krkehrli/clean_pipeline_plants/meta/species_no_us.txt", "r") as fn:
+with open("clean_pipeline_plants/meta/species_no_us.txt", "r") as fn:
     species = fn.read().splitlines()
 
 
