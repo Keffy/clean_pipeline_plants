@@ -20,6 +20,29 @@ MAFFT v7.149b (2014/04/04)
   http://mafft.cbrc.jp/alignment/software/
   MBE 30:772-780 (2013), NAR 30:3059-3066 (2002)
 
-T-Coffee to filter
+### T-Coffee filtering
+
+* Check to see if there's a better way to do this filter.
+* Can use a method to eliminate badly aligned regions of the genes.
 
 trees: IQ-Tree 
+
+### Species tree
+
+Species tree is the result of a literature search on the branching order of families within the eudicots.
+
+Ultrametric tree downloaded from Timetree.org.
+
+Nicotiana attenuata substituted by Nicotiana acuminata in Timetree, but these are sister species in the Nicotiana clade, so I swapped them back for the purposes of this analysis.
+
+https://www.sciencedirect.com/science/article/pii/S1055790304001447
+
+http://etetoolkit.org/docs/latest/tutorial/tutorial_phylogeny.html#relative-dating-phylogenetic-nodes
+
+Either use ETE3 in Python or ape in R to date the trees and get branch lengths.
+
+### Gene Ontology
+
+* Check to see if there is data about any of these plants other than _Arabidopsis thaliana._ May need to restrict only to trees that contain _Arabidopsis thaliana_ genes (honestly, I wouldn't mind some restriction...)
+
+* There are multiple species that have GO calls on geneontology.org
