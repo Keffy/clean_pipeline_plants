@@ -29,17 +29,7 @@ trees: IQ-Tree
 
 ### Species tree
 
-Species tree is the result of a literature search on the branching order of families within the eudicots.
-
-Ultrametric tree downloaded from Timetree.org.
-
-Nicotiana attenuata substituted by Nicotiana acuminata in Timetree, but these are sister species in the Nicotiana clade, so I swapped them back for the purposes of this analysis.
-
-https://www.sciencedirect.com/science/article/pii/S1055790304001447
-
-http://etetoolkit.org/docs/latest/tutorial/tutorial_phylogeny.html#relative-dating-phylogenetic-nodes
-
-Either use ETE3 in Python or ape in R to date the trees and get branch lengths.
+Species tree is a literature synthesis from the Open Tree of Life project with undated nodes dated through a literature search.
 
 ### Gene Ontology
 

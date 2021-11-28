@@ -27,9 +27,7 @@ if [ $# -eq 0 ]
     then 
         Help
 else
-    cd $1
-    gunzip *.gz
-    orthofinder -o $2 -t 24 -S diamond -M msa -oa -f $1
+    orthofinder -o $2 -t 24 -S diamond -M msa -T iqtree -f $1 -s phylogeny/species_tree_rooted.nwk
 fi
 
 
