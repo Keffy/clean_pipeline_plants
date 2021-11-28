@@ -1,0 +1,560 @@
+GSM1695578,GSE69222,Arabidopsis lyrata,SRX1038187,,rosette leaves,control,SE,NA
+GSM1695579,GSE69222,Arabidopsis lyrata,SRX1038188,,rosette leaves,control,PE,NA
+GSM1692581,GSE69077,Arabidopsis lyrata,SRX1034178,,rosette leaves,control,PE,NA
+GSM1692582,GSE69077,Arabidopsis lyrata,SRX1034179,,rosette leaves,salt stress,PE,NA
+GSM1692583,GSE69077,Arabidopsis lyrata,SRX1034180,,rosette leaves,salt stress,PE,NA
+GSM1692584,GSE69077,Arabidopsis lyrata,SRX1034181,,rosette leaves,control,SE,NA
+GSM1692585,GSE69077,Arabidopsis lyrata,SRX1034182,,rosette leaves,control,SE,NA
+GSM1692586,GSE69077,Arabidopsis lyrata,SRX1034183,,rosette leaves,control,SE,NA
+GSM1550351,GSE63462,Arabidopsis lyrata,SRX763945,,rosette,control,SE,NA
+GSM1550352,GSE63462,Arabidopsis lyrata,SRX763946,,rosette,control,SE,NA
+GSM1550353,GSE63462,Arabidopsis lyrata,SRX763947,,rosette,control,SE,NA
+GSM1322890,GSE54727,Arabidopsis lyrata,SRX466007,,rosette,control,SE,NA
+GSM736442,GSE29687,Arabidopsis thaliana,SRX076018,,rosette,heat stress,SE,NA
+GSM3228269,GSE116332,Arabidopsis thaliana,SRX4312843,,rosette,heat stress,SE,NA
+GSM3228270,GSE116332,Arabidopsis thaliana,SRX4312844,,rosette,heat stress recovery,SE,NA
+GSM3228272,GSE116332,Arabidopsis thaliana,SRX4312845,,rosette,heat stress recovery,SE,NA
+GSM3228273,GSE116332,Arabidopsis thaliana,SRX4312846,,rosette,control,SE,NA
+GSM1838953,GSE71581,Arabidopsis thaliana,SRX1126046,,rosette,control,SE,NA
+GSM1838954,GSE71581,Arabidopsis thaliana,SRX1126047,,rosette,control,SE,NA
+GSM1838955,GSE71581,Arabidopsis thaliana,SRX1126048,,rosette,control,SE,NA
+GSM1695576,GSE69222,Arabidopsis thaliana,SRX1038185,,rosette,heat stress,SE,NA
+GSM1695577,GSE69222,Arabidopsis thaliana,SRX1038186,,rosette,heat stress,SE,NA
+GSM1692575,GSE69077,Arabidopsis thaliana,SRX1034172,,rosette,heat stress recovery,SE,NA
+GSM1692576,GSE69077,Arabidopsis thaliana,SRX1034173,,rosette,heat stress recovery,SE,NA
+GSM1692577,GSE69077,Arabidopsis thaliana,SRX1034174,,rosette,control,PE,NA
+GSM1692578,GSE69077,Arabidopsis thaliana,SRX1034175,,rosette,control,PE,NA
+GSM1692579,GSE69077,Arabidopsis thaliana,SRX1034176,,rosette,control,PE,NA
+GSM1692580,GSE69077,Arabidopsis thaliana,SRX1034177,,leaves,control,SE,NA
+GSM3209218,GSE116123,Arabidopsis thaliana,SRX4278032,,leaves,control,SE,NA
+GSM3209219,GSE116123,Arabidopsis thaliana,SRX4278033,,leaves,control,SE,NA
+GSM3209220,GSE116123,Arabidopsis thaliana,SRX4278034,,leaves,control,SE,NA
+GSM3243169,GSE116581,Arabidopsis thaliana,SRX3420422,,leaves,control,PE,NA
+GSM3243170,GSE116581,Arabidopsis thaliana,SRX3420417,,leaves,control,PE,NA
+GSM1059162,GSE43246,Brassica oleracea,SRX213690,,leaf,control,SE,28 day old leaf
+GSM2236439,GSE84451,Brassica oleracea,SRX1958165,,leaf,control,PE,only control from this exp
+GSM2236440,GSE84451,Brassica oleracea,SRX1958166,,leaf,control,PE,only control from this exp
+GSM2236441,GSE84451,Brassica oleracea,SRX1958167,,leaf,control,PE,only control from this exp
+GSM1052960,GSE42891,Brassica oleracea,SRX209693,,leaf,control,PE,tissue culture
+GSM3737789,GSE130405,Brassica oleracea var. capitata,SRX5760145,,leaf,control,PE,NA
+GSM3737790,GSE130405,Brassica oleracea var. capitata,SRX5760146,,leaf,control,PE,NA
+GSM3737791,GSE130405,Brassica oleracea var. capitata,SRX5760147,,leaf,control,PE,NA
+GSM1289112,GSE53298,Brassica oleracea var. italica,SRX391679,,leaf,control,PE,3 day
+GSM1289113,GSE53298,Brassica oleracea var. italica,SRX391680,,leaf,control,PE,7 day
+GSM1289114,GSE53298,Brassica oleracea var. italica,SRX391681,,leaf,control,PE,11 day
+GSM1128359,GSE46299,Brassica rapa,SRX271228,,leaf,control,SE,Doesn't say which rapa subsp.
+GSM1059161,GSE43246,Brassica rapa,SRX213689,,leaf,control,SE,28 day old leaf
+GSM2236436,GSE84451,Brassica rapa,SRX1958162,,leaf,control,PE,only control from this exp
+GSM2236437,GSE84451,Brassica rapa,SRX1958163,,leaf,control,PE,only control from this exp
+GSM2236438,GSE84451,Brassica rapa,SRX1958164,,leaf,control,PE,only control from this exp
+GSM3035064,GSE111607,Brassica rapa pekinensis,SRX3776747,,leaf,control,PE,doubled haploid
+GSM3035065,GSE111607,Brassica rapa pekinensis,SRX3776748,,leaf,control,PE,doubled haploid
+GSM3035066,GSE111607,Brassica rapa pekinensis,SRX3776749,,leaf,control,PE,doubled haploid
+GSM3035067,GSE111607,Brassica rapa pekinensis,SRX3776750,,leaf,control,PE,autotetraploid
+GSM3035068,GSE111607,Brassica rapa pekinensis,SRX3776751,,leaf,control,PE,autotetraploid
+GSM3035069,GSE111607,Brassica rapa pekinensis,SRX3776752,,leaf,control,PE,autotetraploid
+GSM2039974,GSE76888,Capsella rubella,SRX1531629,,leaf,control,PE,
+GSM2039975,GSE76888,Capsella rubella,SRX1531630,,leaf,control,PE,
+GSM2039976,GSE76888,Capsella rubella,SRX1531631,,leaf,control,PE,
+GSM2039977,GSE76888,Capsella rubella,SRX1531632,,leaf,control,PE,
+GSM2039978,GSE76888,Capsella rubella,SRX1531633,,leaf,control,PE,
+GSM2039979,GSE76888,Capsella rubella,SRX1531634,,leaf,control,PE,
+GSM1096439,GSE45037,Capsicum annuum,SRX248803,,leaf,control,PE,
+GSM3893035,GSE132824,Capsicum annuum,SRX5488442,,leaf,control,PE,Mock 0h
+GSM3893036,GSE132824,Capsicum annuum,SRX5488443,,leaf,control,PE,Mock 0h
+GSM3893037,GSE132824,Capsicum annuum,SRX5488444,,leaf,control,PE,Mock 0h
+GSM3893038,GSE132824,Capsicum annuum,SRX5488445,,leaf,control,PE,Mock 3h
+GSM3893039,GSE132824,Capsicum annuum,SRX5488446,,leaf,control,PE,Mock 3h
+GSM3893040,GSE132824,Capsicum annuum,SRX5488447,,leaf,control,PE,Mock 3h
+GSM3893041,GSE132824,Capsicum annuum,SRX5488448,,leaf,control,PE,Mock 6h
+GSM3893042,GSE132824,Capsicum annuum,SRX5488449,,leaf,control,PE,Mock 6h
+GSM3893043,GSE132824,Capsicum annuum,SRX5488487,,leaf,control,PE,Mock 6h
+GSM3893044,GSE132824,Capsicum annuum,SRX5488438,,leaf,control,PE,Mock 12h
+GSM3893045,GSE132824,Capsicum annuum,SRX5488467,,leaf,control,PE,Mock 12h
+GSM3893046,GSE132824,Capsicum annuum,SRX5488468,,leaf,control,PE,Mock 12h
+GSM3893047,GSE132824,Capsicum annuum,SRX5488465,,leaf,control,PE,Mock 24h
+GSM3893048,GSE132824,Capsicum annuum,SRX5488466,,leaf,control,PE,Mock 24h
+GSM3893049,GSE132824,Capsicum annuum,SRX5488471,,leaf,control,PE,Mock 24h
+GSM3893050,GSE132824,Capsicum annuum,SRX5488472,,leaf,control,PE,Mock 72h
+GSM3893051,GSE132824,Capsicum annuum,SRX5488469,,leaf,control,PE,Mock 72h
+GSM3893052,GSE132824,Capsicum annuum,SRX5488470,,leaf,control,PE,Mock 72h
+GSM1096441,GSE45037,Capsicum annuum var. glabriusculum,SRX248805,,leaf,control,PE,
+GSM3733617,GSE130188,Carica papaya,SRX5728489,,leaf,control,PE,
+GSM3243257,GSE116581,Carica papaya,SRX2697676,,leaf,control,PE,
+GSM3243258,GSE116581,Carica papaya,SRX3420307,,leaf,control,PE,
+GSM2774020,GSE103561,Cicer arietinum,SRX3165238,,leaf,control,PE,
+GSM2101576,GSE79720,Cicer arietinum Himchana,SRX1670135,,leaf,control,PE,
+GSM2101577,GSE79720,Cicer arietinum Himchana,SRX1670136,,leaf,control,PE,
+GSM2101578,GSE79720,Cicer arietinum Himchana,SRX1670137,,leaf,control,PE,
+GSM2101552,GSE79719,Cicer arietinum JGK3,SRX1670111,,leaf,control,PE,
+GSM2101553,GSE79719,Cicer arietinum JGK3,SRX1670112,,leaf,control,PE,
+GSM2101554,GSE79719,Cicer arietinum JGK3,SRX1670113,,leaf,control,PE,
+"GSM3140498	",GSE114369,Citrus sinensis,SRX4074771,,leaf,control,PE,pH 6
+GSM3140499,GSE114369,Citrus sinensis,SRX4074772,,leaf,control,PE,pH 6
+GSM3140500,GSE114369,Citrus sinensis,SRX4074773,,leaf,control,PE,pH 6
+GSM1701085,GSE69432,Citrus sinensis,SRX1045029,,leaf,control,SE,170DAF
+GSM1701086,GSE69432,Citrus sinensis,SRX1045030,,leaf,control,SE,190DAF
+GSM1701087,GSE69432,Citrus sinensis,SRX1045031,,leaf,control,SE,210DAF
+GSM2913983,GSE108837,Citrus sinensis,SRX3539446,,leaf,control,PE,NA
+GSM2913984,GSE108837,Citrus sinensis,SRX3539447,,leaf,control,PE,NA
+GSM2586396,GSE98054,Cucumis melo cantalupo,SRX2751699,,leaf,control,PE,
+GSM2586397,GSE98054,Cucumis melo cantalupo,SRX2751700,,leaf,control,PE,
+GSM3243243,GSE116581,Cucumis melo vedrantais,SRX2697691,,leaf,control,PE,
+GSM3243244,GSE116581,Cucumis melo vedrantais,SRX2697690,,leaf,control,PE,
+GSM3243205,GSE116581,Cucumis sativus,SRX2697708,,leaf,control,SE,NA
+GSM3243206,GSE116581,Cucumis sativus,SRX3420359,,leaf,control,SE,NA
+GSM3682577,GSE128687,Eutrema salsugineum,SRX5554454,,leaf,control,PE,
+GSM1942124,GSE75071,Eutrema salsugineum yukon,SRX1436242,,leaf,control,PE,
+GSM3243286,GSE116581,Fragaria vesca,SRX2697659,,leaf,control,SE,
+GSM3243287,GSE116581,Fragaria vesca,SRX3420405,,leaf,control,SE,
+GSM2651508,GSE99758,Glycine max,SRX2892154,,leaf,control,PE,NA
+GSM2651509,GSE99758,Glycine max,SRX2892155,,leaf,control,PE,See exp for genotypes
+GSM2651510,GSE99758,Glycine max,SRX2892156,,leaf,control,PE,See exp for genotypes
+GSM2651511,GSE99758,Glycine max,SRX2892157,,leaf,control,PE,See exp for genotypes
+GSM2651512,GSE99758,Glycine max,SRX2892158,,leaf,control,PE,See exp for genotypes
+GSM2651513,GSE99758,Glycine max,SRX2892159,,leaf,control,PE,See exp for genotypes
+GSM2651514,GSE99758,Glycine max,SRX2892160,,leaf,control,PE,See exp for genotypes
+GSM2651515,GSE99758,Glycine max,SRX2892161,,leaf,control,PE,See exp for genotypes
+GSM2651516,GSE99758,Glycine max,SRX2892162,,leaf,control,PE,See exp for genotypes
+GSM2651517,GSE99758,Glycine max,SRX2892163,,leaf,control,PE,See exp for genotypes
+GSM2651518,GSE99758,Glycine max,SRX2892164,,leaf,control,PE,See exp for genotypes
+GSM2651519,GSE99758,Glycine max,SRX2892165,,leaf,control,PE,See exp for genotypes
+GSM2651520,GSE99758,Glycine max,SRX2892166,,leaf,control,PE,See exp for genotypes
+GSM2651521,GSE99758,Glycine max,SRX2892167,,leaf,control,PE,See exp for genotypes
+GSM2651522,GSE99758,Glycine max,SRX2892168,,leaf,control,PE,See exp for genotypes
+GSM2651523,GSE99758,Glycine max,SRX2892169,,leaf,control,PE,See exp for genotypes
+GSM2651524,GSE99758,Glycine max,SRX2892170,,leaf,control,PE,See exp for genotypes
+GSM2651525,GSE99758,Glycine max,SRX2892171,,leaf,control,PE,See exp for genotypes
+GSM2651526,GSE99758,Glycine max,SRX2892172,,leaf,control,PE,See exp for genotypes
+GSM2651527,GSE99758,Glycine max,SRX2892173,,leaf,control,PE,See exp for genotypes
+GSM2651528,GSE99758,Glycine max,SRX2892174,,leaf,control,PE,See exp for genotypes
+GSM2651529,GSE99758,Glycine max,SRX2892175,,leaf,control,PE,See exp for genotypes
+GSM2651530,GSE99758,Glycine max,SRX2892176,,leaf,control,PE,See exp for genotypes
+GSM2651531,GSE99758,Glycine max,SRX2892177,,leaf,control,PE,See exp for genotypes
+GSM2651532,GSE99758,Glycine max,SRX2892178,,leaf,control,PE,See exp for genotypes
+GSM2651533,GSE99758,Glycine max,SRX2892179,,leaf,control,PE,See exp for genotypes
+GSM2651534,GSE99758,Glycine max,SRX2892180,,leaf,control,PE,See exp for genotypes
+GSM2651535,GSE99758,Glycine max,SRX2892181,,leaf,control,PE,See exp for genotypes
+GSM2651536,GSE99758,Glycine max,SRX2892182,,leaf,control,PE,See exp for genotypes
+GSM2651537,GSE99758,Glycine max,SRX2892183,,leaf,control,PE,See exp for genotypes
+GSM2651538,GSE99758,Glycine max,SRX2892184,,leaf,control,PE,See exp for genotypes
+GSM2651539,GSE99758,Glycine max,SRX2892185,,leaf,control,PE,See exp for genotypes
+GSM2651540,GSE99758,Glycine max,SRX2892186,,leaf,control,PE,See exp for genotypes
+GSM2651541,GSE99758,Glycine max,SRX2892187,,leaf,control,PE,See exp for genotypes
+GSM2651542,GSE99758,Glycine max,SRX2892188,,leaf,control,PE,See exp for genotypes
+GSM2651543,GSE99758,Glycine max,SRX2892189,,leaf,control,PE,See exp for genotypes
+GSM2651544,GSE99758,Glycine max,SRX2892190,,leaf,control,PE,See exp for genotypes
+GSM2651545,GSE99758,Glycine max,SRX2892191,,leaf,control,PE,See exp for genotypes
+GSM2651546,GSE99758,Glycine max,SRX2892192,,leaf,control,PE,See exp for genotypes
+GSM2651547,GSE99758,Glycine max,SRX2892193,,leaf,control,PE,See exp for genotypes
+GSM2651548,GSE99758,Glycine max,SRX2892194,,leaf,control,PE,See exp for genotypes
+GSM2651549,GSE99758,Glycine max,SRX2892195,,leaf,control,PE,See exp for genotypes
+GSM2651550,GSE99758,Glycine max,SRX2892196,,leaf,control,PE,See exp for genotypes
+GSM2651551,GSE99758,Glycine max,SRX2892197,,leaf,control,PE,See exp for genotypes
+GSM2651552,GSE99758,Glycine max,SRX2892198,,leaf,control,PE,See exp for genotypes
+GSM2651553,GSE99758,Glycine max,SRX2892199,,leaf,control,PE,See exp for genotypes
+GSM2651554,GSE99758,Glycine max,SRX2892200,,leaf,control,PE,See exp for genotypes
+GSM2651555,GSE99758,Glycine max,SRX2892201,,leaf,control,PE,See exp for genotypes
+GSM2651556,GSE99758,Glycine max,SRX2892202,,leaf,control,PE,See exp for genotypes
+GSM2651557,GSE99758,Glycine max,SRX2892203,,leaf,control,PE,See exp for genotypes
+GSM2651558,GSE99758,Glycine max,SRX2892204,,leaf,control,PE,See exp for genotypes
+GSM2651559,GSE99758,Glycine max,SRX2892205,,leaf,control,PE,See exp for genotypes
+GSM2651560,GSE99758,Glycine max,SRX2892206,,leaf,control,PE,See exp for genotypes
+GSM2651561,GSE99758,Glycine max,SRX2892207,,leaf,control,PE,See exp for genotypes
+GSM2651562,GSE99758,Glycine max,SRX2892208,,leaf,control,PE,See exp for genotypes
+GSM2651563,GSE99758,Glycine max,SRX2892209,,leaf,control,PE,See exp for genotypes
+GSM2651564,GSE99758,Glycine max,SRX2892210,,leaf,control,PE,See exp for genotypes
+GSM2651565,GSE99758,Glycine max,SRX2892211,,leaf,control,PE,See exp for genotypes
+GSM2651566,GSE99758,Glycine max,SRX2892212,,leaf,control,PE,See exp for genotypes
+GSM2651567,GSE99758,Glycine max,SRX2892213,,leaf,control,PE,See exp for genotypes
+GSM2651568,GSE99758,Glycine max,SRX2892214,,leaf,control,PE,See exp for genotypes
+GSM2651569,GSE99758,Glycine max,SRX2892215,,leaf,control,PE,See exp for genotypes
+GSM2651570,GSE99758,Glycine max,SRX2892216,,leaf,control,PE,See exp for genotypes
+GSM2651571,GSE99758,Glycine max,SRX2892217,,leaf,control,PE,See exp for genotypes
+GSM2651572,GSE99758,Glycine max,SRX2892218,,leaf,control,PE,See exp for genotypes
+GSM2651573,GSE99758,Glycine max,SRX2892219,,leaf,control,PE,See exp for genotypes
+GSM2651574,GSE99758,Glycine max,SRX2892220,,leaf,control,PE,See exp for genotypes
+GSM2651575,GSE99758,Glycine max,SRX2892221,,leaf,control,PE,See exp for genotypes
+GSM2651576,GSE99758,Glycine max,SRX2892222,,leaf,control,PE,See exp for genotypes
+GSM2651577,GSE99758,Glycine max,SRX2892223,,leaf,control,PE,See exp for genotypes
+GSM2651578,GSE99758,Glycine max,SRX2892224,,leaf,control,PE,See exp for genotypes
+GSM2651579,GSE99758,Glycine max,SRX2892225,,leaf,control,PE,See exp for genotypes
+GSM2651580,GSE99758,Glycine max,SRX2892226,,leaf,control,PE,See exp for genotypes
+GSM2651581,GSE99758,Glycine max,SRX2892227,,leaf,control,PE,See exp for genotypes
+GSM2651582,GSE99758,Glycine max,SRX2892228,,leaf,control,PE,See exp for genotypes
+GSM2651583,GSE99758,Glycine max,SRX2892229,,leaf,control,PE,See exp for genotypes
+GSM2651584,GSE99758,Glycine max,SRX2892230,,leaf,control,PE,See exp for genotypes
+GSM2651585,GSE99758,Glycine max,SRX2892231,,leaf,control,PE,See exp for genotypes
+GSM2651586,GSE99758,Glycine max,SRX2892232,,leaf,control,PE,See exp for genotypes
+GSM2651587,GSE99758,Glycine max,SRX2892233,,leaf,control,PE,See exp for genotypes
+GSM2651588,GSE99758,Glycine max,SRX2892234,,leaf,control,PE,See exp for genotypes
+GSM2651589,GSE99758,Glycine max,SRX2892235,,leaf,control,PE,See exp for genotypes
+GSM2651590,GSE99758,Glycine max,SRX2892236,,leaf,control,PE,See exp for genotypes
+GSM2651591,GSE99758,Glycine max,SRX2892237,,leaf,control,PE,See exp for genotypes
+GSM2651592,GSE99758,Glycine max,SRX2892238,,leaf,control,PE,See exp for genotypes
+GSM2651593,GSE99758,Glycine max,SRX2892239,,leaf,control,PE,See exp for genotypes
+GSM2651594,GSE99758,Glycine max,SRX2892240,,leaf,control,PE,See exp for genotypes
+GSM2651595,GSE99758,Glycine max,SRX2892241,,leaf,control,PE,See exp for genotypes
+GSM2651596,GSE99758,Glycine max,SRX2892242,,leaf,control,PE,See exp for genotypes
+GSM2651597,GSE99758,Glycine max,SRX2892243,,leaf,control,PE,See exp for genotypes
+GSM2651598,GSE99758,Glycine max,SRX2892244,,leaf,control,PE,See exp for genotypes
+GSM2651599,GSE99758,Glycine max,SRX2892245,,leaf,control,PE,See exp for genotypes
+GSM2651600,GSE99758,Glycine max,SRX2892246,,leaf,control,PE,See exp for genotypes
+GSM2651601,GSE99758,Glycine max,SRX2892247,,leaf,control,PE,See exp for genotypes
+GSM2651602,GSE99758,Glycine max,SRX2892248,,leaf,control,PE,See exp for genotypes
+GSM2651603,GSE99758,Glycine max,SRX2892249,,leaf,control,PE,See exp for genotypes
+GSM2651604,GSE99758,Glycine max,SRX2892250,,leaf,control,PE,See exp for genotypes
+GSM2651605,GSE99758,Glycine max,SRX2892251,,leaf,control,PE,See exp for genotypes
+GSM2651606,GSE99758,Glycine max,SRX2892252,,leaf,control,PE,See exp for genotypes
+GSM2651607,GSE99758,Glycine max,SRX2892253,,leaf,control,PE,See exp for genotypes
+GSM2651608,GSE99758,Glycine max,SRX2892254,,leaf,control,PE,See exp for genotypes
+GSM2651609,GSE99758,Glycine max,SRX2892255,,leaf,control,PE,See exp for genotypes
+GSM1513581,GSE61760,Gossypium hirsutum,SRX710533,,leaf,control,PE,
+GSM1513582,GSE61760,Gossypium hirsutum,SRX710534,,leaf,control,PE,
+GSM3073228,GSE112583,Helianthus annuus,SRX3871362,,leaf,control,PE,
+GSM3073229,GSE112583,Helianthus annuus,SRX3871363,,leaf,control,SE,
+GSM3073230,GSE112583,Helianthus annuus,SRX3871364,,leaf,control,SE,
+GSM1496861,GSE61109,Jatropha curcas,SRX692835,,leaf,control,SE,
+GSM1496862,GSE61109,Jatropha curcas,SRX692836,,leaf,control,SE,
+GSM1496863,GSE61109,Jatropha curcas,SRX692837,,leaf,control,SE,
+GSM1496864,GSE61109,Jatropha curcas,SRX692838,,leaf,control,SE,
+GSM1496875,GSE61109,Jatropha curcas,SRX692849,,leaf,control,PE,
+GSM1496876,GSE61109,Jatropha curcas,SRX692850,,leaf,control,PE,
+GSM3243172,GSE116581,Malus domestica,SRX2697724,,leaf,control,PE,
+GSM3243173,GSE116581,Malus domestica,SRX3420330,,leaf,control,PE,
+GSM2187897,GSE82279,Manihot esculenta,SRX1821724,,leaf,control,PE,
+GSM2187908,GSE82279,Manihot esculenta,SRX1821735,,leaf,control,SE,
+GSM2187919,GSE82279,Manihot esculenta,SRX1821746,,leaf,control,SE,
+GSM2598391,GSE98537,Manihot esculenta,SRX2783266,,leaf,control,SE,mature
+GSM2598393,GSE98537,Manihot esculenta,SRX2783268,,leaf,control,SE,mature
+GSM3148794,GSE114730,Medicago truncatula,SRX4109116,,leaf,control,SE,mature
+GSM3148795,GSE114730,Medicago truncatula,SRX4109117,,leaf,control,SE,mature
+GSM3148796,GSE114730,Medicago truncatula,SRX4109118,,leaf,control,SE,mature
+GSM3148797,GSE114730,Medicago truncatula,SRX4109119,,leaf,control,SE,mature
+GSM3148798,GSE114730,Medicago truncatula,SRX4109120,,leaf,control,SE,mature
+GSM3148799,GSE114730,Medicago truncatula,SRX4109121,,leaf,control,SE,mature
+GSM3148800,GSE114730,Medicago truncatula,SRX4109122,,leaf,control,SE,mature
+GSM3148801,GSE114730,Medicago truncatula,SRX4109123,,leaf,control,SE,mature
+GSM3148802,GSE114730,Medicago truncatula,SRX4109124,,leaf,control,SE,mature
+GSM3148803,GSE114730,Medicago truncatula,SRX4109125,,leaf,control,SE,mature
+GSM3148804,GSE114730,Medicago truncatula,SRX4109126,,leaf,control,SE,mature
+GSM3148805,GSE114730,Medicago truncatula,SRX4109127,,leaf,control,SE,mature
+GSM3148806,GSE114730,Medicago truncatula,SRX4109128,,leaf,control,SE,mature
+GSM3148807,GSE114730,Medicago truncatula,SRX4109129,,leaf,control,SE,mature
+GSM3148808,GSE114730,Medicago truncatula,SRX4109130,,leaf,control,SE,mature
+GSM3148809,GSE114730,Medicago truncatula,SRX4109131,,leaf,control,SE,mature
+GSM3148810,GSE114730,Medicago truncatula,SRX4109132,,leaf,control,SE,mature
+GSM3148811,GSE114730,Medicago truncatula,SRX4109133,,leaf,control,SE,mature
+GSM3148812,GSE114730,Medicago truncatula,SRX4109134,,leaf,control,SE,mature
+GSM3148813,GSE114730,Medicago truncatula,SRX4109135,,leaf,control,SE,mature
+GSM3148814,GSE114730,Medicago truncatula,SRX4109136,,leaf,control,SE,mature
+GSM3148815,GSE114730,Medicago truncatula,SRX4109137,,leaf,control,SE,mature
+GSM3148816,GSE114730,Medicago truncatula,SRX4109138,,leaf,control,SE,mature
+GSM3148817,GSE114730,Medicago truncatula,SRX4109139,,leaf,control,SE,mature
+GSM3148818,GSE114730,Medicago truncatula,SRX4109140,,leaf,control,SE,mature
+GSM3148819,GSE114730,Medicago truncatula,SRX4109141,,leaf,control,SE,mature
+GSM3148820,GSE114730,Medicago truncatula,SRX4109142,,leaf,control,SE,mature
+GSM3148821,GSE114730,Medicago truncatula,SRX4109143,,leaf,control,SE,mature
+GSM3148822,GSE114730,Medicago truncatula,SRX4109144,,leaf,control,SE,mature
+GSM3148823,GSE114730,Medicago truncatula,SRX4109145,,leaf,control,SE,mature
+GSM3148824,GSE114730,Medicago truncatula,SRX4109146,,leaf,control,SE,mature
+GSM3148825,GSE114730,Medicago truncatula,SRX4109147,,leaf,control,SE,mature
+GSM3148826,GSE114730,Medicago truncatula,SRX4109148,,leaf,control,SE,mature
+GSM3148827,GSE114730,Medicago truncatula,SRX4109149,,leaf,control,SE,mature
+GSM3148828,GSE114730,Medicago truncatula,SRX4109150,,leaf,control,SE,mature
+GSM3148829,GSE114730,Medicago truncatula,SRX4109151,,leaf,control,SE,mature
+GSM3148830,GSE114730,Medicago truncatula,SRX4109152,,leaf,control,SE,mature
+GSM3148831,GSE114730,Medicago truncatula,SRX4109153,,leaf,control,SE,mature
+GSM3148832,GSE114730,Medicago truncatula,SRX4109154,,leaf,control,SE,mature
+GSM3148833,GSE114730,Medicago truncatula,SRX4109155,,leaf,control,SE,mature
+GSM3148834,GSE114730,Medicago truncatula,SRX4109156,,leaf,control,SE,mature
+GSM3148835,GSE114730,Medicago truncatula,SRX4109157,,leaf,control,SE,mature
+GSM3148836,GSE114730,Medicago truncatula,SRX4109158,,leaf,control,SE,mature
+GSM3148837,GSE114730,Medicago truncatula,SRX4109159,,leaf,control,SE,mature
+GSM3148838,GSE114730,Medicago truncatula,SRX4109160,,leaf,control,SE,mature
+GSM3148839,GSE114730,Medicago truncatula,SRX4109161,,leaf,control,SE,mature
+GSM3148840,GSE114730,Medicago truncatula,SRX4109162,,leaf,control,SE,mature
+GSM3148841,GSE114730,Medicago truncatula,SRX4109163,,leaf,control,SE,mature
+GSM3148842,GSE114730,Medicago truncatula,SRX4109164,,leaf,control,SE,mature
+GSM3148843,GSE114730,Medicago truncatula,SRX4109165,,leaf,control,SE,mature
+GSM3148844,GSE114730,Medicago truncatula,SRX4109166,,leaf,control,SE,mature
+GSM3148845,GSE114730,Medicago truncatula,SRX4109167,,leaf,control,SE,mature
+GSM3148846,GSE114730,Medicago truncatula,SRX4109168,,leaf,control,SE,mature
+GSM3148847,GSE114730,Medicago truncatula,SRX4109169,,leaf,control,SE,mature
+GSM3148848,GSE114730,Medicago truncatula,SRX4109170,,leaf,control,SE,mature
+GSM3148849,GSE114730,Medicago truncatula,SRX4109171,,leaf,control,SE,mature
+GSM3148850,GSE114730,Medicago truncatula,SRX4109172,,leaf,control,SE,mature
+GSM3148851,GSE114730,Medicago truncatula,SRX4109173,,leaf,control,SE,mature
+GSM3148852,GSE114730,Medicago truncatula,SRX4109174,,leaf,control,SE,mature
+GSM3148853,GSE114730,Medicago truncatula,SRX4109175,,leaf,control,SE,mature
+GSM3148854,GSE114730,Medicago truncatula,SRX4109176,,leaf,control,SE,mature
+GSM3148855,GSE114730,Medicago truncatula,SRX4109177,,leaf,control,SE,mature
+GSM3148856,GSE114730,Medicago truncatula,SRX4109178,,leaf,control,SE,mature
+GSM3148857,GSE114730,Medicago truncatula,SRX4109179,,leaf,control,SE,mature
+GSM3148858,GSE114730,Medicago truncatula,SRX4109180,,leaf,control,SE,mature
+GSM3148859,GSE114730,Medicago truncatula,SRX4109181,,leaf,control,SE,mature
+GSM3148860,GSE114730,Medicago truncatula,SRX4109182,,leaf,control,SE,mature
+GSM3148861,GSE114730,Medicago truncatula,SRX4109183,,leaf,control,SE,mature
+GSM3148862,GSE114730,Medicago truncatula,SRX4109184,,leaf,control,SE,mature
+GSM3148863,GSE114730,Medicago truncatula,SRX4109185,,leaf,control,SE,mature
+GSM3148864,GSE114730,Medicago truncatula,SRX4109186,,leaf,control,SE,mature
+GSM3148865,GSE114730,Medicago truncatula,SRX4109187,,leaf,control,SE,mature
+GSM3148866,GSE114730,Medicago truncatula,SRX4109188,,leaf,control,SE,mature
+GSM3148867,GSE114730,Medicago truncatula,SRX4109189,,leaf,control,SE,mature
+GSM3148868,GSE114730,Medicago truncatula,SRX4109190,,leaf,control,SE,mature
+GSM3148869,GSE114730,Medicago truncatula,SRX4109191,,leaf,control,SE,mature
+GSM3148870,GSE114730,Medicago truncatula,SRX4109192,,leaf,control,SE,mature
+GSM3148871,GSE114730,Medicago truncatula,SRX4109193,,leaf,control,SE,mature
+GSM3148872,GSE114730,Medicago truncatula,SRX4109194,,leaf,control,SE,mature
+GSM3148873,GSE114730,Medicago truncatula,SRX4109195,,leaf,control,SE,mature
+GSM3148874,GSE114730,Medicago truncatula,SRX4109196,,leaf,control,SE,mature
+GSM3148875,GSE114730,Medicago truncatula,SRX4109197,,leaf,control,SE,mature
+GSM3148876,GSE114730,Medicago truncatula,SRX4109198,,leaf,control,SE,mature
+GSM3148877,GSE114730,Medicago truncatula,SRX4109199,,leaf,control,SE,mature
+GSM3148878,GSE114730,Medicago truncatula,SRX4109200,,leaf,control,SE,mature
+GSM3148879,GSE114730,Medicago truncatula,SRX4109201,,leaf,control,PE,wild plant
+GSM3148880,GSE114730,Medicago truncatula,SRX4109202,,leaf,control,PE,Cultivar B
+GSM1508670,GSE61574,Nicotiana attenuata,SRX706834,,leaf,control,PE,Cultivar B
+GSM3716433,GSE129567,Papaver somniferum,SRX5138892,,leaf,control,PE,Cultivar B
+GSM3716434,GSE129567,Papaver somniferum,SRX5138893,,leaf,control,PE,Cultivar T
+GSM3716435,GSE129567,Papaver somniferum,SRX5138894,,leaf,control,PE,Cultivar T
+GSM3716436,GSE129567,Papaver somniferum,SRX5138895,,leaf,control,PE,Cultivar T
+GSM3716437,GSE129567,Papaver somniferum,SRX5138888,,leaf,control,PE,Cultivar Z
+GSM3716438,GSE129567,Papaver somniferum,SRX5138889,,leaf,control,PE,Cultivar Z
+GSM3716439,GSE129567,Papaver somniferum,SRX5138890,,leaf,control,PE,Cultivar Z
+GSM3716440,GSE129567,Papaver somniferum,SRX5138891,,leaf,control,PE,Cultivar G
+GSM3716441,GSE129567,Papaver somniferum,SRX5138897,,leaf,control,PE,Cultivar G
+GSM3716442,GSE129567,Papaver somniferum,SRX5138898,,leaf,control,PE,Cultivar G
+GSM3716443,GSE129567,Papaver somniferum,SRX5138899,,leaf,control,PE,seedling
+GSM3716444,GSE129567,Papaver somniferum,SRX5138896,,leaf,control,PE,seedling
+GSM3716421,GSE129566,Papaver somniferum,SRX5137754,,leaf,control,PE,seedling
+GSM3716422,GSE129566,Papaver somniferum,SRX5137755,,leaf,control,PE,jointing
+GSM3716423,GSE129566,Papaver somniferum,SRX5137756,,leaf,control,PE,jointing
+GSM3716424,GSE129566,Papaver somniferum,SRX5137757,,leaf,control,PE,jointing
+GSM3716425,GSE129566,Papaver somniferum,SRX5137758,,leaf,control,PE,bolting
+GSM3716426,GSE129566,Papaver somniferum,SRX5137759,,leaf,control,PE,bolting
+GSM3716427,GSE129566,Papaver somniferum,SRX5137760,,leaf,control,PE,bolting
+GSM3716428,GSE129566,Papaver somniferum,SRX5137761,,leaf,control,PE,florescence
+GSM3716429,GSE129566,Papaver somniferum,SRX5137752,,leaf,control,PE,florescence
+GSM3716430,GSE129566,Papaver somniferum,SRX5137753,,leaf,control,PE,florescence
+GSM3716431,GSE129566,Papaver somniferum,SRX5137762,,leaf,control,PE,
+GSM3716432,GSE129566,Papaver somniferum,SRX5137763,,leaf,control,PE,
+GSM3716418,GSE129565,Papaver somniferum,SRX5137650,,leaf,control,PE,
+GSM3716419,GSE129565,Papaver somniferum,SRX5137649,,leaf,control,SE,see series for cultivar names
+GSM3716420,GSE129565,Papaver somniferum,SRX5137642,,leaf,control,SE,
+GSM3140013,GSE114341,Phaseolus vulgaris,SRX4072983,,leaf,control,SE,
+GSM3140014,GSE114341,Phaseolus vulgaris,SRX4072984,,leaf,control,SE,
+GSM3140015,GSE114341,Phaseolus vulgaris,SRX4072985,,leaf,control,SE,
+GSM3140016,GSE114341,Phaseolus vulgaris,SRX4072986,,leaf,control,SE,
+GSM3140017,GSE114341,Phaseolus vulgaris,SRX4072987,,leaf,control,SE,
+GSM3140018,GSE114341,Phaseolus vulgaris,SRX4072988,,leaf,control,SE,
+GSM3140019,GSE114341,Phaseolus vulgaris,SRX4072989,,leaf,control,SE,
+GSM3140020,GSE114341,Phaseolus vulgaris,SRX4072990,,leaf,control,SE,
+GSM3140021,GSE114341,Phaseolus vulgaris,SRX4072991,,leaf,control,SE,
+GSM3140022,GSE114341,Phaseolus vulgaris,SRX4072992,,leaf,control,SE,
+GSM3140023,GSE114341,Phaseolus vulgaris,SRX4072993,,leaf,control,SE,
+GSM3140024,GSE114341,Phaseolus vulgaris,SRX4072994,,leaf,control,SE,
+GSM3140025,GSE114341,Phaseolus vulgaris,SRX4072995,,leaf,control,SE,
+GSM3140026,GSE114341,Phaseolus vulgaris,SRX4072996,,leaf,control,SE,
+GSM3140027,GSE114341,Phaseolus vulgaris,SRX4072997,,leaf,control,SE,
+GSM3140028,GSE114341,Phaseolus vulgaris,SRX4072998,,leaf,control,SE,
+GSM3140029,GSE114341,Phaseolus vulgaris,SRX4072999,,leaf,control,SE,
+GSM3140030,GSE114341,Phaseolus vulgaris,SRX4073000,,leaf,control,SE,
+GSM3140031,GSE114341,Phaseolus vulgaris,SRX4073001,,leaf,control,SE,
+GSM3140032,GSE114341,Phaseolus vulgaris,SRX4073002,,leaf,control,SE,
+GSM3140033,GSE114341,Phaseolus vulgaris,SRX4073003,,leaf,control,SE,
+GSM3140034,GSE114341,Phaseolus vulgaris,SRX4073004,,leaf,control,SE,
+GSM3140035,GSE114341,Phaseolus vulgaris,SRX4073005,,leaf,control,SE,
+GSM3140036,GSE114341,Phaseolus vulgaris,SRX4073006,,leaf,control,SE,
+GSM3140037,GSE114341,Phaseolus vulgaris,SRX4073007,,leaf,control,SE,
+GSM3140038,GSE114341,Phaseolus vulgaris,SRX4073008,,leaf,control,SE,
+GSM3140039,GSE114341,Phaseolus vulgaris,SRX4073009,,leaf,control,SE,
+GSM3140040,GSE114341,Phaseolus vulgaris,SRX4073010,,leaf,control,SE,
+GSM3140041,GSE114341,Phaseolus vulgaris,SRX4073011,,leaf,control,SE,
+GSM3140042,GSE114341,Phaseolus vulgaris,SRX4073012,,leaf,control,SE,
+GSM3140043,GSE114341,Phaseolus vulgaris,SRX4073013,,leaf,control,SE,
+GSM3140044,GSE114341,Phaseolus vulgaris,SRX4073014,,leaf,control,SE,
+GSM3140045,GSE114341,Phaseolus vulgaris,SRX4073015,,leaf,control,SE,
+GSM3140046,GSE114341,Phaseolus vulgaris,SRX4073016,,leaf,control,SE,
+GSM3140047,GSE114341,Phaseolus vulgaris,SRX4073017,,leaf,control,SE,
+GSM3140048,GSE114341,Phaseolus vulgaris,SRX4073018,,leaf,control,SE,
+GSM3140049,GSE114341,Phaseolus vulgaris,SRX4073019,,leaf,control,SE,
+GSM3140050,GSE114341,Phaseolus vulgaris,SRX4073020,,leaf,control,SE,
+GSM3140051,GSE114341,Phaseolus vulgaris,SRX4073021,,leaf,control,SE,
+GSM3140052,GSE114341,Phaseolus vulgaris,SRX4073022,,leaf,control,SE,
+GSM3140053,GSE114341,Phaseolus vulgaris,SRX4073023,,leaf,control,SE,
+GSM3140054,GSE114341,Phaseolus vulgaris,SRX4073024,,leaf,control,SE,
+GSM3140055,GSE114341,Phaseolus vulgaris,SRX4073025,,leaf,control,SE,
+GSM3140056,GSE114341,Phaseolus vulgaris,SRX4073026,,leaf,control,SE,
+GSM3140057,GSE114341,Phaseolus vulgaris,SRX4073027,,leaf,control,SE,
+GSM3140058,GSE114341,Phaseolus vulgaris,SRX4073028,,leaf,control,SE,
+GSM3140059,GSE114341,Phaseolus vulgaris,SRX4073029,,leaf,control,SE,
+GSM3140060,GSE114341,Phaseolus vulgaris,SRX4073030,,leaf,control,SE,
+GSM3140061,GSE114341,Phaseolus vulgaris,SRX4073031,,leaf,control,SE,
+GSM3140062,GSE114341,Phaseolus vulgaris,SRX4073032,,leaf,control,SE,
+GSM3140063,GSE114341,Phaseolus vulgaris,SRX4073033,,leaf,control,SE,
+GSM3140064,GSE114341,Phaseolus vulgaris,SRX4073034,,leaf,control,SE,
+GSM3140065,GSE114341,Phaseolus vulgaris,SRX4073035,,leaf,control,SE,
+GSM3140066,GSE114341,Phaseolus vulgaris,SRX4073036,,leaf,control,SE,
+GSM3140067,GSE114341,Phaseolus vulgaris,SRX4073037,,leaf,control,SE,
+GSM3140068,GSE114341,Phaseolus vulgaris,SRX4073038,,leaf,control,SE,
+GSM3140069,GSE114341,Phaseolus vulgaris,SRX4073039,,leaf,control,SE,
+GSM3140070,GSE114341,Phaseolus vulgaris,SRX4073040,,leaf,control,SE,
+GSM3140071,GSE114341,Phaseolus vulgaris,SRX4073041,,leaf,control,SE,
+GSM3140072,GSE114341,Phaseolus vulgaris,SRX4073042,,leaf,control,SE,
+GSM3140073,GSE114341,Phaseolus vulgaris,SRX4073043,,leaf,control,SE,
+GSM3140074,GSE114341,Phaseolus vulgaris,SRX4073044,,leaf,control,SE,
+GSM3140075,GSE114341,Phaseolus vulgaris,SRX4073045,,leaf,control,SE,
+GSM3140076,GSE114341,Phaseolus vulgaris,SRX4073046,,leaf,control,SE,
+GSM3140077,GSE114341,Phaseolus vulgaris,SRX4073047,,leaf,control,SE,
+GSM3140078,GSE114341,Phaseolus vulgaris,SRX4073048,,leaf,control,SE,
+GSM3140079,GSE114341,Phaseolus vulgaris,SRX4073049,,leaf,control,SE,
+GSM3140080,GSE114341,Phaseolus vulgaris,SRX4073050,,leaf,control,SE,
+GSM3140081,GSE114341,Phaseolus vulgaris,SRX4073051,,leaf,control,SE,
+GSM3140082,GSE114341,Phaseolus vulgaris,SRX4073052,,leaf,control,SE,
+GSM3140083,GSE114341,Phaseolus vulgaris,SRX4073053,,leaf,control,SE,
+GSM3140084,GSE114341,Phaseolus vulgaris,SRX4073054,,leaf,control,SE,
+GSM3140085,GSE114341,Phaseolus vulgaris,SRX4073055,,leaf,control,SE,
+GSM3140086,GSE114341,Phaseolus vulgaris,SRX4073056,,leaf,control,SE,
+GSM3140087,GSE114341,Phaseolus vulgaris,SRX4073057,,leaf,control,SE,
+GSM3140088,GSE114341,Phaseolus vulgaris,SRX4073058,,leaf,control,SE,
+GSM3140089,GSE114341,Phaseolus vulgaris,SRX4073059,,leaf,control,SE,
+GSM3140090,GSE114341,Phaseolus vulgaris,SRX4073060,,leaf,control,SE,
+GSM3140091,GSE114341,Phaseolus vulgaris,SRX4073061,,leaf,control,SE,
+GSM3140092,GSE114341,Phaseolus vulgaris,SRX4073062,,leaf,control,SE,
+GSM3140093,GSE114341,Phaseolus vulgaris,SRX4073063,,leaf,control,SE,
+GSM3140094,GSE114341,Phaseolus vulgaris,SRX4073064,,leaf,control,SE,
+GSM3140095,GSE114341,Phaseolus vulgaris,SRX4073065,,leaf,control,SE,
+GSM3140096,GSE114341,Phaseolus vulgaris,SRX4073066,,leaf,control,SE,
+GSM3140097,GSE114341,Phaseolus vulgaris,SRX4073067,,leaf,control,SE,
+GSM3140098,GSE114341,Phaseolus vulgaris,SRX4073068,,leaf,control,SE,
+GSM3140099,GSE114341,Phaseolus vulgaris,SRX4073069,,leaf,control,SE,
+GSM3140100,GSE114341,Phaseolus vulgaris,SRX4073070,,leaf,control,SE,
+GSM3140101,GSE114341,Phaseolus vulgaris,SRX4073071,,leaf,control,SE,
+GSM3140102,GSE114341,Phaseolus vulgaris,SRX4073072,,leaf,control,SE,
+GSM3140103,GSE114341,Phaseolus vulgaris,SRX4073073,,leaf,control,SE,
+GSM3140104,GSE114341,Phaseolus vulgaris,SRX4073074,,leaf,control,SE,
+GSM3140105,GSE114341,Phaseolus vulgaris,SRX4073075,,leaf,control,SE,
+GSM3140106,GSE114341,Phaseolus vulgaris,SRX4073076,,leaf,control,SE,
+GSM3140107,GSE114341,Phaseolus vulgaris,SRX4073077,,leaf,control,SE,
+GSM3140108,GSE114341,Phaseolus vulgaris,SRX4073078,,leaf,control,SE,
+GSM3140109,GSE114341,Phaseolus vulgaris,SRX4073079,,leaf,control,SE,
+GSM3140110,GSE114341,Phaseolus vulgaris,SRX4073080,,leaf,control,SE,
+GSM3140111,GSE114341,Phaseolus vulgaris,SRX4073081,,leaf,control,PE,0-3 years
+GSM3140112,GSE114341,Phaseolus vulgaris,SRX4073082,,leaf,control,PE,0-3 years
+GSM3416357,GSE120818,Populus euphratica,SRX4791938,,leaf,control,PE,0-3 years
+GSM3416358,GSE120818,Populus euphratica,SRX4791937,,leaf,control,PE,4-6 years
+GSM3416359,GSE120818,Populus euphratica,SRX4791940,,leaf,control,PE,4-6 years
+GSM3416360,GSE120818,Populus euphratica,SRX4791939,,leaf,control,PE,4-6 years
+GSM3416361,GSE120818,Populus euphratica,SRX4791934,,leaf,control,PE,8-12 years
+GSM3416362,GSE120818,Populus euphratica,SRX4791933,,leaf,control,PE,8-12 years
+GSM3416363,GSE120818,Populus euphratica,SRX4791936,,leaf,control,PE,8-12 years
+GSM3416364,GSE120818,Populus euphratica,SRX4791935,,leaf,control,PE,over 20 years
+GSM3416365,GSE120818,Populus euphratica,SRX4791932,,leaf,control,PE,over 20 years
+GSM3416366,GSE120818,Populus euphratica,SRX4791931,,leaf,control,PE,over 20 years
+GSM3416367,GSE120818,Populus euphratica,SRX4791930,,leaf,control,SE,
+GSM3416368,GSE120818,Populus euphratica,SRX4791929,,leaf,control,SE,
+GSM2142274,GSE81077,Populus trichocarpa,SRX1740288,,leaf,control,SE,
+GSM2142275,GSE81077,Populus trichocarpa,SRX1740289,,leaf,control,PE,
+GSM2142276,GSE81077,Populus trichocarpa,SRX1740290,,leaf,control,PE,
+GSM986567,GSE40162,Prunus mume,SRX177760,,leaf,control,PE,
+GSM3243267,GSE116581,Prunus persica,SRX2697669,,leaf,control,PE,
+GSM3243268,GSE116581,Prunus persica,SRX3420431,,leaf,control,PE,
+GSM3243277,GSE116581,Pyrus x bretschneideri Dangshanshuli,SRX2697665,,leaf,control,PE,
+GSM3243278,GSE116581,Pyrus x bretschneideri Dangshanshuli,SRX3420424,,leaf,control,PE,
+GSM3243279,GSE116581,Pyrus x bretschneideri Dangshanshuli,SRX3420427,,leaf,control,PE,young
+GSM3243273,GSE116581,Pyrus x bretschneideri Williams,SRX2697660,,leaf,control,PE,young
+GSM3243293,GSE116581,Solanum lycopersicum,SRX3420401,,leaf,control,PE,adult
+GSM3243294,GSE116581,Solanum lycopersicum,SRX3420398,,leaf,control,PE,adult
+GSM3243295,GSE116581,Solanum lycopersicum,SRX3420399,,leaf,control,PE,old
+GSM3243296,GSE116581,Solanum lycopersicum,SRX3420406,,leaf,control,PE,old
+GSM3243297,GSE116581,Solanum lycopersicum,SRX3420407,,leaf,control,PE,
+GSM3243298,GSE116581,Solanum lycopersicum,SRX3420411,,leaf,control,PE,
+GSM2454615,GSE93556,Solanum lycopersicum,SRX2488230,,leaf,control,PE,
+GSM2454616,GSE93556,Solanum lycopersicum,SRX2488231,,leaf,control,PE,
+GSM2454617,GSE93556,Solanum lycopersicum,SRX2488232,,leaf,control,PE,
+GSM2454630,GSE93556,Solanum pennellii,SRX2488246,,leaf,control,PE,
+GSM2454631,GSE93556,Solanum pennellii,SRX2488247,,leaf,control,SE,Alegria
+GSM2454632,GSE93556,Solanum pennellii,SRX2488248,,leaf,control,SE,Desiree
+GSM2060109,GSE77826,Solanum tuberosum,SRX1571262,,leaf,control,SE,Milva
+GSM2060110,GSE77826,Solanum tuberosum,SRX1571263,,leaf,control,SE,Saturna
+GSM2060111,GSE77826,Solanum tuberosum,SRX1571264,,leaf,control,SE,Alegria
+GSM2060112,GSE77826,Solanum tuberosum,SRX1571265,,leaf,control,SE,Desiree
+GSM2060117,GSE77826,Solanum tuberosum,SRX1571270,,leaf,control,SE,Milva
+GSM2060118,GSE77826,Solanum tuberosum,SRX1571271,,leaf,control,SE,Saturna
+GSM2060119,GSE77826,Solanum tuberosum,SRX1571272,,leaf,control,SE,Alegria
+GSM2060120,GSE77826,Solanum tuberosum,SRX1571273,,leaf,control,SE,Desiree
+GSM2060125,GSE77826,Solanum tuberosum,SRX1571278,,leaf,control,SE,Milva
+GSM2060126,GSE77826,Solanum tuberosum,SRX1571279,,leaf,control,SE,Saturna
+GSM2060127,GSE77826,Solanum tuberosum,SRX1571280,,leaf,control,SE,Alegria
+GSM2060128,GSE77826,Solanum tuberosum,SRX1571281,,leaf,control,SE,Desiree
+GSM2060133,GSE77826,Solanum tuberosum,SRX1571286,,leaf,control,SE,Milva
+GSM2060134,GSE77826,Solanum tuberosum,SRX1571287,,leaf,control,SE,Saturna
+GSM2060135,GSE77826,Solanum tuberosum,SRX1571288,,leaf,control,SE,Alegria
+GSM2060136,GSE77826,Solanum tuberosum,SRX1571289,,leaf,control,SE,Desiree
+GSM2060141,GSE77826,Solanum tuberosum,SRX1571294,,leaf,control,SE,Milva
+GSM2060142,GSE77826,Solanum tuberosum,SRX1571295,,leaf,control,SE,Saturna
+GSM2060143,GSE77826,Solanum tuberosum,SRX1571296,,leaf,control,SE,Alegria
+GSM2060144,GSE77826,Solanum tuberosum,SRX1571297,,leaf,control,SE,Desiree
+GSM2060149,GSE77826,Solanum tuberosum,SRX1571302,,leaf,control,SE,Milva
+GSM2060150,GSE77826,Solanum tuberosum,SRX1571303,,leaf,control,SE,Saturna
+GSM2060151,GSE77826,Solanum tuberosum,SRX1571304,,leaf,control,PE,Desiree
+GSM2060152,GSE77826,Solanum tuberosum,SRX1571305,,leaf,control,PE,Desiree
+GSM3498049,GSE123176,Solanum tuberosum,SRX5084468,,leaf,control,PE,Desiree
+GSM3498050,GSE123176,Solanum tuberosum,SRX5084469,,leaf,control,PE,Desiree
+GSM3498051,GSE123176,Solanum tuberosum,SRX5084470,,leaf,control,PE,Desiree
+GSM3498052,GSE123176,Solanum tuberosum,SRX5084471,,leaf,control,PE,Shepody
+GSM3498053,GSE123176,Solanum tuberosum,SRX5084472,,leaf,control,PE,Shepody
+GSM1970293,GSE75926,Solanum tuberosum,SRX1478079,,leaf,control,PE,Shepody
+GSM1970294,GSE75926,Solanum tuberosum,SRX1478080,,leaf,control,PE,Shepody
+GSM1970295,GSE75926,Solanum tuberosum,SRX1478081,,leaf,control,PE,RussetBurbank
+GSM1970296,GSE75926,Solanum tuberosum,SRX1478082,,leaf,control,PE,RussetBurbank
+GSM1970301,GSE75926,Solanum tuberosum,SRX1478087,,leaf,control,PE,RussetBurbank
+GSM1970302,GSE75926,Solanum tuberosum,SRX1478088,,leaf,control,PE,RussetBurbank
+GSM1970303,GSE75926,Solanum tuberosum,SRX1478089,,leaf,control,PE,Atlantic
+GSM1970304,GSE75926,Solanum tuberosum,SRX1478090,,leaf,control,PE,Atlantic
+GSM1970309,GSE75926,Solanum tuberosum,SRX1478095,,leaf,control,PE,Atlantic
+GSM1970310,GSE75926,Solanum tuberosum,SRX1478096,,leaf,control,PE,Atlantic
+GSM1970311,GSE75926,Solanum tuberosum,SRX1478097,,leaf,control,PE,Shepody
+GSM1970312,GSE75926,Solanum tuberosum,SRX1478098,,leaf,control,PE,Shepody
+GSM1970317,GSE75926,Solanum tuberosum,SRX1478103,,leaf,control,PE,Shepody
+GSM1970318,GSE75926,Solanum tuberosum,SRX1478104,,leaf,control,PE,Shepody
+GSM1970319,GSE75926,Solanum tuberosum,SRX1478105,,leaf,control,PE,RussetBurbank
+GSM1970320,GSE75926,Solanum tuberosum,SRX1478106,,leaf,control,PE,RussetBurbank
+GSM1970325,GSE75926,Solanum tuberosum,SRX1478111,,leaf,control,PE,RussetBurbank
+GSM1970326,GSE75926,Solanum tuberosum,SRX1478112,,leaf,control,PE,RussetBurbank
+GSM1970327,GSE75926,Solanum tuberosum,SRX1478113,,leaf,control,PE,Atlantic
+GSM1970328,GSE75926,Solanum tuberosum,SRX1478114,,leaf,control,PE,Atlantic
+GSM1970333,GSE75926,Solanum tuberosum,SRX1478119,,leaf,control,PE,Atlantic
+GSM1970334,GSE75926,Solanum tuberosum,SRX1478120,,leaf,control,PE,Atlantic
+GSM1970335,GSE75926,Solanum tuberosum,SRX1478121,,leaf,control,SE,Russet Norkotah
+GSM1970336,GSE75926,Solanum tuberosum,SRX1478122,,leaf,control,SE,TXNS278
+GSM2341973,GSE87857,Solanum tuberosum,SRX2239234,,leaf,control,SE,TXNS278
+GSM2341974,GSE87857,Solanum tuberosum,SRX2239235,,leaf,control,SE,Russet Norkotah
+GSM2341975,GSE87857,Solanum tuberosum,SRX2239236,,leaf,control,SE,
+GSM2982237,GSE87857,Solanum tuberosum,SRX3653315,,leaf,control,PE,
+GSM759565,GSE30615,Solanum tuberosum,ERX010641,,leaf,control,PE,
+GSM3243217,GSE116581,Vitis vinifera,SRX2697700,,leaf,control,PE,
+GSM3243218,GSE116581,Vitis vinifera,SRX3420355,,leaf,control,SE,
+GSM3243219,GSE116581,Vitis vinifera,SRX3420354,,leaf,control,SE,
+GSM2579885,GSE97900,Vitis vinifera,SRX2742080,,leaf,control,SE,
+GSM2579886,GSE97900,Vitis vinifera,SRX2742081,,leaf,control,SE,
+GSM2579887,GSE97900,Vitis vinifera,SRX2742082,,leaf,control,SE,
+GSM2579888,GSE97900,Vitis vinifera,SRX2742083,,leaf,control,SE,
+GSM2579889,GSE97900,Vitis vinifera,SRX2742084,,leaf,control,SE,
+GSM2579890,GSE97900,Vitis vinifera,SRX2742085,,leaf,control,SE,
+GSM2579891,GSE97900,Vitis vinifera,SRX2742086,,leaf,control,SE,
+GSM2579892,GSE97900,Vitis vinifera,SRX2742087,,leaf,control,SE,
+GSM2579893,GSE97900,Vitis vinifera,SRX2742088,,leaf,control,SE,
+GSM2579894,GSE97900,Vitis vinifera,SRX2742089,,leaf,control,SE,
+GSM2579895,GSE97900,Vitis vinifera,SRX2742090,,leaf,control,SE,
+GSM2579896,GSE97900,Vitis vinifera,SRX2742091,,leaf,control,SE,
+GSM2579897,GSE97900,Vitis vinifera,SRX2742092,,leaf,control,SE,
+GSM2579898,GSE97900,Vitis vinifera,SRX2742093,,leaf,control,SE,
+GSM2579899,GSE97900,Vitis vinifera,SRX2742094,,leaf,control,SE,
+GSM2579900,GSE97900,Vitis vinifera,SRX2742095,,leaf,control,SE,
+GSM2579901,GSE97900,Vitis vinifera,SRX2742096,,leaf,control,SE,
+GSM2579902,GSE97900,Vitis vinifera,SRX2742097,,leaf,control,SE,
+GSM2579903,GSE97900,Vitis vinifera,SRX2742098,,leaf,control,SE,
+GSM2579904,GSE97900,Vitis vinifera,SRX2742099,,cauline leaf,control,PE,
+GSM2579905,GSE97900,Vitis vinifera,SRX2742100,,carpel,control,PE,
