@@ -31,8 +31,13 @@ trees: IQ-Tree
 
 Species tree is a literature synthesis from the Open Tree of Life project with undated nodes dated through a literature search.
 
-### Gene Ontology
+## Gene Ontology
 
 * Check to see if there is data about any of these plants other than _Arabidopsis thaliana._ May need to restrict only to trees that contain _Arabidopsis thaliana_ genes (honestly, I wouldn't mind some restriction...)
 
 * There are multiple species that have GO calls on geneontology.org
+
+## RNA-seq Processing
+
+Downloaded the SRR files for each experiment using parallel-fastq-dump
+https://github.com/rvalieris/parallel-fastq-dump

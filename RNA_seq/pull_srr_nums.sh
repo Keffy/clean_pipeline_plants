@@ -1,12 +1,13 @@
-!#/bin/bash
+#!/bin/bash
 
-### pull all the SRX numbers and write to one big fat comma separated file
+### pull all the SRX numbers and write to one big csv for downstream use
 
-#esearch -db sra -query "SRX1821735" | efetch -format runinfo | egrep "SRR*,"
+# Read in all SRX numbers, search all and write results to csv file.
 
-#esearch -db sra -query "SRX1821735" | efetch -format runinfo | egrep -o "SRR[0-9]+" | head -n 1 
+mapfile -t SRX_nums < meta/all_SRX_numbers.txt
 
-# Read in all SRX numbers
-
-# search all and write to csv file.
-esearch -db sra -query [SRX] | efetch -format runinfo | tail -n +2 >> SRA_run_info.csv
+for srx in "${SRX_nums[@]}"; do
+    echo "${srx}"
+    esearch -db sra -query "${srx}" | efetch -format runinfo | tail -n +2 >> meta/SRR_values.csv
+    sleep 0.2
+done
