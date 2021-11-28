@@ -39,5 +39,8 @@ Species tree is a literature synthesis from the Open Tree of Life project with u
 
 ## RNA-seq Processing
 
+parallel-fastq-dump : 0.6.7
+
+fastq-dump : 2.8.0
 Downloaded the SRR files for each experiment using parallel-fastq-dump
 https://github.com/rvalieris/parallel-fastq-dump
