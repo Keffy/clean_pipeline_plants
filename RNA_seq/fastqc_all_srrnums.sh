@@ -4,4 +4,4 @@
 
 # Moved all fastq files into ./scratch/fastq_files
 
-fastqc -t 8 ../scratch/fastq_files/*.fastq 
+fastqc -t 8 -f fastq --outdir ../plant_data_files/fastqc --noextract -dir ../scratch/fastqc_temp ../scratch/fastq_files/*.fastq 

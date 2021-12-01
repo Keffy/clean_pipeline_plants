@@ -84,4 +84,7 @@ with open("clean_pipeline_plants/meta/species_no_us.txt", "r") as fn:
 #ftp_accession_list = list(zip(*[get_ncbi_ftp_path(sp) for sp in species]))
 ftp_urls = [get_ncbi_ftp_path(sp) for sp in species]
 
+# download the actual files using wget in function 
+# declared above.
+
 download_refseq(ftp_urls, output_dir, species)

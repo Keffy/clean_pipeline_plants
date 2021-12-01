@@ -19,13 +19,13 @@ for line in "${srr_vals_cut[@]}"; do
     srr=$(echo $line | cut -d "," -f1)
     species=$(echo $line | cut -d "," -f29)
     SE_PE=$(echo $line | cut -d "," -f16)
-    species_us=$(echo $srr | sed 's/ /_/g')
+    species_us=$(echo $species | sed 's/ /_/g')
     echo $srr
-    if [[ ! -d ../scratch/fastq_files/${species_us} ]]; then
-        mkdir ../scratch/fastq_files/${species_us}
-        mkdir ../scratch/fastq_files/${species_us}/PAIRED
-        mkdir ../scratch/fastq_files/${species_us}/SINGLE
+    if [[ ! -d ../plant_data_files/untrimmed_fastq/${species_us} ]]; then
+        mkdir ../plant_data_files/untrimmed_fastq/${species_us}
+        mkdir ../plant_data_files/untrimmed_fastq/${species_us}/PAIRED
+        mkdir ../plant_data_files/untrimmed_fastq/${species_us}/SINGLE
     fi
-    parallel-fastq-dump -s ${srr} -t 8 -T ../scratch/fqdump_temp -O ../scratch/fastq_files/${species_us}/${SE_PE}
+    parallel-fastq-dump --gzip --split-files -s ${srr} -t 8 -T ../scratch/fqdump_temp -O ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}
 done
     
