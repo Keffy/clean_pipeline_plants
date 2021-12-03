@@ -1,0 +1,52 @@
+
+OrthoFinder version 2.4.0 Copyright (C) 2014 David Emms
+
+2021-12-02 19:03:43 : Starting OrthoFinder
+32 thread(s) for highly parallel tasks (BLAST searches etc.)
+1 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft /gpfs/projects/RestGroup/keffy/scratch/orthofinder_best_tree_plants/Results_Dec02/WorkingDirectory//_dependencies_check/SimpleTest.fa" - ok
+Test can run "iqtree" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2021-12-02 19:03:54 : Creating diamond database 1 of 32
+2021-12-02 19:03:54 : Creating diamond database 2 of 32
+2021-12-02 19:03:54 : Creating diamond database 3 of 32
+2021-12-02 19:03:55 : Creating diamond database 4 of 32
+2021-12-02 19:03:55 : Creating diamond database 5 of 32
+2021-12-02 19:03:56 : Creating diamond database 6 of 32
+2021-12-02 19:03:56 : Creating diamond database 7 of 32
+2021-12-02 19:03:56 : Creating diamond database 8 of 32
+2021-12-02 19:03:57 : Creating diamond database 9 of 32
+2021-12-02 19:03:57 : Creating diamond database 10 of 32
+2021-12-02 19:03:57 : Creating diamond database 11 of 32
+2021-12-02 19:03:57 : Creating diamond database 12 of 32
+2021-12-02 19:03:58 : Creating diamond database 13 of 32
+2021-12-02 19:03:58 : Creating diamond database 14 of 32
+2021-12-02 19:03:58 : Creating diamond database 15 of 32
+2021-12-02 19:03:59 : Creating diamond database 16 of 32
+2021-12-02 19:04:00 : Creating diamond database 17 of 32
+2021-12-02 19:04:00 : Creating diamond database 18 of 32
+2021-12-02 19:04:00 : Creating diamond database 19 of 32
+2021-12-02 19:04:01 : Creating diamond database 20 of 32
+2021-12-02 19:04:01 : Creating diamond database 21 of 32
+2021-12-02 19:04:01 : Creating diamond database 22 of 32
+2021-12-02 19:04:02 : Creating diamond database 23 of 32
+2021-12-02 19:04:02 : Creating diamond database 24 of 32
+2021-12-02 19:04:03 : Creating diamond database 25 of 32
+2021-12-02 19:04:03 : Creating diamond database 26 of 32
+2021-12-02 19:04:03 : Creating diamond database 27 of 32
+2021-12-02 19:04:04 : Creating diamond database 28 of 32
+2021-12-02 19:04:04 : Creating diamond database 29 of 32
+2021-12-02 19:04:04 : Creating diamond database 30 of 32
+2021-12-02 19:04:05 : Creating diamond database 31 of 32
+2021-12-02 19:04:05 : Creating diamond database 32 of 32
+
+Running diamond all-versus-all
+------------------------------
+Using 32 thread(s)
+2021-12-02 19:04:05 : This may take some time....
