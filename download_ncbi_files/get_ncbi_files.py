@@ -54,13 +54,16 @@ def download_refseq(ftp_path, out_dir, species_lst):
         genome_ftp = ftp + "/" + ftp.split("/")[-1] + "_genomic.fna.gz"
         protein_ftp = ftp + "/" + ftp.split("/")[-1] + "_protein.faa.gz"
         gff_ftp = ftp + "/" + ftp.split("/")[-1] + "_genomic.gff.gz"
+        transcript_ftp = ftp + "/" + ftp.split("/")[-1] + "_rna.fna.gz"
         #get output filename
         genome_outfile = out_dir + "/" + current_sp + "_genomic.fna.gz"
         protein_outfile = out_dir + "/" + current_sp + "_protein.faa.gz"
         gff_outfile = out_dir + "/" + current_sp + "_genomic.gff.gz"
+        transcript_outfile = out_dir + "/" + current_sp + "_transcript.fna.gz"
         wget.download(genome_ftp, genome_outfile)
         wget.download(protein_ftp, protein_outfile)
         wget.download(gff_ftp, gff_outfile)
+        wget.download(transcript_ftp, transcript_outfile)
 
 
 ### parse passed email argument

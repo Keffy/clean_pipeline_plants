@@ -13,6 +13,8 @@ You will also need to supply the preferred download directory for the genome fil
 ## Ortholog calling
 
 Ortholog calling with OrthoFinder.
+Version of Orthofinder on Hal: 2.51
+Version of Orthofinder on Cluster: 2.4
 
 ### Alignments with Mafft:
 
