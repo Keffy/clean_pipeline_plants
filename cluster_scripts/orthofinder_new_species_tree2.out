@@ -50,3 +50,111 @@ Running diamond all-versus-all
 ------------------------------
 Using 32 thread(s)
 2021-12-02 19:04:05 : This may take some time....
+2021-12-02 22:05:02 : Done 400 of 1024
+2021-12-02 22:32:53 : Done 500 of 1024
+2021-12-02 23:24:45 : Done 700 of 1024
+2021-12-02 20:14:48 : Done 100 of 1024
+2021-12-03 00:08:49 : Done 900 of 1024
+2021-12-02 21:32:43 : Done 300 of 1024
+2021-12-02 23:48:09 : Done 800 of 1024
+2021-12-02 20:54:21 : Done 200 of 1024
+2021-12-02 19:04:05 : Done 0 of 1024
+2021-12-02 23:00:19 : Done 600 of 1024
+2021-12-03 00:31:19 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2021-12-03 00:31:24 : Initial processing of each species
+2021-12-03 00:34:24 : Initial processing of species 0 complete
+2021-12-03 00:38:05 : Initial processing of species 1 complete
+2021-12-03 00:42:31 : Initial processing of species 2 complete
+2021-12-03 00:47:21 : Initial processing of species 3 complete
+2021-12-03 00:49:59 : Initial processing of species 4 complete
+2021-12-03 00:53:31 : Initial processing of species 5 complete
+2021-12-03 00:55:25 : Initial processing of species 6 complete
+2021-12-03 00:58:15 : Initial processing of species 7 complete
+2021-12-03 01:01:26 : Initial processing of species 8 complete
+2021-12-03 01:03:43 : Initial processing of species 9 complete
+2021-12-03 01:06:11 : Initial processing of species 10 complete
+2021-12-03 01:08:51 : Initial processing of species 11 complete
+2021-12-03 01:11:26 : Initial processing of species 12 complete
+2021-12-03 01:17:36 : Initial processing of species 13 complete
+2021-12-03 01:26:49 : Initial processing of species 14 complete
+2021-12-03 01:32:46 : Initial processing of species 15 complete
+2021-12-03 01:35:07 : Initial processing of species 16 complete
+2021-12-03 01:39:18 : Initial processing of species 17 complete
+2021-12-03 01:43:19 : Initial processing of species 18 complete
+2021-12-03 01:46:52 : Initial processing of species 19 complete
+2021-12-03 01:50:37 : Initial processing of species 20 complete
+2021-12-03 01:57:10 : Initial processing of species 21 complete
+2021-12-03 01:59:46 : Initial processing of species 22 complete
+2021-12-03 02:03:56 : Initial processing of species 23 complete
+2021-12-03 02:08:23 : Initial processing of species 24 complete
+2021-12-03 02:10:54 : Initial processing of species 25 complete
+2021-12-03 02:13:39 : Initial processing of species 26 complete
+2021-12-03 02:17:32 : Initial processing of species 27 complete
+2021-12-03 02:20:38 : Initial processing of species 28 complete
+2021-12-03 02:23:41 : Initial processing of species 29 complete
+2021-12-03 02:26:50 : Initial processing of species 30 complete
+2021-12-03 02:30:22 : Initial processing of species 31 complete
+2021-12-03 02:41:54 : Connected putative homologues
+2021-12-03 02:42:23 : Written final scores for species 0 to graph file
+2021-12-03 02:42:56 : Written final scores for species 1 to graph file
+2021-12-03 02:43:35 : Written final scores for species 2 to graph file
+2021-12-03 02:44:18 : Written final scores for species 3 to graph file
+2021-12-03 02:44:44 : Written final scores for species 4 to graph file
+2021-12-03 02:45:16 : Written final scores for species 5 to graph file
+2021-12-03 02:45:35 : Written final scores for species 6 to graph file
+2021-12-03 02:46:02 : Written final scores for species 7 to graph file
+2021-12-03 02:46:31 : Written final scores for species 8 to graph file
+2021-12-03 02:46:52 : Written final scores for species 9 to graph file
+2021-12-03 02:47:15 : Written final scores for species 10 to graph file
+2021-12-03 02:47:39 : Written final scores for species 11 to graph file
+2021-12-03 02:48:01 : Written final scores for species 12 to graph file
+2021-12-03 02:48:52 : Written final scores for species 13 to graph file
+2021-12-03 02:50:08 : Written final scores for species 14 to graph file
+2021-12-03 02:51:00 : Written final scores for species 15 to graph file
+2021-12-03 02:51:21 : Written final scores for species 16 to graph file
+2021-12-03 02:51:57 : Written final scores for species 17 to graph file
+2021-12-03 02:52:31 : Written final scores for species 18 to graph file
+2021-12-03 02:53:02 : Written final scores for species 19 to graph file
+2021-12-03 02:53:36 : Written final scores for species 20 to graph file
+2021-12-03 02:54:32 : Written final scores for species 21 to graph file
+2021-12-03 02:54:55 : Written final scores for species 22 to graph file
+2021-12-03 02:55:31 : Written final scores for species 23 to graph file
+2021-12-03 02:56:09 : Written final scores for species 24 to graph file
+2021-12-03 02:56:31 : Written final scores for species 25 to graph file
+2021-12-03 02:56:55 : Written final scores for species 26 to graph file
+2021-12-03 02:57:26 : Written final scores for species 27 to graph file
+2021-12-03 02:57:53 : Written final scores for species 28 to graph file
+2021-12-03 02:58:19 : Written final scores for species 29 to graph file
+2021-12-03 02:58:45 : Written final scores for species 30 to graph file
+2021-12-03 02:59:14 : Written final scores for species 31 to graph file
+
+WARNING: program called by OrthoFinder produced output to stderr
+
+Command: mcl /gpfs/projects/RestGroup/keffy/scratch/orthofinder_best_tree_plants/Results_Dec02/WorkingDirectory/OrthoFinder_graph.txt -I 1.5 -o /gpfs/projects/RestGroup/keffy/scratch/orthofinder_best_tree_plants/Results_Dec02/WorkingDirectory/clusters_OrthoFinder_I1.5.txt -te 1 -V all
+
+stdout
+------
+b''
+stderr
+------
+b'[mcl] cut <11> instances of overlap\n'
+2021-12-03 03:39:45 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 1445285 genes (98.1% of total) to 49622 orthogroups. Fifty percent of all genes were in orthogroups with 83 or more genes (G50 was 83) and were contained in the largest 5064 orthogroups (O50 was 5064). There were 8352 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+
+2021-12-03 03:41:00 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Using user-supplied species tree
+--------------------------------
+2021-12-03 03:41:06 : Starting MSA/Trees
+
+Inferring multiple sequence alignments and gene trees
+-----------------------------------------------------

@@ -1,10 +1,25 @@
 #!/bin/bash
+#
+#SBATCH --job-name=fastp_plants
+#SBATCH --output=fastp_plants.out
+#SBATCH --ntasks-per-node=40
+#SBATCH --nodes=1
+#SBATCH --time=7-00:00:00
+#SBATCH -p extended-40core
+#SBATCH --mail-type=BEGIN,END
+#SBATCH --mail-user=keffy.kehrli@stonybrook.edu
+
+
 
 ###################################################
 ## Run Fastp to trim these reads.                ##
 ###################################################
 
-# Need to distinguish between single and paired end data.
+# Distinguished between PE/SE data.
+
+module load shared
+module load rna_seq/1.0
+
 
 mapfile -t srr_vals_cut < /gpfs/projects/RestGroup/keffy/clean_pipeline_plants/meta/SRR_values_cleaned.csv
 
