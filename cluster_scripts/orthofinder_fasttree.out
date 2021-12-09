@@ -1,0 +1,266 @@
+
+OrthoFinder version 2.4.0 Copyright (C) 2014 David Emms
+
+2021-12-08 10:35:52 : Starting OrthoFinder
+32 thread(s) for highly parallel tasks (BLAST searches etc.)
+1 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft /gpfs/projects/RestGroup/keffy/scratch/orthofinder_fasttree/Results_Dec08/WorkingDirectory//_dependencies_check/SimpleTest.fa" - ok
+Test can run "FastTree /gpfs/projects/RestGroup/keffy/scratch/orthofinder_fasttree/Results_Dec08/WorkingDirectory//_dependencies_check/SimpleTest.fa" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2021-12-08 10:36:03 : Creating diamond database 1 of 32
+2021-12-08 10:36:04 : Creating diamond database 2 of 32
+2021-12-08 10:36:04 : Creating diamond database 3 of 32
+2021-12-08 10:36:04 : Creating diamond database 4 of 32
+2021-12-08 10:36:05 : Creating diamond database 5 of 32
+2021-12-08 10:36:05 : Creating diamond database 6 of 32
+2021-12-08 10:36:05 : Creating diamond database 7 of 32
+2021-12-08 10:36:06 : Creating diamond database 8 of 32
+2021-12-08 10:36:06 : Creating diamond database 9 of 32
+2021-12-08 10:36:06 : Creating diamond database 10 of 32
+2021-12-08 10:36:07 : Creating diamond database 11 of 32
+2021-12-08 10:36:07 : Creating diamond database 12 of 32
+2021-12-08 10:36:07 : Creating diamond database 13 of 32
+2021-12-08 10:36:07 : Creating diamond database 14 of 32
+2021-12-08 10:36:08 : Creating diamond database 15 of 32
+2021-12-08 10:36:09 : Creating diamond database 16 of 32
+2021-12-08 10:36:09 : Creating diamond database 17 of 32
+2021-12-08 10:36:09 : Creating diamond database 18 of 32
+2021-12-08 10:36:10 : Creating diamond database 19 of 32
+2021-12-08 10:36:10 : Creating diamond database 20 of 32
+2021-12-08 10:36:10 : Creating diamond database 21 of 32
+2021-12-08 10:36:11 : Creating diamond database 22 of 32
+2021-12-08 10:36:11 : Creating diamond database 23 of 32
+2021-12-08 10:36:11 : Creating diamond database 24 of 32
+2021-12-08 10:36:12 : Creating diamond database 25 of 32
+2021-12-08 10:36:12 : Creating diamond database 26 of 32
+2021-12-08 10:36:12 : Creating diamond database 27 of 32
+2021-12-08 10:36:13 : Creating diamond database 28 of 32
+2021-12-08 10:36:13 : Creating diamond database 29 of 32
+2021-12-08 10:36:13 : Creating diamond database 30 of 32
+2021-12-08 10:36:14 : Creating diamond database 31 of 32
+2021-12-08 10:36:14 : Creating diamond database 32 of 32
+
+Running diamond all-versus-all
+------------------------------
+Using 32 thread(s)
+2021-12-08 10:36:14 : This may take some time....
+2021-12-08 14:05:02 : Done 500 of 1024
+2021-12-08 14:56:59 : Done 700 of 1024
+2021-12-08 15:20:27 : Done 800 of 1024
+2021-12-08 14:32:27 : Done 600 of 1024
+2021-12-08 10:36:15 : Done 0 of 1024
+2021-12-08 15:41:09 : Done 900 of 1024
+2021-12-08 11:46:56 : Done 100 of 1024
+2021-12-08 13:37:05 : Done 400 of 1024
+2021-12-08 12:26:27 : Done 200 of 1024
+2021-12-08 13:04:57 : Done 300 of 1024
+2021-12-08 16:03:47 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2021-12-08 16:03:52 : Initial processing of each species
+2021-12-08 16:06:49 : Initial processing of species 0 complete
+2021-12-08 16:10:40 : Initial processing of species 1 complete
+2021-12-08 16:15:08 : Initial processing of species 2 complete
+2021-12-08 16:20:03 : Initial processing of species 3 complete
+2021-12-08 16:22:41 : Initial processing of species 4 complete
+2021-12-08 16:26:12 : Initial processing of species 5 complete
+2021-12-08 16:28:11 : Initial processing of species 6 complete
+2021-12-08 16:31:01 : Initial processing of species 7 complete
+2021-12-08 16:34:23 : Initial processing of species 8 complete
+2021-12-08 16:36:43 : Initial processing of species 9 complete
+2021-12-08 16:39:08 : Initial processing of species 10 complete
+2021-12-08 16:41:45 : Initial processing of species 11 complete
+2021-12-08 16:44:16 : Initial processing of species 12 complete
+2021-12-08 16:50:35 : Initial processing of species 13 complete
+2021-12-08 17:00:00 : Initial processing of species 14 complete
+2021-12-08 17:05:53 : Initial processing of species 15 complete
+2021-12-08 17:08:17 : Initial processing of species 16 complete
+2021-12-08 17:12:34 : Initial processing of species 17 complete
+2021-12-08 17:16:51 : Initial processing of species 18 complete
+2021-12-08 17:20:24 : Initial processing of species 19 complete
+2021-12-08 17:24:08 : Initial processing of species 20 complete
+2021-12-08 17:30:40 : Initial processing of species 21 complete
+2021-12-08 17:33:12 : Initial processing of species 22 complete
+2021-12-08 17:37:22 : Initial processing of species 23 complete
+2021-12-08 17:41:57 : Initial processing of species 24 complete
+2021-12-08 17:44:26 : Initial processing of species 25 complete
+2021-12-08 17:47:15 : Initial processing of species 26 complete
+2021-12-08 17:51:06 : Initial processing of species 27 complete
+2021-12-08 17:54:16 : Initial processing of species 28 complete
+2021-12-08 17:57:24 : Initial processing of species 29 complete
+2021-12-08 18:00:38 : Initial processing of species 30 complete
+2021-12-08 18:04:17 : Initial processing of species 31 complete
+2021-12-08 18:15:46 : Connected putative homologues
+2021-12-08 18:16:15 : Written final scores for species 0 to graph file
+2021-12-08 18:16:48 : Written final scores for species 1 to graph file
+2021-12-08 18:17:28 : Written final scores for species 2 to graph file
+2021-12-08 18:18:10 : Written final scores for species 3 to graph file
+2021-12-08 18:18:33 : Written final scores for species 4 to graph file
+2021-12-08 18:19:07 : Written final scores for species 5 to graph file
+2021-12-08 18:19:25 : Written final scores for species 6 to graph file
+2021-12-08 18:19:51 : Written final scores for species 7 to graph file
+2021-12-08 18:20:19 : Written final scores for species 8 to graph file
+2021-12-08 18:20:41 : Written final scores for species 9 to graph file
+2021-12-08 18:21:03 : Written final scores for species 10 to graph file
+2021-12-08 18:21:29 : Written final scores for species 11 to graph file
+2021-12-08 18:21:52 : Written final scores for species 12 to graph file
+2021-12-08 18:22:48 : Written final scores for species 13 to graph file
+2021-12-08 18:24:12 : Written final scores for species 14 to graph file
+2021-12-08 18:25:03 : Written final scores for species 15 to graph file
+2021-12-08 18:25:25 : Written final scores for species 16 to graph file
+2021-12-08 18:26:01 : Written final scores for species 17 to graph file
+2021-12-08 18:26:36 : Written final scores for species 18 to graph file
+2021-12-08 18:27:07 : Written final scores for species 19 to graph file
+2021-12-08 18:27:44 : Written final scores for species 20 to graph file
+2021-12-08 18:28:41 : Written final scores for species 21 to graph file
+2021-12-08 18:29:06 : Written final scores for species 22 to graph file
+2021-12-08 18:29:41 : Written final scores for species 23 to graph file
+2021-12-08 18:30:18 : Written final scores for species 24 to graph file
+2021-12-08 18:30:39 : Written final scores for species 25 to graph file
+2021-12-08 18:31:02 : Written final scores for species 26 to graph file
+2021-12-08 18:31:34 : Written final scores for species 27 to graph file
+2021-12-08 18:32:13 : Written final scores for species 28 to graph file
+2021-12-08 18:32:39 : Written final scores for species 29 to graph file
+2021-12-08 18:33:07 : Written final scores for species 30 to graph file
+2021-12-08 18:33:41 : Written final scores for species 31 to graph file
+
+WARNING: program called by OrthoFinder produced output to stderr
+
+Command: mcl /gpfs/projects/RestGroup/keffy/scratch/orthofinder_fasttree/Results_Dec08/WorkingDirectory/OrthoFinder_graph.txt -I 1.5 -o /gpfs/projects/RestGroup/keffy/scratch/orthofinder_fasttree/Results_Dec08/WorkingDirectory/clusters_OrthoFinder_I1.5.txt -te 1 -V all
+
+stdout
+------
+b''
+stderr
+------
+b'[mcl] cut <11> instances of overlap\n'
+2021-12-08 19:14:28 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 1445285 genes (98.1% of total) to 49622 orthogroups. Fifty percent of all genes were in orthogroups with 83 or more genes (G50 was 83) and were contained in the largest 5064 orthogroups (O50 was 5064). There were 8352 orthogroups with all species present and 0 of these consisted entirely of single-copy genes.
+
+2021-12-08 19:15:44 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+
+Using user-supplied species tree
+--------------------------------
+2021-12-08 19:15:49 : Starting MSA/Trees
+
+Inferring multiple sequence alignments and gene trees
+-----------------------------------------------------
+2021-12-08 22:36:47 : Done 3000 of 49622
+2021-12-09 00:18:36 : Done 44000 of 49622
+2021-12-08 23:46:24 : Done 9000 of 49622
+2021-12-09 00:16:21 : Done 31000 of 49622
+2021-12-09 00:17:33 : Done 37000 of 49622
+2021-12-08 23:22:43 : Done 6000 of 49622
+2021-12-09 00:10:49 : Done 16000 of 49622
+2021-12-09 00:15:41 : Done 28000 of 49622
+2021-12-08 21:36:48 : Done 1000 of 49622
+2021-12-09 00:17:55 : Done 39000 of 49622
+2021-12-09 00:14:00 : Done 22000 of 49622
+2021-12-09 00:18:28 : Done 43000 of 49622
+2021-12-08 23:57:24 : Done 11000 of 49622
+2021-12-09 00:16:58 : Done 34000 of 49622
+2021-12-09 00:18:53 : Done 46000 of 49622
+2021-12-09 00:19:13 : Done 48000 of 49622
+2021-12-09 00:09:36 : Done 15000 of 49622
+2021-12-09 00:11:42 : Done 17000 of 49622
+2021-12-09 00:17:10 : Done 35000 of 49622
+2021-12-08 19:16:43 : Done 0 of 49622
+2021-12-09 00:15:55 : Done 29000 of 49622
+2021-12-09 00:16:47 : Done 33000 of 49622
+2021-12-08 22:55:46 : Done 4000 of 49622
+2021-12-09 00:15:26 : Done 27000 of 49622
+2021-12-09 00:17:46 : Done 38000 of 49622
+2021-12-08 23:40:02 : Done 8000 of 49622
+2021-12-09 00:07:40 : Done 14000 of 49622
+2021-12-09 00:19:21 : Done 49000 of 49622
+2021-12-08 23:11:12 : Done 5000 of 49622
+2021-12-08 23:52:22 : Done 10000 of 49622
+2021-12-09 00:15:11 : Done 26000 of 49622
+2021-12-09 00:16:34 : Done 32000 of 49622
+2021-12-09 00:14:37 : Done 24000 of 49622
+2021-12-09 00:18:19 : Done 42000 of 49622
+2021-12-08 22:13:05 : Done 2000 of 49622
+2021-12-09 00:12:50 : Done 19000 of 49622
+2021-12-09 00:17:22 : Done 36000 of 49622
+2021-12-09 00:18:03 : Done 40000 of 49622
+2021-12-09 00:18:45 : Done 45000 of 49622
+2021-12-09 00:19:01 : Done 47000 of 49622
+2021-12-08 23:32:24 : Done 7000 of 49622
+2021-12-09 00:14:19 : Done 23000 of 49622
+2021-12-09 00:14:54 : Done 25000 of 49622
+2021-12-09 00:12:20 : Done 18000 of 49622
+2021-12-09 00:13:39 : Done 21000 of 49622
+2021-12-09 00:04:55 : Done 13000 of 49622
+2021-12-09 00:18:11 : Done 41000 of 49622
+2021-12-09 00:01:33 : Done 12000 of 49622
+2021-12-09 00:16:08 : Done 30000 of 49622
+2021-12-09 00:13:16 : Done 20000 of 49622
+2021-12-09 00:24:06 : Done MSA/Trees
+
+Reconciling gene trees and species tree
+---------------------------------------
+2021-12-09 00:24:06 : Starting Recon and orthologues
+2021-12-09 00:24:06 : Starting OF Orthologues
+2021-12-09 00:24:44 : Done 0 of 32240
+2021-12-09 00:31:01 : Done 1000 of 32240
+2021-12-09 00:32:56 : Done 2000 of 32240
+2021-12-09 00:34:32 : Done 3000 of 32240
+2021-12-09 00:35:42 : Done 4000 of 32240
+2021-12-09 00:36:36 : Done 5000 of 32240
+2021-12-09 00:37:22 : Done 6000 of 32240
+2021-12-09 00:38:05 : Done 7000 of 32240
+2021-12-09 00:38:41 : Done 8000 of 32240
+2021-12-09 00:39:15 : Done 9000 of 32240
+2021-12-09 00:39:47 : Done 10000 of 32240
+2021-12-09 00:40:18 : Done 11000 of 32240
+2021-12-09 00:40:44 : Done 12000 of 32240
+2021-12-09 00:41:09 : Done 13000 of 32240
+2021-12-09 00:41:29 : Done 14000 of 32240
+2021-12-09 00:41:43 : Done 15000 of 32240
+2021-12-09 00:41:53 : Done 16000 of 32240
+2021-12-09 00:42:00 : Done 17000 of 32240
+2021-12-09 00:42:06 : Done 18000 of 32240
+2021-12-09 00:42:13 : Done 19000 of 32240
+2021-12-09 00:42:19 : Done 20000 of 32240
+2021-12-09 00:42:27 : Done 21000 of 32240
+2021-12-09 00:42:33 : Done 22000 of 32240
+2021-12-09 00:42:37 : Done 23000 of 32240
+2021-12-09 00:42:42 : Done 24000 of 32240
+2021-12-09 00:42:47 : Done 25000 of 32240
+2021-12-09 00:42:53 : Done 26000 of 32240
+2021-12-09 00:43:00 : Done 27000 of 32240
+2021-12-09 00:43:04 : Done 28000 of 32240
+2021-12-09 00:43:09 : Done 29000 of 32240
+2021-12-09 00:43:13 : Done 30000 of 32240
+2021-12-09 00:43:18 : Done 31000 of 32240
+2021-12-09 00:43:23 : Done 32000 of 32240
+2021-12-09 00:43:25 : Done OF Orthologues
+2021-12-09 00:43:31 : Done Recon
+
+Writing results files
+=====================
+2021-12-09 00:43:32 : Done orthologues
+
+Results:
+    /gpfs/projects/RestGroup/keffy/scratch/orthofinder_fasttree/Results_Dec08/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914

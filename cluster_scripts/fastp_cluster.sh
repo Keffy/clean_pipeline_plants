@@ -39,6 +39,6 @@ for line in "${srr_vals_cut[@]}"; do
     if [ ${SE_PE} = "SINGLE" ]; then
         fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/SINGLE/${srr}.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/SINGLE/${srr}.fastq --cut_front --cut_tail
     else
-        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_1.fastq -I /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_2.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq -O ./gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq --detect_adapter_for_pe --cut_front --cut_tail
+        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_1.fastq -I /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_2.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq -O /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq --detect_adapter_for_pe --cut_front --cut_tail
     fi
 done
