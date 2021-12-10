@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-#SBATCH --job-name=salmon_quants
-#SBATCH --output=salmon_quants.out
+#SBATCH --job-name=salmon_quants_btstrap
+#SBATCH --output=salmon_quants_btstrap.out
 #SBATCH --ntasks-per-node=40
 #SBATCH --nodes=1
 #SBATCH --time=7-00:00:00
@@ -31,9 +31,9 @@ for line in "${srr_vals_cut[@]}"; do
 
     # running each sample separately
     if [ ${SE_PE} = "SINGLE" ]; #salmon all single
-        salmon quant -i /gpfs/projects/RestGroup/keffy/plant_data_files/salmon_indices/${species_us}_salmon_index -p 40 -l A -r /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/SINGLE/${srr}.fastq --validateMappings -o /gpfs/scratch/krkehrli/salmon_quants/${species_us}/${srr}_transcripts_quant
+        salmon quant -i /gpfs/projects/RestGroup/keffy/plant_data_files/salmon_indices/${species_us}_salmon_index -p 40 -l A -r /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/SINGLE/${srr}.fastq --numBootstraps 100 --validateMappings -o /gpfs/scratch/krkehrli/salmon_quants/${species_us}/${srr}_transcripts_quant
     else #salmon all paired
-        salmon quant -i /gpfs/projects/RestGroup/keffy/plant_data_files/salmon_indices/${species_us}_salmon_index -p 40 -l A -1 /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq -2 /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq --validateMappings -o /gpfs/scratch/krkehrli/salmon_quants/${species_us}/${srr}_transcripts_quant
+        salmon quant -i /gpfs/projects/RestGroup/keffy/plant_data_files/salmon_indices/${species_us}_salmon_index -p 40 -l A -1 /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq -2 /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq --numBootstraps 100 --validateMappings -o /gpfs/scratch/krkehrli/salmon_quants/${species_us}/${srr}_transcripts_quant
     fi
 done
 
