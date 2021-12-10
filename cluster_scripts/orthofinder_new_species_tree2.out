@@ -158,3 +158,5 @@ Using user-supplied species tree
 
 Inferring multiple sequence alignments and gene trees
 -----------------------------------------------------
+slurmstepd: error: *** JOB 682853 ON dn003 CANCELLED AT 2021-12-09T19:03:51 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 4 oom-kill event(s) in step 682853.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

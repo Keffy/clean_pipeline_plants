@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-#SBATCH --job-name=fastp_plants
-#SBATCH --output=fastp_plants.out
+#SBATCH --job-name=salmon_indices
+#SBATCH --output=salmon_indices.out
 #SBATCH --ntasks-per-node=40
 #SBATCH --nodes=1
 #SBATCH --time=7-00:00:00
