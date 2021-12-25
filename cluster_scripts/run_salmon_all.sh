@@ -9,6 +9,9 @@
 #SBATCH --mail-type=BEGIN,END
 #SBATCH --mail-user=keffy.kehrli@stonybrook.edu
 
+module load shared
+module load rna_seq/1.0
+
 mapfile -t srr_vals_cut < /gpfs/projects/RestGroup/keffy/clean_pipeline_plants/meta/SRR_values_cleaned.csv
 
 
@@ -25,12 +28,12 @@ for line in "${srr_vals_cut[@]}"; do
     mkdir /gpfs/scratch/krkehrli/salmon_quants
     fi
 
-    if [[ ! -d /gpfs/scratch/krkehrli/salmon_quants/${species_us} ]]
+    if [[ ! -d /gpfs/scratch/krkehrli/salmon_quants/${species_us} ]]; then
         mkdir /gpfs/scratch/krkehrli/salmon_quants/${species_us}
     fi
 
     # running each sample separately
-    if [ ${SE_PE} = "SINGLE" ]; #salmon all single
+    if [ ${SE_PE} = "SINGLE" ]; then #salmon all single
         salmon quant -i /gpfs/projects/RestGroup/keffy/plant_data_files/salmon_indices/${species_us}_salmon_index -p 40 -l A -r /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/SINGLE/${srr}.fastq --validateMappings -o /gpfs/scratch/krkehrli/salmon_quants/${species_us}/${srr}_transcripts_quant
     else #salmon all paired
         salmon quant -i /gpfs/projects/RestGroup/keffy/plant_data_files/salmon_indices/${species_us}_salmon_index -p 40 -l A -1 /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq -2 /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq --validateMappings -o /gpfs/scratch/krkehrli/salmon_quants/${species_us}/${srr}_transcripts_quant

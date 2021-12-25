@@ -35,10 +35,18 @@ for line in "${srr_vals_cut[@]}"; do
         mkdir /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/PAIRED
     fi
 
+    if [[ -d /gpfs/scratch/krkehrli/fastp_html ]]; then
+        mkdir /gpfs/scratch/krkehrli/fastp_html
+    fi
+
+    if [[ -d /gpfs/scratch/krkehrli/fastp_json ]]; then
+        mkdir /gpfs/scratch/krkehrli/fastp_json
+    fi
+
     echo $srr
     if [ ${SE_PE} = "SINGLE" ]; then
-        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/SINGLE/${srr}.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/SINGLE/${srr}.fastq --cut_front --cut_tail --json /gpfs/scratch/krkehrli/fastp_json/${species_us}/${srr}.json --html /gpfs/scratch/krkehrli/fastp_html/${species_us}/${srr}/.html
+        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/SINGLE/${srr}.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/SINGLE/${srr}.fastq --cut_front --cut_tail --json /gpfs/scratch/krkehrli/fastp_json/${species_us}/${srr}.json --html /gpfs/scratch/krkehrli/fastp_html/${species_us}/${srr}.html
     else
-        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_1.fastq -I /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_2.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/PAIRED/${srr}_1.fastq -O /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/PAIRED/${srr}_2.fastq --detect_adapter_for_pe --cut_front --cut_tail --json /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${srr}.json --html /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${srr}.html
+        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_1.fastq -I /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_2.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/PAIRED/${srr}_1.fastq -O /gpfs/scratch/krkehrli/trimmed_fastq_rep_for_json_html/${species_us}/PAIRED/${srr}_2.fastq --detect_adapter_for_pe --cut_front --cut_tail --json /gpfs/scratch/krkehrli/fastp_json/${srr}.json --html /gpfs/scratch/krkehrli/fastp_html/${srr}.html
     fi
 done
