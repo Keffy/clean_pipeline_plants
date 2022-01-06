@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --job-name=iqtree_all_sp_raw
+#SBATCH --job-name=iqtree_all_sp_no_trim
 #SBATCH --output=iqtree_all_sp_raw.out
 #SBATCH --ntasks-per-node=40
 #SBATCH --nodes=1
