@@ -17,8 +17,8 @@ mapfile -t srr_vals_cut < /gpfs/projects/RestGroup/keffy/clean_pipeline_plants/m
 
 for line in "${srr_vals_cut[@]}"; do
     srr=$(echo $line | cut -d "," -f1)
-    species=$(echo $line | cut -d "," -f29)
-    SE_PE=$(echo $line | cut -d "," -f16)
+    species=$(echo $line | cut -d "," -f28)
+    SE_PE=$(echo $line | cut -d "," -f15)
     species_us=$(echo $species | sed 's/ /_/g')
 
     echo ${species}
