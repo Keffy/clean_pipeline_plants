@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #SBATCH --job-name=iqtree_biggest22
-#SBATCH --output=iqtree_all_sp_no_trim_1_22.out
+#SBATCH --output=iqtree_all_sp_no_trim_last_251.out
 #SBATCH --ntasks-per-node=28
 #SBATCH --nodes=1
 #SBATCH --time=7-00:00:00
@@ -18,7 +18,7 @@ output_dir="/gpfs/projects/RestGroup/keffy/scratch/iq_tree/"
 meta_dir="/gpfs/projects/RestGroup/keffy/clean_pipeline_plants/meta/"
 
 
-mapfile -t Orthogroups < ${meta_dir}OGs_all_sp_1-22.txt
+mapfile -t Orthogroups < ${meta_dir}OGs_remaining.txt
 
 for (( i=${#Orthogroups[@]}-1; i>=0; i--)); do
     rev[${#rev[@]}]=${Orthogroups[i]}

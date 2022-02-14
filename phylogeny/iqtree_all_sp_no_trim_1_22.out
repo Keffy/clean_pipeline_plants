@@ -4826,3 +4826,207 @@ NOTE: 3.293 seconds to dump checkpoint file, increase to 66.000
  25  LG+F+R9       498083.398   1852 999870.797   1000267.394  1014428.494
  26  LG+F+R10      498073.311   1854 999854.622   1000252.122  1014428.041
  38  WAG+R9        492819.977   1833 989305.954   989694.032   1003714.302
+NOTE: 20.892 seconds to dump checkpoint file, increase to 418.000
+ 39  WAG+R10       492817.506   1835 989305.012   989693.982   1003729.081
+ 51  WAG+F+R9      494492.193   1852 992688.385   993084.983   1007246.083
+ 52  WAG+F+R10     494492.168   1854 992692.336   993089.836   1007265.754
+ 64  JTT+R9        489057.422   1833 981780.844   982168.922   996189.192
+ 65  JTT+R10       489055.136   1835 981780.272   982169.241   996204.340
+ 77  JTT+F+R9      490834.394   1852 985372.787   985769.385   999930.485
+WARNING: Log-likelihood -490836 of JTT+F+R10 worse than JTT+F+R9 -490834
+ 78  JTT+F+R10     490836.124   1854 985380.247   985777.747   999953.666
+ 90  JTTDCMut+R9   489189.709   1833 982045.418   982433.495   996453.765
+ 91  JTTDCMut+R10  489186.510   1835 982043.019   982431.989   996467.088
+103  JTTDCMut+F+R9 490868.054   1852 985440.108   985836.706   999997.806
+104  JTTDCMut+F+R10 490868.857   1854 985445.715   985843.215   1000019.133
+116  DCMut+R9      499083.335   1833 1001832.670  1002220.748  1016241.018
+117  DCMut+R10     499063.715   1835 1001797.429  1002186.399  1016221.498
+129  DCMut+F+R9    497710.616   1852 999125.232   999521.829   1013682.929
+130  DCMut+F+R10   497703.630   1854 999115.259   999512.759   1013688.678
+142  VT+R9         493284.516   1833 990235.031   990623.109   1004643.379
+WARNING: Log-likelihood -493289 of VT+R10 worse than VT+R9 -493285
+143  VT+R10        493289.151   1835 990248.303   990637.272   1004672.371
+155  VT+F+R9       496193.067   1852 996090.134   996486.732   1010647.832
+WARNING: Log-likelihood -496197 of VT+F+R10 worse than VT+F+R9 -496193
+156  VT+F+R10      496197.264   1854 996102.528   996500.028   1010675.947
+168  PMB+R9        498773.898   1833 1001213.795  1001601.873  1015622.143
+169  PMB+R10       498773.784   1835 1001217.568  1001606.537  1015641.636
+181  PMB+F+R9      501377.479   1852 1006458.958  1006855.555  1021016.655
+182  PMB+F+R10     501369.131   1854 1006446.263  1006843.763  1021019.682
+194  Blosum62+R9   499695.145   1833 1003056.291  1003444.368  1017464.638
+WARNING: Log-likelihood -499696 of Blosum62+R10 worse than Blosum62+R9 -499695
+195  Blosum62+R10  499696.483   1835 1003062.966  1003451.935  1017487.034
+207  Blosum62+F+R9 502476.771   1852 1008657.541  1009054.139  1023215.239
+WARNING: Log-likelihood -502483 of Blosum62+F+R10 worse than Blosum62+F+R9 -502477
+208  Blosum62+F+R10 502483.307   1854 1008674.614  1009072.114  1023248.033
+220  Dayhoff+R9    499066.902   1833 1001799.804  1002187.881  1016208.151
+221  Dayhoff+R10   499046.710   1835 1001763.420  1002152.390  1016187.489
+233  Dayhoff+F+R9  497702.442   1852 999108.884   999505.481   1013666.581
+234  Dayhoff+F+R10 497694.899   1854 999097.797   999495.297   1013671.216
+246  mtREV+R9      514064.243   1833 1031794.487  1032182.564  1046202.834
+247  mtREV+R10     514053.093   1835 1031776.185  1032165.155  1046200.254
+259  mtREV+F+R9    503463.381   1852 1010630.762  1011027.360  1025188.460
+260  mtREV+F+R10   503429.624   1854 1010567.249  1010964.749  1025140.667
+272  mtART+R9      525630.849   1833 1054927.699  1055315.776  1069336.046
+273  mtART+R10     525567.161   1835 1054804.323  1055193.292  1069228.391
+285  mtART+F+R9    515886.979   1852 1035477.959  1035874.556  1050035.657
+286  mtART+F+R10   515844.228   1854 1035396.456  1035793.956  1049969.874
+298  mtZOA+R9      512646.959   1833 1028959.918  1029347.995  1043368.265
+299  mtZOA+R10     512592.415   1835 1028854.830  1029243.799  1043278.898
+311  mtZOA+F+R9    506085.549   1852 1015875.099  1016271.696  1030432.797
+312  mtZOA+F+R10   506037.909   1854 1015783.818  1016181.318  1030357.237
+324  mtMet+R9      507989.163   1833 1019644.325  1020032.403  1034052.673
+325  mtMet+R10     507978.883   1835 1019627.767  1020016.736  1034051.835
+337  mtMet+F+R9    499434.397   1852 1002572.793  1002969.390  1017130.491
+338  mtMet+F+R10   499411.499   1854 1002530.999  1002928.499  1017104.417
+350  mtVer+R9      512958.762   1833 1029583.524  1029971.602  1043991.872
+351  mtVer+R10     512931.435   1835 1029532.871  1029921.841  1043956.940
+363  mtVer+F+R9    504445.186   1852 1012594.371  1012990.969  1027152.069
+364  mtVer+F+R10   504410.808   1854 1012529.617  1012927.117  1027103.035
+376  mtInv+R9      510827.731   1833 1025321.461  1025709.539  1039729.809
+377  mtInv+R10     510789.750   1835 1025249.501  1025638.470  1039673.569
+389  mtInv+F+R9    498669.553   1852 1001043.105  1001439.703  1015600.803
+390  mtInv+F+R10   498656.931   1854 1001021.862  1001419.362  1015595.280
+402  mtMAM+R9      522872.562   1833 1049411.124  1049799.202  1063819.472
+403  mtMAM+R10     522840.634   1835 1049351.269  1049740.238  1063775.337
+415  mtMAM+F+R9    511998.475   1852 1027700.950  1028097.548  1042258.648
+416  mtMAM+F+R10   511974.779   1854 1027657.559  1028055.059  1042230.977
+428  HIVb+R9       492666.144   1833 988998.289   989386.366   1003406.636
+429  HIVb+R10      492654.644   1835 988979.288   989368.257   1003403.356
+441  HIVb+F+R9     494187.191   1852 992078.382   992474.979   1006636.079
+442  HIVb+F+R10    494165.081   1854 992038.162   992435.662   1006611.581
+454  HIVw+R9       504650.374   1833 1012966.748  1013354.825  1027375.095
+455  HIVw+R10      504638.636   1835 1012947.273  1013336.242  1027371.342
+467  HIVw+F+R9     501797.847   1852 1007299.695  1007696.292  1021857.392
+468  HIVw+F+R10    501777.131   1854 1007262.262  1007659.762  1021835.681
+480  FLU+R9        493147.196   1833 989960.393   990348.470   1004368.740
+481  FLU+R10       493118.656   1835 989907.312   990296.281   1004331.380
+493  FLU+F+R9      494734.336   1852 993172.672   993569.269   1007730.369
+494  FLU+F+R10     494703.454   1854 993114.908   993512.408   1007688.326
+506  rtREV+R9      501994.661   1833 1007655.322  1008043.400  1022063.670
+507  rtREV+R10     501989.640   1835 1007649.279  1008038.249  1022073.348
+519  rtREV+F+R9    502854.110   1852 1009412.220  1009808.817  1023969.917
+520  rtREV+F+R10   502843.474   1854 1009394.948  1009792.448  1023968.366
+532  cpREV+R9      492905.533   1833 989477.066   989865.144   1003885.413
+533  cpREV+R10     492902.229   1835 989474.459   989863.428   1003898.527
+545  cpREV+F+R9    495475.197   1852 994654.394   995050.991   1009212.091
+546  cpREV+F+R10   495467.130   1854 994642.260   995039.760   1009215.679
+Akaike Information Criterion:           JTT+R10
+Corrected Akaike Information Criterion: JTT+R9
+Bayesian Information Criterion:         JTT+R9
+Best-fit model: JTT+R9 chosen according to BIC
+
+All model information printed to /gpfs/projects/RestGroup/keffy/scratch/iq_tree/OG0000014_iqtree.model.gz
+CPU time for ModelFinder: 6633513.636 seconds (1842h:38m:33s)
+Wall-clock time for ModelFinder: 294661.318 seconds (81h:51m:1s)
+
+NOTE: 7905 MB RAM (7 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -489057.422
+2. Current log-likelihood: -489057.279
+Optimal log-likelihood: -489057.138
+Site proportion and rates:  (0.087,0.037) (0.075,0.144) (0.073,0.290) (0.106,0.473) (0.093,0.687) (0.129,0.970) (0.135,1.262) (0.198,1.628) (0.104,2.238)
+Parameters optimization took 2 rounds (110.426 sec)
+Computing ML distances based on estimated model parameters... 299.022 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+2.417 seconds
+Log-likelihood of BIONJ tree: -492362.936
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 736.267 second
+Computing log-likelihood of 98 initial trees ... 350.339 seconds
+Current best score: -489057.138
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -489029.155
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -489003.260
+Iteration 10 / LogL: -489061.099 / Time: 0h:41m:28s
+Iteration 20 / LogL: -489057.065 / Time: 0h:59m:45s
+Finish initializing candidate tree set (20)
+Current best tree score: -489003.260 / CPU time: 3408.550
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -489272.089 / Time: 1h:17m:24s (3h:28m:12s left)
+Iteration 40 / LogL: -489013.120 / Time: 1h:35m:29s (2h:46m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -488983.908
+Iteration 50 / LogL: -489018.802 / Time: 1h:54m:32s (3h:39m:44s left)
+Iteration 60 / LogL: -489062.751 / Time: 2h:13m:47s (3h:10m:28s left)
+Iteration 70 / LogL: -489306.979 / Time: 2h:31m:46s (2h:42m:46s left)
+Iteration 80 / LogL: -489054.390 / Time: 2h:50m:12s (2h:17m:53s left)
+Iteration 90 / LogL: -489026.914 / Time: 3h:9m:24s (1h:54m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -488979.240
+Iteration 100 / LogL: -489031.583 / Time: 3h:29m:42s (3h:16m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -488977.621
+Iteration 110 / LogL: -488977.621 / Time: 3h:49m:51s (3h:30m:52s left)
+Iteration 120 / LogL: -489401.360 / Time: 4h:8m:13s (3h:7m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 126: -488976.780
+Iteration 130 / LogL: -488983.718 / Time: 4h:28m:18s (3h:19m:40s left)
+Iteration 140 / LogL: -488994.817 / Time: 4h:47m:8s (2h:57m:39s left)
+Iteration 150 / LogL: -488995.342 / Time: 5h:5m:53s (2h:36m:1s left)
+Iteration 160 / LogL: -488998.198 / Time: 5h:23m:30s (2h:14m:17s left)
+Iteration 170 / LogL: -489126.568 / Time: 5h:42m:36s (1h:53m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 180: -488976.073
+Iteration 180 / LogL: -488976.073 / Time: 6h:1m:46s (3h:22m:6s left)
+Iteration 190 / LogL: -488996.795 / Time: 6h:20m:22s (3h:1m:7s left)
+Iteration 200 / LogL: -489016.705 / Time: 6h:39m:18s (2h:40m:31s left)
+Iteration 210 / LogL: -488982.622 / Time: 6h:57m:42s (2h:19m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 211: -488971.242
+Iteration 220 / LogL: -489120.288 / Time: 7h:18m:16s (3h:2m:6s left)
+Iteration 230 / LogL: -489008.094 / Time: 7h:37m:14s (2h:41m:43s left)
+Iteration 240 / LogL: -488995.457 / Time: 7h:54m:33s (2h:20m:58s left)
+Iteration 250 / LogL: -488984.107 / Time: 8h:13m:21s (2h:0m:51s left)
+Iteration 260 / LogL: -488976.649 / Time: 8h:32m:10s (1h:40m:51s left)
+Iteration 270 / LogL: -489019.007 / Time: 8h:50m:16s (1h:20m:49s left)
+Iteration 280 / LogL: -489003.047 / Time: 9h:8m:48s (1h:0m:58s left)
+Iteration 290 / LogL: -489064.769 / Time: 9h:27m:24s (0h:41m:13s left)
+Iteration 300 / LogL: -488978.643 / Time: 9h:45m:46s (0h:21m:33s left)
+Iteration 310 / LogL: -489032.836 / Time: 10h:4m:4s (0h:1m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 312: -488968.975
+Iteration 320 / LogL: -488997.977 / Time: 10h:24m:52s (3h:0m:12s left)
+Iteration 330 / LogL: -488992.482 / Time: 10h:43m:5s (2h:40m:17s left)
+Iteration 340 / LogL: -489021.297 / Time: 11h:1m:16s (2h:20m:26s left)
+Iteration 350 / LogL: -488998.741 / Time: 11h:19m:41s (2h:0m:44s left)
+Iteration 360 / LogL: -489048.281 / Time: 11h:37m:26s (1h:41m:1s left)
+Iteration 370 / LogL: -489050.966 / Time: 11h:55m:22s (1h:21m:25s left)
+Iteration 380 / LogL: -488979.119 / Time: 12h:13m:34s (1h:1m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 381: -488967.108
+Iteration 390 / LogL: -488980.789 / Time: 12h:33m:1s (2h:56m:9s left)
+Iteration 400 / LogL: -489040.437 / Time: 12h:51m:24s (2h:36m:36s left)
+Iteration 410 / LogL: -489005.521 / Time: 13h:9m:17s (2h:17m:0s left)
+Iteration 420 / LogL: -489130.236 / Time: 13h:27m:51s (1h:57m:36s left)
+Iteration 430 / LogL: -488978.116 / Time: 13h:46m:1s (1h:38m:11s left)
+Iteration 440 / LogL: -489535.677 / Time: 14h:4m:20s (1h:18m:51s left)
+Iteration 450 / LogL: -489037.859 / Time: 14h:23m:40s (0h:59m:37s left)
+Iteration 460 / LogL: -489018.625 / Time: 14h:42m:2s (0h:40m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 467: -488964.749
+Iteration 470 / LogL: -489003.266 / Time: 15h:0m:32s (3h:6m:15s left)
+Iteration 480 / LogL: -488982.183 / Time: 15h:18m:50s (2h:46m:53s left)
+Iteration 490 / LogL: -489181.223 / Time: 15h:37m:21s (2h:27m:36s left)
+Iteration 500 / LogL: -489013.777 / Time: 15h:56m:2s (2h:8m:21s left)
+Iteration 510 / LogL: -489020.711 / Time: 16h:14m:17s (1h:49m:6s left)
+Iteration 520 / LogL: -488980.552 / Time: 16h:33m:2s (1h:29m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 522: -488962.242
+Iteration 530 / LogL: -489009.131 / Time: 16h:52m:23s (2h:56m:4s left)
+Iteration 540 / LogL: -488992.159 / Time: 17h:10m:52s (2h:36m:49s left)
+Iteration 550 / LogL: -488976.815 / Time: 17h:29m:10s (2h:17m:35s left)
+Iteration 560 / LogL: -488973.390 / Time: 17h:47m:48s (1h:58m:25s left)
+Iteration 570 / LogL: -488985.377 / Time: 18h:6m:46s (1h:39m:19s left)
+Iteration 580 / LogL: -488997.359 / Time: 18h:25m:25s (1h:20m:11s left)
+Iteration 590 / LogL: -489001.944 / Time: 18h:43m:55s (1h:1m:3s left)
+slurmstepd: error: *** JOB 715122 ON sn055 CANCELLED AT 2022-01-31T19:22:25 DUE TO TIME LIMIT ***
