@@ -2,6 +2,20 @@
 
 # Run FastQC on the SRR numbers that I just downloaded.
 
-# Moved all fastq files into ./scratch/fastq_files
+mkdir results/fastqc
 
-fastqc -t 8 -f fastq --outdir ../plant_data_files/fastqc --noextract -dir ../scratch/fastqc_temp ../scratch/fastq_files/*.fastq 
+mapfile -t srr_vals_cut < ../meta/SRR_values_cleaned.csv
+
+for line in "${srr_vals_cut[@]}"; do
+  srr=$(echo $line | cut -d "," -f1)
+  species=$(echo $line | cut -d "," -f28)
+  SE_PE=$(echo $line | cut -d "," -f15)
+  species_us=$(echo $species | sed 's/ /_/g')
+  echo $srr
+  if [[ ${SE_PE} -eq "SINGLE" ]]; then
+    fastqc -t 24 -f fastq --outdir ../results/fastqc --noextract --dir ../../scratch/fastqc_temp ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}/${srr}_1.fastq.gz
+  else
+    fastqc -t 24 -f fastq --outdir ../results/fastqc --noextract --dir ../../scratch/fastqc_temp ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}/${srr}_1.fastq.gz
+    fastqc -t 24 -f fastq --outdir ../results/fastqc --noextract --dir ../../scratch/fastqc_temp ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}/${srr}_2.fastq.gz
+  fi
+done

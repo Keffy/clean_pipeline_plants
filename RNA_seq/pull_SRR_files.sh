@@ -26,6 +26,7 @@ for line in "${srr_vals_cut[@]}"; do
         mkdir ../plant_data_files/untrimmed_fastq/${species_us}/PAIRED
         mkdir ../plant_data_files/untrimmed_fastq/${species_us}/SINGLE
     fi
-    parallel-fastq-dump --gzip --split-files -s ${srr} -t 8 -T ../scratch/fqdump_temp -O ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}
+    parallel-fastq-dump --gzip --split-files -s ${srr} -t 8 --tmpdir ../scratch/fqdump_temp -O ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}
 done
+    
     
