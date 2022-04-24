@@ -10,20 +10,22 @@ mapfile -t srr_vals_cut < /gpfs/projects/RestGroup/keffy/clean_pipeline_plants/m
 
 for line in "${srr_vals_cut[@]}"; do
     srr=$(echo $line | cut -d "," -f1)
-    species=$(echo $line | cut -d "," -f29)
-    SE_PE=$(echo $line | cut -d "," -f16)
+    species=$(echo $line | cut -d "," -f28)
+    SE_PE=$(echo $line | cut -d "," -f15)
     species_us=$(echo $species | sed 's/ /_/g')
+    echo ${species}
+    echo ${srr}
 
-    if [[ ! -d /gpfs/scratch/krkehrli/trimmed_fastq/${species_us} ]]; then
-        mkdir /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}
-        mkdir /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/SINGLE
-        mkdir /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED
+    if [[ ! -d ../../plant_data_files/trimmed_fastq/${species_us} ]]; then
+        mkdir ../../plant_data_files/trimmed_fastq/${species_us}
+        mkdir ../../plant_data_files/trimmed_fastq/${species_us}/SINGLE
+        mkdir ../../plant_data_files/trimmed_fastq/${species_us}/PAIRED
     fi
 
     echo $srr
     if [ ${SE_PE} = "SINGLE" ]; then
-        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/SINGLE/${srr}.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/SINGLE/${srr}.fastq --cut_front --cut_tail
+        fastp -i ../../plant_data_files/untrimmed_fastq/${species_us}/SINGLE/${srr}_1.fastq.gz -o ../../plant_data_files/trimmed_fastq/${species_us}/SINGLE/${srr}.fastq.gz --cut_front --cut_tail --thread 8
     else
-        fastp -i /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_1.fastq -I /gpfs/scratch/krkehrli/fastq_untrimmed/${species_us}/PAIRED/${srr}_2.fastq -o /gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq -O ./gpfs/scratch/krkehrli/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq --detect_adapter_for_pe --cut_front --cut_tail
+        fastp -i ../../plant_data_files/untrimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq.gz -I ../../plant_data_files/untrimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq.gz -o ../../plant_data_files/trimmed_fastq/${species_us}/PAIRED/${srr}_1.fastq.gz -O ../../plant_data_files/trimmed_fastq/${species_us}/PAIRED/${srr}_2.fastq.gz --detect_adapter_for_pe --cut_front --cut_tail --thread 8
     fi
 done

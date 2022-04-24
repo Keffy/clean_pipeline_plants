@@ -13,20 +13,20 @@
 # Run parallel-fastq-dump to get all the SRR files and place them 
 # in directories by species and SE or PE.
 
-mapfile -t srr_vals_cut < meta/SRR_values_cleaned.csv
+mapfile -t srr_vals_cut < ../meta/SRR_values_cleaned.csv
 
 for line in "${srr_vals_cut[@]}"; do
     srr=$(echo $line | cut -d "," -f1)
-    species=$(echo $line | cut -d "," -f29)
-    SE_PE=$(echo $line | cut -d "," -f16)
+    species=$(echo $line | cut -d "," -f28)
+    SE_PE=$(echo $line | cut -d "," -f15)
     species_us=$(echo $species | sed 's/ /_/g')
     echo $srr
-    if [[ ! -d ../plant_data_files/untrimmed_fastq/${species_us} ]]; then
-        mkdir ../plant_data_files/untrimmed_fastq/${species_us}
-        mkdir ../plant_data_files/untrimmed_fastq/${species_us}/PAIRED
-        mkdir ../plant_data_files/untrimmed_fastq/${species_us}/SINGLE
+    if [[ ! -d ../../scratch/untrimmed_fastq/${species_us} ]]; then
+        mkdir ../../scratch/untrimmed_fastq/${species_us}
+        mkdir ../../scratch/untrimmed_fastq/${species_us}/PAIRED
+        mkdir ../../scratch/untrimmed_fastq/${species_us}/SINGLE
     fi
-    parallel-fastq-dump --gzip --split-files -s ${srr} -t 8 --tmpdir ../scratch/fqdump_temp -O ../plant_data_files/untrimmed_fastq/${species_us}/${SE_PE}
+    parallel-fastq-dump --gzip --split-files -s ${srr} -t 24 --tmpdir ../../scratch/fqdump_temp -O ../../scratch/untrimmed_fastq/${species_us}/${SE_PE}
 done
     
     
