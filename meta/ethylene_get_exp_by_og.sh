@@ -3,7 +3,7 @@
 #### get the expression values for all of the
 #### ethylene response and ethylene biosynthesis pathways
 
-old_exp_dir="/gpfs/projects/RestGroup/keffy/all_quants_by_OG"
+old_exp_file="/gpfs/projects/RestGroup/keffy/all_quants_one_file_huge.txt"
 new_exp_dir="/gpfs/projects/RestGroup/keffy/clean_pipeline_plants/meta/eth_quants_by_OG"
 og_list_file="/gpfs/projects/RestGroup/keffy/clean_pipeline_plants/meta/ogs_for_eth_full.txt"
 
@@ -28,13 +28,12 @@ OG0003596)
 
 for og in "${ogs[@]}"; do
 	# list of genes per og
-	genes=$(grep ${og} ${og_list_file} | cut -d ":" -f 2 | cut -d " " -f 2-)
-	IFS=' ' read -r -a gene_array <<< ${genes}
-
+	genes=$(`grep ${og} ${og_list_file} | cut -d ":" -f 2 | cut -d " " -f 2-`)
+	gene_array=(`echo $genes | tr ' ' ''`)
 	for sp_gene in "${gene_array[@]}"; do
 		# expression values for each gene
-		gene=$(cut -d "-" -f 2 ${sp_gene})
+		gene=$(`echo $sp_gene | cut -d "-" -f 2`)
 		# write to disk
-		grep ${gene} ${og_list_file} >> ${og}_exp.txt
+		grep ${gene} ${old_exp_file} >> ${new_exp_dir}/${og}_exp.txt
 	done
 done
