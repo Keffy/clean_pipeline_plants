@@ -28,11 +28,11 @@ OG0003596)
 
 for og in "${ogs[@]}"; do
 	# list of genes per og
-	genes=$(`grep ${og} ${og_list_file} | cut -d ":" -f 2 | cut -d " " -f 2-`)
+	genes=$(grep ${og} ${og_list_file} | cut -d ":" -f 2 | cut -d " " -f 2-)
 	gene_array=$(echo $genes | tr ' ' ' ')
 	for sp_gene in "${gene_array[@]}"; do
 		# expression values for each gene
-		gene=$(`echo $sp_gene | cut -d "-" -f 2`)
+		gene=$(echo $sp_gene | cut -d "-" -f 2)
 		# write to disk
 		grep ${gene} ${old_exp_file} >> ${new_exp_dir}/${og}_exp.txt
 	done
