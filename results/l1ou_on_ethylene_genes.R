@@ -1,0 +1,22 @@
+#!/bin/R
+
+## run l1OU on the ethylene only OGs
+
+setwd("/gpfs/projects/RestGroup/keffy/clean_pipeline_plants")
+
+ogs=(OG0011700
+OG0003776
+OG0003879
+OG0001838
+OG0018870
+OG0001516
+OG0002845
+OG0001017
+OG0019583
+OG0005313
+OG0002899
+OG0012495
+OG0002376
+OG0001823
+OG0006977
+OG0003596)
