@@ -1,0 +1,10 @@
+Arabidopsis_lyrata_XP_002892208.1 0.78638625
+Arabidopsis_lyrata_XP_020870456.1 1.739238
+Arabidopsis_thaliana_NP_001323287.1 1.1495215625
+Arabidopsis_thaliana_NP_171927.1 1.8408084375
+Brassica_oleracea_XP_013638399.1 1.32376709090909
+Brassica_rapa_XP_009119315.1 0.511033272727273
+Capsella_rubella_XP_006306986.1 28.6498338333333
+Capsella_rubella_XP_023645675.1 11.1375726666667
+Eutrema_salsugineum_XP_006418141.1 0.9025462
+Eutrema_salsugineum_XP_024008752.1 1.237402
