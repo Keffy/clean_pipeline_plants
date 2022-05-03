@@ -1,0 +1,330 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jul 10 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cn-mem (AVX2, FMA3, 3023 GB RAM)
+Command: iqtree2 -s mafft/OG0001017_clean_align.out -T 24 -B 10000 -m MFP
+Seed:    829128 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May  3 11:48:50 2022
+Kernel:  AVX+FMA - 24 threads (144 CPU cores detected)
+
+Reading alignment file mafft/OG0001017_clean_align.out ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 105 sequences with 1258 columns, 950 distinct patterns
+570 parsimony-informative, 187 singleton sites, 501 constant sites
+                                       Gap/Ambiguity  Composition  p-value
+   1  Arabidopsis_lyrata_XP_020884280.1       53.97%    passed     90.92%
+   2  Arabidopsis_thaliana_NP_180273.1        53.58%    passed     64.10%
+   3  Capsella_rubella_XP_006293460.1         53.34%    passed     87.31%
+   4  Brassica_oleracea_XP_013629558.1        54.61%    passed     68.20%
+   5  Brassica_rapa_XP_009133914.1            54.61%    passed     58.87%
+   6  Eutrema_salsugineum_XP_006408669.1      53.82%    passed     94.30%
+   7  Arabidopsis_lyrata_XP_020888534.1       50.08%    passed     95.79%
+   8  Arabidopsis_thaliana_NP_188713.1        50.08%    passed     92.54%
+   9  Capsella_rubella_XP_006297205.1         50.16%    passed     99.68%
+  10  Eutrema_salsugineum_XP_006406351.1      50.00%    passed     88.84%
+  11  Brassica_oleracea_XP_013586213.1        51.19%    passed     99.45%
+  12  Brassica_rapa_XP_009145591.2            51.27%    passed     99.11%
+  13  Brassica_oleracea_XP_013629394.1        53.97%    passed     77.82%
+  14  Brassica_rapa_XP_033143641.1            53.82%    passed     86.54%
+  15  Brassica_oleracea_XP_013608113.1        51.91%    passed     66.09%
+  16  Brassica_rapa_XP_033131317.1            51.91%    passed     98.61%
+  17  Capsicum_annuum_XP_016552934.1          51.27%    passed     97.94%
+  18  Nicotiana_attenuata_XP_019237798.1      51.19%    passed     99.93%
+  19  Solanum_lycopersicum_NP_001234721.1     51.19%    passed     99.55%
+  20  Solanum_pennellii_XP_015060507.1        51.19%    passed     99.82%
+  21  Solanum_tuberosum_XP_006364491.1        51.19%    passed     99.51%
+  22  Capsicum_annuum_XP_016578009.1          51.19%    passed     99.98%
+  23  Solanum_lycopersicum_NP_001234541.1     51.51%    passed    100.00%
+  24  Solanum_pennellii_XP_015079066.1        51.51%    passed    100.00%
+  25  Solanum_tuberosum_XP_006361129.1        51.03%    passed     99.99%
+  26  Solanum_tuberosum_XP_006361130.1        51.03%    passed     99.99%
+  27  Nicotiana_attenuata_XP_019257279.1      52.31%    passed     99.08%
+  28  Nicotiana_attenuata_XP_019257282.1      51.11%    passed     99.85%
+  29  Capsicum_annuum_XP_016578010.1          51.67%    passed     93.53%
+  30  Solanum_lycopersicum_NP_001233931.1     51.91%    passed     94.88%
+  31  Solanum_pennellii_XP_015079068.1        51.91%    passed     96.83%
+  32  Solanum_tuberosum_XP_006361131.1        51.91%    passed     99.70%
+  33  Carica_papaya_XP_021892566.1            51.27%    passed     99.94%
+  34  Gossypium_hirsutum_XP_016718322.1       52.62%    passed     96.60%
+  35  Gossypium_hirsutum_XP_016724169.1       52.78%    passed     96.59%
+  36  Gossypium_hirsutum_XP_016732307.1       51.11%    passed    100.00%
+  37  Gossypium_hirsutum_XP_016732408.1       51.27%    passed     99.99%
+  38  Jatropha_curcas_XP_037491497.1          50.79%    passed     97.79%
+  39  Manihot_esculenta_XP_021611396.1        50.64%    passed     96.64%
+  40  Populus_euphratica_XP_011006497.1       50.95%    passed     99.93%
+  41  Populus_trichocarpa_XP_006384758.1      50.95%    passed     99.91%
+  42  Populus_euphratica_XP_011043514.1       49.76%    passed     99.32%
+  43  Populus_trichocarpa_XP_002312841.3      49.84%    passed     99.65%
+  44  Citrus_sinensis_XP_006470438.1          50.64%    passed     99.99%
+  45  Cucumis_melo_XP_008451093.1             50.32%    passed     99.62%
+  46  Cucumis_sativus_NP_001295791.1          49.52%    passed     95.31%
+  47  Cucumis_sativus_XP_004144109.2          49.92%    passed     98.36%
+  48  Cicer_arietinum_XP_004491182.1          51.43%    passed     99.87%
+  49  Medicago_truncatula_XP_003617086.1      51.11%    passed    100.00%
+  50  Glycine_max_XP_003519487.1              51.19%    passed     99.98%
+  51  Glycine_max_XP_003545483.1              51.51%    passed     99.94%
+  52  Phaseolus_vulgaris_XP_007141570.1       51.43%    passed     99.66%
+  53  Glycine_max_XP_003543154.1              50.87%    passed     98.65%
+  54  Phaseolus_vulgaris_XP_007146083.1       50.79%    passed     90.93%
+  55  Phaseolus_vulgaris_XP_007146084.1       50.40%    passed     99.59%
+  56  Glycine_max_XP_003543159.1              50.64%    passed     99.97%
+  57  Glycine_max_XP_003555660.1              50.40%    passed     99.71%
+  58  Cicer_arietinum_XP_004501972.1          50.40%    passed     97.91%
+  59  Fragaria_vesca_XP_004288382.1           50.87%    passed     98.82%
+  60  Medicago_truncatula_XP_013461072.1      50.00%    passed     89.99%
+  61  Vitis_vinifera_XP_002275284.2           51.51%    passed     96.26%
+  62  Capsicum_annuum_XP_016538319.1          51.67%    passed     98.46%
+  63  Solanum_lycopersicum_NP_001234546.1     52.23%    passed     87.72%
+  64  Solanum_pennellii_XP_015062250.1        52.23%    passed     81.97%
+  65  Solanum_tuberosum_XP_006347695.1        51.99%    passed     91.76%
+  66  Nicotiana_attenuata_XP_019259027.1      51.59%    passed     98.69%
+  67  Citrus_sinensis_NP_001275851.1          51.19%    passed    100.00%
+  68  Populus_euphratica_XP_011012998.1       47.69%    passed     99.55%
+  69  Populus_euphratica_XP_011046481.1       47.69%    passed     99.69%
+  70  Populus_trichocarpa_XP_024465824.1      47.62%    passed     99.76%
+  71  Populus_euphratica_XP_011032978.1       47.38%    passed     98.83%
+  72  Populus_trichocarpa_XP_024461972.1      47.38%    passed     93.83%
+  73  Vitis_vinifera_XP_002276380.1           51.03%    passed     99.60%
+  74  Malus_domestica_NP_001315772.1          50.32%    passed     99.74%
+  75  Malus_domestica_XP_008357657.2          50.32%    passed     99.70%
+  76  Pyrus_x_bretschneideri_XP_009355361.1   50.16%    passed     99.99%
+  77  Malus_domestica_NP_001315847.1          47.62%    passed     92.04%
+  78  Malus_domestica_XP_028949099.1          41.89%    passed     86.63%
+  79  Malus_domestica_XP_028949101.1          47.62%    passed     94.64%
+  80  Pyrus_x_bretschneideri_XP_009341360.1   47.62%    passed     89.84%
+  81  Malus_domestica_XP_008346133.2          51.83%    passed     99.99%
+  82  Pyrus_x_bretschneideri_XP_009355060.1   51.83%    passed     99.97%
+  83  Malus_domestica_XP_008364747.2          51.43%    passed     99.67%
+  84  Pyrus_x_bretschneideri_XP_009339246.1   51.43%    passed     99.66%
+  85  Pyrus_x_bretschneideri_XP_009339251.1   51.43%    passed     99.66%
+  86  Prunus_mume_XP_008231879.1              52.23%    passed    100.00%
+  87  Prunus_persica_XP_020411970.1           52.23%    passed    100.00%
+  88  Prunus_mume_XP_008231880.1              50.56%    passed    100.00%
+  89  Prunus_persica_XP_020412378.1           50.40%    passed     99.98%
+  90  Fragaria_vesca_XP_004306440.1           51.99%    passed    100.00%
+  91  Cucumis_melo_NP_001284429.1             51.11%    passed     86.78%
+  92  Cucumis_melo_XP_008456656.1             51.11%    passed     88.74%
+  93  Cucumis_sativus_XP_004140927.1          51.11%    passed     93.66%
+  94  Papaver_somniferum_XP_026387725.1       48.01%    passed     87.72%
+  95  Papaver_somniferum_XP_026418456.1       48.01%    passed     91.92%
+  96  Helianthus_annuus_XP_022005275.1        50.72%    passed     98.69%
+  97  Helianthus_annuus_XP_022012310.1        53.66%    passed     96.01%
+  98  Carica_papaya_XP_021897659.1            54.45%    passed     16.44%
+  99  Helianthus_annuus_XP_021982638.1        54.45%    passed     87.36%
+ 100  Papaver_somniferum_XP_026384865.1       50.72%    passed     89.88%
+ 101  Papaver_somniferum_XP_026395230.1       50.72%    passed     89.49%
+ 102  Helianthus_annuus_XP_022006414.1        53.02%    passed     95.82%
+ 103  Phaseolus_vulgaris_XP_007148764.1       55.56%    passed     41.10%
+ 104  Cicer_arietinum_XP_012571061.1          35.77%    failed      0.00%
+ 105  Medicago_truncatula_XP_003598364.3      60.33%    failed      0.11%
+WARNING: 87 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                   51.01%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Solanum_tuberosum_XP_006361130.1 is identical to Solanum_tuberosum_XP_006361129.1 but kept for subsequent analysis
+NOTE: Pyrus_x_bretschneideri_XP_009339251.1 is identical to Pyrus_x_bretschneideri_XP_009339246.1 but kept for subsequent analysis
+
+NOTE: Restoring information from model checkpoint file mafft/OG0001017_clean_align.out.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -36042.504
+Optimal log-likelihood: -36041.999
+Proportion of invariable sites: 0.081
+Gamma shape alpha: 1.087
+Parameters optimization took 1 rounds (0.146 sec)
+Time for fast ML tree search: 1.653 seconds
+
+NOTE: ModelFinder requires 194 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 1258) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            37949.112    207 76312.224    76394.235    77375.641
+  2  LG+I          37325.483    208 75066.967    75149.850    76135.521
+  3  LG+G4         36061.729    208 72539.458    72622.341    73608.012
+  4  LG+I+G4       36041.763    209 72501.526    72585.285    73575.217
+  5  LG+R2         36267.459    209 72952.919    73036.678    74026.610
+  6  LG+R3         36044.181    211 72510.361    72595.891    73594.327
+  7  LG+R4         35984.714    213 72395.429    72482.751    73489.669
+  8  LG+R5         35978.566    215 72387.131    72476.267    73491.646
+ 20  LG+F+R4       35828.668    232 72121.336    72226.811    73313.184
+ 21  LG+F+R5       35823.102    234 72114.204    72221.711    73316.327
+ 33  WAG+R4        35861.332    213 72148.663    72235.985    73242.903
+ 34  WAG+R5        35858.321    215 72146.642    72235.778    73251.157
+ 46  WAG+F+R4      35863.411    232 72190.822    72296.297    73382.671
+ 47  WAG+F+R5      35861.698    234 72191.396    72298.904    73393.520
+ 59  JTT+R4        34999.743    213 70425.485    70512.807    71519.726
+ 60  JTT+R5        34996.804    215 70423.608    70512.744    71528.123
+ 72  JTT+F+R4      34974.269    232 70412.538    70518.014    71604.387
+ 73  JTT+F+R5      34971.407    234 70410.814    70518.321    71612.937
+ 85  JTTDCMut+R4   35022.871    213 70471.741    70559.063    71565.982
+ 86  JTTDCMut+R5   35020.058    215 70470.117    70559.253    71574.632
+ 98  JTTDCMut+F+R4 34995.772    232 70455.544    70561.019    71647.392
+ 99  JTTDCMut+F+R5 34992.865    234 70453.730    70561.238    71655.854
+111  DCMut+R4      35785.007    213 71996.014    72083.336    73090.255
+112  DCMut+R5      35779.925    215 71989.851    72078.987    73094.366
+124  DCMut+F+R4    35768.786    232 72001.571    72107.046    73193.420
+125  DCMut+F+R5    35764.417    234 71996.834    72104.341    73198.957
+137  VT+R4         35823.478    213 72072.956    72160.278    73167.197
+138  VT+R5         35821.070    215 72072.140    72161.276    73176.655
+150  VT+F+R4       35815.630    232 72095.260    72200.735    73287.109
+151  VT+F+R5       35814.010    234 72096.020    72203.528    73298.144
+163  PMB+R4        36577.273    213 73580.546    73667.868    74674.786
+164  PMB+R5        36573.769    215 73577.539    73666.675    74682.053
+176  PMB+F+R4      36616.604    232 73697.209    73802.684    74889.057
+177  PMB+F+R5      36614.940    234 73697.881    73805.388    74900.004
+189  Blosum62+R4   36678.372    213 73782.744    73870.066    74876.984
+190  Blosum62+R5   36674.977    215 73779.955    73869.091    74884.470
+202  Blosum62+F+R4 36648.944    232 73761.888    73867.363    74953.737
+203  Blosum62+F+R5 36647.128    234 73762.256    73869.764    74964.379
+215  Dayhoff+R4    35781.265    213 71988.530    72075.852    73082.771
+216  Dayhoff+R5    35776.133    215 71982.266    72071.402    73086.780
+228  Dayhoff+F+R4  35765.823    232 71995.647    72101.122    73187.496
+229  Dayhoff+F+R5  35761.467    234 71990.934    72098.441    73193.057
+241  mtREV+R4      36469.540    213 73365.079    73452.401    74459.320
+242  mtREV+R5      36462.977    215 73355.954    73445.091    74460.469
+254  mtREV+F+R4    35804.047    232 72072.093    72177.568    73263.942
+255  mtREV+F+R5    35794.165    234 72056.330    72163.837    73258.453
+267  mtART+R4      37230.773    213 74887.546    74974.868    75981.786
+268  mtART+R5      37219.887    215 74869.774    74958.910    75974.289
+280  mtART+F+R4    36525.650    232 73515.300    73620.775    74707.149
+281  mtART+F+R5    36514.445    234 73496.890    73604.398    74699.014
+293  mtZOA+R4      36446.754    213 73319.508    73406.830    74413.749
+294  mtZOA+R5      36441.733    215 73313.467    73402.603    74417.982
+306  mtZOA+F+R4    36020.084    232 72504.169    72609.644    73696.017
+307  mtZOA+F+R5    36012.108    234 72492.215    72599.723    73694.338
+319  mtMet+R4      36046.290    213 72518.579    72605.901    73612.820
+320  mtMet+R5      36042.361    215 72514.723    72603.859    73619.238
+332  mtMet+F+R4    35260.381    232 70984.762    71090.237    72176.611
+333  mtMet+F+R5    35256.274    234 70980.547    71088.055    72182.671
+345  mtVer+R4      36010.830    213 72447.660    72534.982    73541.901
+346  mtVer+R5      36003.401    215 72436.802    72525.938    73541.317
+358  mtVer+F+R4    35401.470    232 71266.940    71372.416    72458.789
+359  mtVer+F+R5    35395.770    234 71259.541    71367.048    72461.664
+371  mtInv+R4      36592.031    213 73610.061    73697.383    74704.301
+372  mtInv+R5      36588.357    215 73606.714    73695.850    74711.229
+384  mtInv+F+R4    35475.851    232 71415.701    71521.176    72607.550
+385  mtInv+F+R5    35472.284    234 71412.568    71520.075    72614.691
+397  mtMAM+R4      36627.898    213 73681.797    73769.119    74776.037
+398  mtMAM+R5      36619.064    215 73668.129    73757.265    74772.644
+410  mtMAM+F+R4    35789.810    232 72043.620    72149.095    73235.468
+411  mtMAM+F+R5    35780.374    234 72028.748    72136.256    73230.871
+423  HIVb+R4       35417.324    213 71260.648    71347.970    72354.889
+424  HIVb+R5       35411.557    215 71253.114    71342.250    72357.629
+436  HIVb+F+R4     35131.341    232 70726.683    70832.158    71918.532
+437  HIVb+F+R5     35123.550    234 70715.100    70822.608    71917.224
+449  HIVw+R4       36423.221    213 73272.441    73359.763    74366.682
+450  HIVw+R5       36419.657    215 73269.313    73358.450    74373.828
+462  HIVw+F+R4     36026.589    232 72517.177    72622.652    73709.026
+463  HIVw+F+R5     36018.003    234 72504.006    72611.514    73706.129
+475  FLU+R4        35679.215    213 71784.430    71871.752    72878.670
+476  FLU+R5        35666.951    215 71763.903    71853.039    72868.418
+488  FLU+F+R4      35606.357    232 71676.713    71782.189    72868.562
+489  FLU+F+R5      35595.021    234 71658.043    71765.550    72860.166
+501  rtREV+R4      36441.090    213 73308.179    73395.501    74402.419
+502  rtREV+R5      36436.459    215 73302.917    73392.054    74407.432
+514  rtREV+F+R4    36179.939    232 72823.879    72929.354    74015.727
+515  rtREV+F+R5    36176.641    234 72821.281    72928.789    74023.404
+527  cpREV+R4      36090.229    213 72606.457    72693.779    73700.698
+528  cpREV+R5      36085.772    215 72601.544    72690.681    73706.059
+540  cpREV+F+R4    36094.125    232 72652.250    72757.725    73844.099
+541  cpREV+F+R5    36086.071    234 72640.142    72747.649    73842.265
+Akaike Information Criterion:           JTT+F+R5
+Corrected Akaike Information Criterion: JTT+R5
+Bayesian Information Criterion:         JTT+R4
+Best-fit model: JTT+R4 chosen according to BIC
+
+All model information printed to mafft/OG0001017_clean_align.out.model.gz
+CPU time for ModelFinder: 21369.588 seconds (5h:56m:9s)
+Wall-clock time for ModelFinder: 899.258 seconds (0h:14m:59s)
+Generating 10000 samples for ultrafast bootstrap (seed: 829128)...
+
+NOTE: 100 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -34999.743
+Optimal log-likelihood: -34999.642
+Site proportion and rates:  (0.259,0.072) (0.163,0.495) (0.293,1.102) (0.285,2.028)
+Parameters optimization took 1 rounds (0.420 sec)
+Computing ML distances based on estimated model parameters... 1.653 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -35079.400
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.301 second
+Computing log-likelihood of 98 initial trees ... 8.406 seconds
+Current best score: -34999.642
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -34997.599
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -34990.863
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -34990.681
+Iteration 10 / LogL: -34997.971 / Time: 0h:0m:29s
+Iteration 20 / LogL: -34997.897 / Time: 0h:0m:42s
+Finish initializing candidate tree set (6)
+Current best tree score: -34990.681 / CPU time: 40.988
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -34990.523
+Iteration 30 / LogL: -34990.674 / Time: 0h:0m:57s (0h:2m:26s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -34990.136
+Iteration 40 / LogL: -35051.572 / Time: 0h:1m:12s (0h:1m:58s left)
+Iteration 50 / LogL: -34990.719 / Time: 0h:1m:27s (0h:1m:36s left)
+Log-likelihood cutoff on original alignment: -35033.636
+Iteration 60 / LogL: -34990.923 / Time: 0h:1m:47s (0h:1m:20s left)
+Iteration 70 / LogL: -34996.611 / Time: 0h:2m:2s (0h:1m:0s left)
+Iteration 80 / LogL: -34990.501 / Time: 0h:2m:18s (0h:0m:41s left)
+Iteration 90 / LogL: -34990.189 / Time: 0h:2m:32s (0h:0m:23s left)
+Iteration 100 / LogL: -34990.760 / Time: 0h:2m:47s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -35033.199
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:2m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -34990.136
+2. Current log-likelihood: -34990.125
+Optimal log-likelihood: -34990.110
+Site proportion and rates:  (0.253,0.070) (0.141,0.443) (0.296,1.029) (0.310,1.987)
+Parameters optimization took 2 rounds (0.754 sec)
+BEST SCORE FOUND : -34990.110
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafft/OG0001017_clean_align.out.splits.nex
+Total tree length: 15.165
+
+Total number of iterations: 105
+CPU time used for tree search: 3763.270 sec (1h:2m:43s)
+Wall-clock time used for tree search: 178.408 sec (0h:2m:58s)
+Total CPU time used: 3808.068 sec (1h:3m:28s)
+Total wall-clock time used: 185.039 sec (0h:3m:5s)
+
+Computing bootstrap consensus tree...
+Reading input file mafft/OG0001017_clean_align.out.splits.nex...
+105 taxa and 419 splits.
+Consensus tree written to mafft/OG0001017_clean_align.out.contree
+Reading input trees file mafft/OG0001017_clean_align.out.contree
+Log-likelihood of consensus tree: -34990.936
+
+Analysis results written to: 
+  IQ-TREE report:                mafft/OG0001017_clean_align.out.iqtree
+  Maximum-likelihood tree:       mafft/OG0001017_clean_align.out.treefile
+  Likelihood distances:          mafft/OG0001017_clean_align.out.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafft/OG0001017_clean_align.out.splits.nex
+  Consensus tree:                mafft/OG0001017_clean_align.out.contree
+  Screen log file:               mafft/OG0001017_clean_align.out.log
+
+Date and Time: Tue May  3 12:06:55 2022

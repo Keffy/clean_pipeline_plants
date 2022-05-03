@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jul 10 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cn-mem (AVX2, FMA3, 3023 GB RAM)
+Command: iqtree2 -s -T 24 -B 1000 -m MFP
+Seed:    448313 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May  3 11:45:17 2022
+Kernel:  AVX+FMA - 1 threads (144 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 144 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file -T ... ERROR: File not found -T

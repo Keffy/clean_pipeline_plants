@@ -1,0 +1,571 @@
+IQ-TREE 2.0.6 built Jul 10 2020
+
+Input file name: mafft/OG0003596_clean_align.out
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 676974
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 90 sequences with 706 amino-acid sites
+Number of constant sites: 180 (= 25.4958% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 180 (= 25.4958% of all sites)
+Number of parsimony informative sites: 480
+Number of distinct site patterns: 609
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+I+G4         -22346.033   45050.065 - 2.73e-14   45172.575 - 3.83e-07   45866.236 +    0.994
+JTT+G4           -22354.396   45064.792 - 1.73e-17   45185.711 - 5.38e-10   45876.404 -  0.00616
+JTT+F+I+G4       -22295.802   44987.604 +    0.998   45143.036 +    0.994   45890.408 -  5.6e-06
+JTTDCMut+I+G4    -22359.907   45077.815 - 2.57e-20   45200.324 - 3.61e-13   45893.986 - 9.37e-07
+JTT+F+G4         -22302.822   44999.644 -  0.00242   45153.211 -  0.00614   45897.888 - 1.33e-07
+JTTDCMut+G4      -22368.429   45092.858 - 1.39e-23   45213.777 - 4.33e-16   45904.470 - 4.96e-09
+JTTDCMut+F+I+G4  -22306.139   45008.278 - 3.23e-05   45163.710 - 3.22e-05   45911.081 - 1.82e-10
+JTTDCMut+F+G4    -22313.131   45020.263 - 8.08e-08   45173.830 - 2.04e-07   45918.507 - 4.43e-12
+HIVb+F+I+G4      -22413.045   45222.090 -  1.2e-51   45377.522 -  1.2e-51   46124.894 - 6.77e-57
+HIVb+F+G4        -22419.154   45232.307 - 7.28e-54   45385.874 - 1.84e-53   46130.551 -    4e-58
+HIVb+I+G4        -22566.355   45490.710 - 5.64e-110   45613.219 - 7.91e-103   46306.881 - 2.05e-96
+HIVb+G4          -22573.804   45503.607 - 8.92e-113   45624.526 - 2.77e-105   46315.219 - 3.18e-98
+FLU+F+I+G4       -22517.268   45430.535 - 6.57e-97   45585.967 - 6.55e-97   46333.339 - 3.69e-102
+FLU+F+G4         -22523.197   45440.394 - 4.75e-99   45593.961 -  1.2e-98   46338.638 - 2.61e-103
+FLU+I+G4         -22585.004   45528.009 - 4.48e-118   45650.519 - 6.29e-111   46344.180 - 1.63e-104
+FLU+G4           -22593.690   45543.379 - 2.06e-121   45664.298 - 6.41e-114   46354.991 - 7.34e-107
+mtMet+F+I+G4     -22534.586   45465.172 - 1.98e-104   45620.604 - 1.97e-104   46367.976 - 1.11e-109
+mtMet+F+G4       -22538.271   45470.541 - 1.35e-105   45624.108 - 3.42e-105   46368.785 - 7.42e-110
+mtVer+F+I+G4     -22571.849   45539.698 - 1.3e-120   45695.130 - 1.29e-120   46442.502 - 7.29e-126
+mtVer+F+G4       -22579.328   45552.657 - 1.99e-123   45706.224 - 5.04e-123   46450.901 - 1.09e-127
+WAG+F+I+G4       -22580.811   45557.622 - 1.66e-124   45713.054 - 1.66e-124   46460.426 - 9.35e-130
+WAG+F+G4         -22587.587   45569.175 - 5.16e-127   45722.742 - 1.31e-126   46467.419 - 2.83e-131
+LG+F+I+G4        -22590.152   45576.303 - 1.46e-128   45731.735 - 1.46e-128   46479.107 - 8.21e-134
+LG+F+G4          -22594.710   45583.419 - 4.16e-130   45736.986 - 1.05e-129   46481.664 - 2.29e-134
+mtInv+F+I+G4     -22614.404   45624.807 - 4.29e-139   45780.239 - 4.27e-139   46527.611 - 2.41e-144
+mtInv+F+G4       -22618.360   45630.720 - 2.23e-140   45784.287 - 5.64e-140   46528.964 - 1.22e-144
+WAG+I+G4         -22698.778   45755.556 - 1.74e-167   45878.065 - 2.44e-160   46571.727 - 6.34e-154
+WAG+G4           -22707.161   45770.323 - 1.08e-170   45891.241 - 3.36e-163   46581.934 - 3.85e-156
+cpREV+I+G4       -22711.090   45780.181 - 7.82e-173   45902.690 - 1.1e-165   46596.352 - 2.85e-159
+cpREV+G4         -22717.631   45791.261 - 3.07e-175   45912.180 - 9.55e-168   46602.873 - 1.09e-160
+LG+I+G4          -22717.002   45792.003 - 2.12e-175   45914.513 - 2.97e-168   46608.174 - 7.72e-162
+LG+G4            -22722.835   45801.670 - 1.69e-177   45922.588 - 5.25e-170   46613.281 - 6.01e-163
+cpREV+F+I+G4     -22659.854   45715.708 - 7.82e-159   45871.140 - 7.79e-159   46618.512 - 4.39e-164
+LG+R4            -22710.066   45786.132 - 3.99e-174   45915.144 - 2.17e-168   46620.542 - 1.59e-164
+LG+R5            -22703.575   45777.151 - 3.56e-172   45909.497 - 3.65e-167   46620.680 - 1.49e-164
+cpREV+F+G4       -22666.560   45727.119 - 2.6e-161   45880.686 - 6.59e-161   46625.364 - 1.43e-165
+VT+F+I+G4        -22667.497   45730.994 - 3.75e-162   45886.426 - 3.73e-162   46633.798 - 2.11e-167
+VT+F+G4          -22674.115   45742.230 - 1.36e-164   45895.797 - 3.45e-164   46640.474 - 7.48e-169
+LG+R3            -22739.033   45840.067 - 7.75e-186   45965.799 - 2.17e-179   46665.357 - 2.95e-174
+VT+I+G4          -22752.690   45863.380 - 6.71e-191   45985.889 - 9.42e-184   46679.551 - 2.45e-177
+VT+G4            -22760.361   45876.722 - 8.5e-194   45997.640 - 2.64e-186   46688.333 - 3.03e-179
+mtREV+F+G4       -22730.327   45854.654 - 5.27e-189   46008.221 - 1.33e-188   46752.898 - 2.89e-193
+mtREV+F+I+G4     -22727.757   45851.513 - 2.53e-188   46006.945 - 2.52e-188   46754.317 - 1.42e-193
+Dayhoff+F+I+G4   -22765.939   45927.878 - 6.62e-205   46083.310 - 6.6e-205   46830.682 - 3.72e-210
+DCMut+F+I+G4     -22768.291   45932.582 - 6.3e-206   46088.014 - 6.28e-206   46835.386 - 3.54e-211
+Dayhoff+F+G4     -22774.372   45942.743 - 3.92e-208   46096.310 - 9.92e-208   46840.988 - 2.15e-212
+DCMut+F+G4       -22776.718   45947.435 - 3.75e-209   46101.002 - 9.5e-209   46845.679 - 2.06e-213
+LG+R2            -22868.937   46095.875 - 2.19e-241   46218.384 - 3.08e-234   46912.046 - 7.99e-228
+Dayhoff+I+G4     -22905.099   46168.199 - 4.33e-257   46290.708 - 6.07e-250   46984.370 - 1.58e-243
+DCMut+I+G4       -22907.746   46173.493 - 3.07e-258   46296.002 - 4.3e-251   46989.664 - 1.12e-244
+Dayhoff+G4       -22914.852   46185.703 - 6.84e-261   46306.622 - 2.13e-253   46997.315 - 2.44e-246
+DCMut+G4         -22917.509   46191.018 - 4.8e-262   46311.936 - 1.49e-254   47002.630 - 1.71e-247
+rtREV+F+I+G4     -22856.704   46109.407 - 2.53e-244   46264.839 - 2.52e-244   47012.211 - 1.42e-249
+rtREV+F+G4       -22861.219   46116.438 - 7.51e-246   46270.005 - 1.9e-245   47014.682 - 4.13e-250
+HIVw+F+I+G4      -22882.917   46161.834 - 1.04e-255   46317.266 - 1.04e-255   47064.638 - 5.86e-261
+HIVw+F+G4        -22895.457   46184.914 - 1.01e-260   46338.481 - 2.57e-260   47083.158 - 5.57e-265
+mtMAM+F+G4       -22904.392   46202.784 - 1.34e-264   46356.351 - 3.38e-264   47101.028 - 7.34e-269
+mtMAM+F+I+G4     -22901.998   46199.995 - 5.39e-264   46355.427 - 5.37e-264   47102.799 - 3.03e-269
+mtZOA+F+G4       -22953.380   46300.760 - 7.09e-286   46454.327 - 1.8e-285   47199.004 - 3.89e-290
+mtZOA+F+I+G4     -22951.049   46298.098 - 2.68e-285   46453.530 - 2.67e-285   47200.901 - 1.51e-290
+PMB+I+G4         -23112.028   46582.056 -        0   46704.565 -        0   47398.227 -        0
+PMB+G4           -23116.900   46589.801 -        0   46710.719 -        0   47401.412 -        0
+PMB+F+I+G4       -23052.950   46501.901 -        0   46657.333 -        0   47404.705 -        0
+PMB+F+G4         -23057.760   46509.521 -        0   46663.088 -        0   47407.765 -        0
+rtREV+I+G4       -23133.104   46624.209 -        0   46746.718 -        0   47440.380 -        0
+rtREV+G4         -23139.348   46634.696 -        0   46755.614 -        0   47446.307 -        0
+HIVw+I+G4        -23137.455   46632.910 -        0   46755.419 -        0   47449.081 -        0
+HIVw+G4          -23151.198   46658.396 -        0   46779.315 -        0   47470.008 -        0
+Blosum62+F+I+G4  -23095.073   46586.146 -        0   46741.578 -        0   47488.950 -        0
+Blosum62+F+G4    -23099.556   46593.111 -        0   46746.678 -        0   47491.355 -        0
+mtMet+G4         -23169.013   46694.026 -        0   46814.945 -        0   47505.638 -        0
+mtMet+I+G4       -23166.486   46690.972 -        0   46813.481 -        0   47507.143 -        0
+Blosum62+I+G4    -23197.682   46753.364 -        0   46875.873 -        0   47569.535 -        0
+Blosum62+G4      -23202.477   46760.953 -        0   46881.872 -        0   47572.565 -        0
+mtVer+G4         -23216.195   46788.390 -        0   46909.308 -        0   47600.001 -        0
+mtVer+I+G4       -23213.405   46784.809 -        0   46907.319 -        0   47600.980 -        0
+mtZOA+G4         -23353.529   47063.059 -        0   47183.977 -        0   47874.670 -        0
+mtZOA+I+G4       -23351.351   47060.702 -        0   47183.211 -        0   47876.873 -        0
+mtInv+G4         -23413.014   47182.029 -        0   47302.947 -        0   47993.640 -        0
+mtInv+I+G4       -23410.304   47178.609 -        0   47301.119 -        0   47994.780 -        0
+LG+I             -23476.967   47309.934 -        0   47430.852 -        0   48121.545 -        0
+mtREV+G4         -23491.949   47339.899 -        0   47460.817 -        0   48151.510 -        0
+mtREV+I+G4       -23490.880   47339.761 -        0   47462.270 -        0   48155.932 -        0
+mtART+F+G4       -23507.207   47408.414 -        0   47561.981 -        0   48306.658 -        0
+mtART+F+I+G4     -23505.509   47407.018 -        0   47562.450 -        0   48309.822 -        0
+mtMAM+G4         -23643.589   47643.178 -        0   47764.096 -        0   48454.789 -        0
+mtMAM+I+G4       -23642.734   47643.468 -        0   47765.977 -        0   48459.639 -        0
+LG               -23740.606   47835.213 -        0   47954.553 -        0   48642.264 -        0
+mtART+G4         -24064.356   48484.712 -        0   48605.631 -        0   49296.324 -        0
+mtART+I+G4       -24062.254   48482.508 -        0   48605.017 -        0   49298.679 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0687
+Gamma shape alpha: 1.2485
+
+ Category  Relative_rate  Proportion
+  0         0              0.0687
+  1         0.1973         0.2328
+  2         0.5804         0.2328
+  3         1.1076         0.2328
+  4         2.4098         0.2328
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -22339.1876 (s.e. 710.3122)
+Unconstrained log-likelihood (without tree): -4443.8351
+Number of free parameters (#branches + #model parameters): 179
+Akaike information criterion (AIC) score: 45036.3752
+Corrected Akaike information criterion (AICc) score: 45158.8847
+Bayesian information criterion (BIC) score: 45852.5463
+
+Total tree length (sum of branch lengths): 10.2593
+Sum of internal branch lengths: 6.1210 (59.6627% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0014) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Arabidopsis_lyrata_XP_002865872.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**Arabidopsis_lyrata_XP_002865872.1
+|
++**Arabidopsis_lyrata_XP_020884717.1
+|
+|     +**Arabidopsis_thaliana_NP_001330155.1
+|  +--| (100)
+|  |  +**Arabidopsis_thaliana_NP_199982.2
++--| (100)
+   |  +--Capsella_rubella_XP_023636072.1
+   +--| (99)
+      |  +--Eutrema_salsugineum_XP_024011619.1
+      +--| (90)
+         |        +**Brassica_oleracea_XP_013621567.1
+         |     +--| (100)
+         |     |  +**Brassica_oleracea_XP_013621568.1
+         |  +--| (100)
+         |  |  |  +**Brassica_rapa_XP_009127276.1
+         |  |  +--| (100)
+         |  |     +**Brassica_rapa_XP_009127280.1
+         +--| (86)
+            |                                         +--Capsicum_annuum_XP_016564777.1
+            |                                      +--| (99)
+            |                                      |  |     +--Solanum_lycopersicum_XP_004234155.1
+            |                                      |  |  +--| (100)
+            |                                      |  |  |  +--Solanum_pennellii_XP_015070880.1
+            |                                      |  +--| (100)
+            |                                      |     +--Solanum_tuberosum_XP_006348054.1
+            |                            +---------| (100)
+            |                            |         |  +**Nicotiana_attenuata_XP_019236061.1
+            |                            |         +--| (100)
+            |                            |            +**Nicotiana_attenuata_XP_019236062.1
+            |                         +--| (87)
+            |                         |  |  +---------Helianthus_annuus_XP_022029671.1
+            |                         |  +--| (96)
+            |                         |     |                    +--Capsicum_annuum_XP_016568455.1
+            |                         |     |                 +--| (97)
+            |                         |     |                 |  |     +**Solanum_lycopersicum_XP_004245687.1
+            |                         |     |                 |  |  +--| (99)
+            |                         |     |                 |  |  |  |  +**Solanum_lycopersicum_XP_010325446.1
+            |                         |     |                 |  |  |  +**| (52)
+            |                         |     |                 |  |  |     |  +**Solanum_pennellii_XP_015084962.1
+            |                         |     |                 |  |  |     +--| (99)
+            |                         |     |                 |  |  |        +**Solanum_pennellii_XP_015084964.1
+            |                         |     |                 |  +--| (100)
+            |                         |     |                 |     +--Solanum_tuberosum_XP_006363709.1
+            |                         |     |           +-----| (100)
+            |                         |     |           |     |     +**Nicotiana_attenuata_XP_019242319.1
+            |                         |     |           |     |  +--| (100)
+            |                         |     |           |     |  |  +--Nicotiana_attenuata_XP_019242320.1
+            |                         |     |           |     +--| (100)
+            |                         |     |           |        |  +**Nicotiana_attenuata_XP_019252279.1
+            |                         |     |           |        +**| (49)
+            |                         |     |           |           +--Nicotiana_attenuata_XP_019252280.1
+            |                         |     |        +--| (99)
+            |                         |     |        |  |                  +**Helianthus_annuus_XP_022021405.1
+            |                         |     |        |  +------------------| (100)
+            |                         |     |        |                     +**Helianthus_annuus_XP_022021411.1
+            |                         |     |     +--| (91)
+            |                         |     |     |  |                 +-----Carica_papaya_XP_021901739.1
+            |                         |     |     |  |              +--| (97)
+            |                         |     |     |  |              |  |                  +--Arabidopsis_lyrata_XP_002886443.1
+            |                         |     |     |  |              |  |               +--| (97)
+            |                         |     |     |  |              |  |               |  +--Arabidopsis_thaliana_NP_564804.1
+            |                         |     |     |  |              |  |            +--| (100)
+            |                         |     |     |  |              |  |            |  +--Capsella_rubella_XP_006302086.1
+            |                         |     |     |  |              |  |         +--| (98)
+            |                         |     |     |  |              |  |         |  |     +**Eutrema_salsugineum_XP_006391802.1
+            |                         |     |     |  |              |  |         |  |  +--| (100)
+            |                         |     |     |  |              |  |         |  |  |  +**Eutrema_salsugineum_XP_024015949.1
+            |                         |     |     |  |              |  |         |  +--| (94)
+            |                         |     |     |  |              |  |         |     |   +--Brassica_oleracea_XP_013606155.1
+            |                         |     |     |  |              |  |         |     +---| (100)
+            |                         |     |     |  |              |  |         |         +--Brassica_rapa_XP_009113033.2
+            |                         |     |     |  |              |  +---------| (100)
+            |                         |     |     |  |              |            |    +--Arabidopsis_lyrata_XP_002892690.2
+            |                         |     |     |  |              |            +----| (100)
+            |                         |     |     |  |              |                 +---Capsella_rubella_XP_023645062.1
+            |                         |     |     |  |           +--| (90)
+            |                         |     |     |  |           |  |  +----Gossypium_hirsutum_XP_016724623.1
+            |                         |     |     |  |           |  +--| (100)
+            |                         |     |     |  |           |     +---Gossypium_hirsutum_XP_016733578.1
+            |                         |     |     |  |        +--| (77)
+            |                         |     |     |  |        |  |     +----Jatropha_curcas_XP_012087062.2
+            |                         |     |     |  |        |  |  +--| (100)
+            |                         |     |     |  |        |  |  |  |       +**Populus_euphratica_XP_011015431.1
+            |                         |     |     |  |        |  |  |  |    +--| (100)
+            |                         |     |     |  |        |  |  |  |    |  +--Populus_euphratica_XP_011033857.1
+            |                         |     |     |  |        |  |  |  +----| (100)
+            |                         |     |     |  |        |  |  |       +--Populus_trichocarpa_XP_002304448.1
+            |                         |     |     |  |        |  +--| (68)
+            |                         |     |     |  |        |     +--------Citrus_sinensis_XP_006477323.1
+            |                         |     |     |  |     +--| (77)
+            |                         |     |     |  |     |  |     +----Fragaria_vesca_XP_004298716.1
+            |                         |     |     |  |     |  |  +--| (100)
+            |                         |     |     |  |     |  |  |  |     +--Malus_domestica_XP_008373865.2
+            |                         |     |     |  |     |  |  |  |  +--| (100)
+            |                         |     |     |  |     |  |  |  |  |  +--Pyrus_x_bretschneideri_XP_009373340.1
+            |                         |     |     |  |     |  |  |  +--| (99)
+            |                         |     |     |  |     |  |  |     |  +--Prunus_mume_XP_008238682.1
+            |                         |     |     |  |     |  |  |     +--| (100)
+            |                         |     |     |  |     |  |  |        +--Prunus_persica_XP_007209879.1
+            |                         |     |     |  |     |  +--| (98)
+            |                         |     |     |  |     |     |              +--Cucumis_melo_XP_008437168.1
+            |                         |     |     |  |     |     +--------------| (100)
+            |                         |     |     |  |     |                    +--Cucumis_sativus_XP_004147561.1
+            |                         |     |     |  |  +--| (59)
+            |                         |     |     |  |  |  |              +--Cicer_arietinum_XP_004511632.1
+            |                         |     |     |  |  |  |          +---| (100)
+            |                         |     |     |  |  |  |          |   +---Medicago_truncatula_XP_003611203.1
+            |                         |     |     |  |  |  +----------| (100)
+            |                         |     |     |  |  |             |       +--Glycine_max_XP_003517444.1
+            |                         |     |     |  |  |             |    +--| (100)
+            |                         |     |     |  |  |             |    |  +--Glycine_max_XP_003538521.1
+            |                         |     |     |  |  |             +----| (100)
+            |                         |     |     |  |  |                  +--Phaseolus_vulgaris_XP_007158426.1
+            |                         |     |     |  +--| (87)
+            |                         |     |     |     |      +**Vitis_vinifera_XP_002281504.4
+            |                         |     |     |     +------| (100)
+            |                         |     |     |            +--Vitis_vinifera_XP_002281516.3
+            |                         |     +-----| (100)
+            |                         |           |        +--Papaver_somniferum_XP_026380299.1
+            |                         |           +--------| (100)
+            |                         |                    +--Papaver_somniferum_XP_026409612.1
+            |                      +--| (98)
+            |                      |  |       +**Vitis_vinifera_XP_002268932.2
+            |                      |  +-------| (100)
+            |                      |          +**Vitis_vinifera_XP_010662365.1
+            |                   +--| (75)
+            |                   |  |      +----Fragaria_vesca_XP_011470445.1
+            |                   |  |  +---| (100)
+            |                   |  |  |   |     +--Malus_domestica_XP_008343708.1
+            |                   |  |  |   |  +--| (100)
+            |                   |  |  |   |  |  |  +--Pyrus_x_bretschneideri_XP_009374544.1
+            |                   |  |  |   |  |  +--| (100)
+            |                   |  |  |   |  |     +**Pyrus_x_bretschneideri_XP_018506959.1
+            |                   |  |  |   +--| (90)
+            |                   |  |  |      |     +**Prunus_mume_XP_008234348.1
+            |                   |  |  |      |  +--| (100)
+            |                   |  |  |      |  |  +**Prunus_mume_XP_016650302.1
+            |                   |  |  |      +--| (100)
+            |                   |  |  |         +--Prunus_persica_XP_007219026.1
+            |                   |  +--| (37)
+            |                   |     |          +--Cucumis_melo_XP_008439119.1
+            |                   |     |  +-------| (100)
+            |                   |     |  |       +--Cucumis_sativus_XP_004148155.1
+            |                   |     +--| (54)
+            |                   |        |           +--Cicer_arietinum_XP_004506280.1
+            |                   |        |        +--| (100)
+            |                   |        |        |  +--Medicago_truncatula_XP_013452470.1
+            |                   |        +--------| (100)
+            |                   |                 |     +--Glycine_max_XP_003533255.1
+            |                   |                 |  +--| (100)
+            |                   |                 |  |  +--Glycine_max_XP_003549142.1
+            |                   |                 +--| (100)
+            |                   |                    +--Phaseolus_vulgaris_XP_007152395.1
+            |                +--| (51)
+            |                |  |  +-----Citrus_sinensis_XP_006490258.1
+            |                |  +--| (61)
+            |                |     |        +**Jatropha_curcas_XP_012090384.1
+            |                |     |     +--| (100)
+            |                |     |     |  +**Jatropha_curcas_XP_037492284.1
+            |                |     |  +--| (99)
+            |                |     |  |  |  +--Manihot_esculenta_XP_021592085.1
+            |                |     |  |  +--| (100)
+            |                |     |  |     +---Manihot_esculenta_XP_021616259.1
+            |                |     +--| (76)
+            |                |        |        +--Populus_euphratica_XP_011041679.1
+            |                |        +--------| (100)
+            |                |                 |  +**Populus_trichocarpa_XP_024442625.1
+            |                |                 +--| (100)
+            |                |                    +**Populus_trichocarpa_XP_024442627.1
+            |             +--| (72)
+            |             |  |      +**Carica_papaya_XP_021909254.1
+            |             |  +------| (100)
+            |             |         +**Carica_papaya_XP_021909255.1
+            +-------------| (100)
+                          |          +--Gossypium_hirsutum_XP_016720767.1
+                          +----------| (100)
+                                     +--Gossypium_hirsutum_XP_016744516.1
+
+Tree in newick format:
+
+(Arabidopsis_lyrata_XP_002865872.1:0.0000010014,Arabidopsis_lyrata_XP_020884717.1:0.0000010014,((Arabidopsis_thaliana_NP_001330155.1:0.0000029913,Arabidopsis_thaliana_NP_199982.2:0.0000020059)100:0.0209678881,(Capsella_rubella_XP_023636072.1:0.0339095980,(Eutrema_salsugineum_XP_024011619.1:0.0317846346,(((Brassica_oleracea_XP_013621567.1:0.0000010014,Brassica_oleracea_XP_013621568.1:0.0000010014)100:0.0223490351,(Brassica_rapa_XP_009127276.1:0.0000010014,Brassica_rapa_XP_009127280.1:0.0000010014)100:0.0050384264)100:0.0613418653,((((((((Capsicum_annuum_XP_016564777.1:0.0689216128,((Solanum_lycopersicum_XP_004234155.1:0.0063846131,Solanum_pennellii_XP_015070880.1:0.0042416961)100:0.0408904967,Solanum_tuberosum_XP_006348054.1:0.0181878634)100:0.0377801896)99:0.0326723627,(Nicotiana_attenuata_XP_019236061.1:0.0000010014,Nicotiana_attenuata_XP_019236062.1:0.0000010014)100:0.0578748263)100:0.2637178980,(Helianthus_annuus_XP_022029671.1:0.2637949109,(((((Capsicum_annuum_XP_016568455.1:0.0769462920,((Solanum_lycopersicum_XP_004245687.1:0.0000010014,(Solanum_lycopersicum_XP_010325446.1:0.0000010014,(Solanum_pennellii_XP_015084962.1:0.0000010014,Solanum_pennellii_XP_015084964.1:0.0000010014)99:0.0057619314)52:0.0000010014)99:0.0111418273,Solanum_tuberosum_XP_006363709.1:0.0095892574)100:0.0276810749)97:0.0311296824,((Nicotiana_attenuata_XP_019242319.1:0.0000010014,Nicotiana_attenuata_XP_019242320.1:0.0040173522)100:0.0246200674,(Nicotiana_attenuata_XP_019252279.1:0.0000010014,Nicotiana_attenuata_XP_019252280.1:0.0020126744)49:0.0000010014)100:0.0459094987)100:0.1731053386,(Helianthus_annuus_XP_022021405.1:0.0000010014,Helianthus_annuus_XP_022021411.1:0.0000010014)100:0.4729089723)99:0.0672984311,((((((Carica_papaya_XP_021901739.1:0.1525553334,((((Arabidopsis_lyrata_XP_002886443.1:0.0202777680,Arabidopsis_thaliana_NP_564804.1:0.0109534711)97:0.0130214854,Capsella_rubella_XP_006302086.1:0.0304492830)100:0.0268738495,((Eutrema_salsugineum_XP_006391802.1:0.0000025019,Eutrema_salsugineum_XP_024015949.1:0.0000025890)100:0.0453485915,(Brassica_oleracea_XP_013606155.1:0.0288368514,Brassica_rapa_XP_009113033.2:0.0211226468)100:0.1075243823)94:0.0226810096)98:0.0778167310,(Arabidopsis_lyrata_XP_002892690.2:0.0389981143,Capsella_rubella_XP_023645062.1:0.1000399781)100:0.1412174285)100:0.2594061854)97:0.0305756621,(Gossypium_hirsutum_XP_016724623.1:0.1479991487,Gossypium_hirsutum_XP_016733578.1:0.1118839546)100:0.0977427371)90:0.0273387847,((Jatropha_curcas_XP_012087062.2:0.1477963283,((Populus_euphratica_XP_011015431.1:0.0000010014,Populus_euphratica_XP_011033857.1:0.0019699894)100:0.0343907356,Populus_trichocarpa_XP_002304448.1:0.0104794652)100:0.1443671236)100:0.0732990566,Citrus_sinensis_XP_006477323.1:0.2294024703)68:0.0134539888)77:0.0304011059,((Fragaria_vesca_XP_004298716.1:0.1248732591,((Malus_domestica_XP_008373865.2:0.0055727538,Pyrus_x_bretschneideri_XP_009373340.1:0.0193349734)100:0.0655682205,(Prunus_mume_XP_008238682.1:0.0042701989,Prunus_persica_XP_007209879.1:0.0064934555)100:0.0735569325)99:0.0250545219)100:0.0768875253,(Cucumis_melo_XP_008437168.1:0.0168275176,Cucumis_sativus_XP_004147561.1:0.0151731011)100:0.3758629843)98:0.0331724227)77:0.0274260528,((Cicer_arietinum_XP_004511632.1:0.0539786605,Medicago_truncatula_XP_003611203.1:0.1198696822)100:0.1204560222,((Glycine_max_XP_003517444.1:0.0620520542,Glycine_max_XP_003538521.1:0.0478851901)100:0.0461616184,Phaseolus_vulgaris_XP_007158426.1:0.0786636051)100:0.1348989171)100:0.2939171365)59:0.0160574495,(Vitis_vinifera_XP_002281504.4:0.0000021434,Vitis_vinifera_XP_002281516.3:0.0021222582)100:0.1975336961)87:0.0331113487)91:0.0334635485,(Papaver_somniferum_XP_026380299.1:0.0167694500,Papaver_somniferum_XP_026409612.1:0.0215486342)100:0.2292039766)100:0.1500512056)96:0.0331833696)87:0.0205076215,(Vitis_vinifera_XP_002268932.2:0.0000025508,Vitis_vinifera_XP_010662365.1:0.0000010014)100:0.2105709212)98:0.0611847236,((Fragaria_vesca_XP_011470445.1:0.1338497430,((Malus_domestica_XP_008343708.1:0.0096294248,(Pyrus_x_bretschneideri_XP_009374544.1:0.0023996864,Pyrus_x_bretschneideri_XP_018506959.1:0.0000010014)100:0.0098439961)100:0.0602102913,((Prunus_mume_XP_008234348.1:0.0000010014,Prunus_mume_XP_016650302.1:0.0000010014)100:0.0130409001,Prunus_persica_XP_007219026.1:0.0085918530)100:0.0551967402)90:0.0185794172)100:0.1061363920,((Cucumis_melo_XP_008439119.1:0.0035506574,Cucumis_sativus_XP_004148155.1:0.0107847859)100:0.2087157551,((Cicer_arietinum_XP_004506280.1:0.0399064139,Medicago_truncatula_XP_013452470.1:0.0853137612)100:0.0828965080,((Glycine_max_XP_003533255.1:0.0282973786,Glycine_max_XP_003549142.1:0.0186359465)100:0.0442111516,Phaseolus_vulgaris_XP_007152395.1:0.0487237307)100:0.0907788865)100:0.2399031515)54:0.0402391435)37:0.0146821579)75:0.0322306429,(Citrus_sinensis_XP_006490258.1:0.1695896787,(((Jatropha_curcas_XP_012090384.1:0.0000010014,Jatropha_curcas_XP_037492284.1:0.0000010014)100:0.0984898211,(Manihot_esculenta_XP_021592085.1:0.0637505694,Manihot_esculenta_XP_021616259.1:0.1139655641)100:0.0493065157)99:0.0521798009,(Populus_euphratica_XP_011041679.1:0.0259507320,(Populus_trichocarpa_XP_024442625.1:0.0000010014,Populus_trichocarpa_XP_024442627.1:0.0000010014)100:0.0199775531)100:0.2277428976)76:0.0389396349)61:0.0104032278)51:0.0190058670,(Carica_papaya_XP_021909254.1:0.0000010014,Carica_papaya_XP_021909255.1:0.0000010014)100:0.1787869736)72:0.0423811823,(Gossypium_hirsutum_XP_016720767.1:0.0315115085,Gossypium_hirsutum_XP_016744516.1:0.0247337471)100:0.2783848599)100:0.3691609189)86:0.0190717937)90:0.0233299101)99:0.0051594359)100:0.0176284508);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -22339.202283
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Arabidopsis_lyrata_XP_002865872.1
+|
++--Arabidopsis_lyrata_XP_020884717.1
+|
+|     +--Arabidopsis_thaliana_NP_001330155.1
+|  +--| (100)
+|  |  +--Arabidopsis_thaliana_NP_199982.2
++--| (100)
+   |  +--Capsella_rubella_XP_023636072.1
+   +--| (99)
+      |  +--Eutrema_salsugineum_XP_024011619.1
+      +--| (90)
+         |        +--Brassica_oleracea_XP_013621567.1
+         |     +--| (100)
+         |     |  +--Brassica_oleracea_XP_013621568.1
+         |  +--| (100)
+         |  |  |  +--Brassica_rapa_XP_009127276.1
+         |  |  +--| (100)
+         |  |     +--Brassica_rapa_XP_009127280.1
+         +--| (86)
+            |                                         +--Capsicum_annuum_XP_016564777.1
+            |                                      +--| (99)
+            |                                      |  |     +--Solanum_lycopersicum_XP_004234155.1
+            |                                      |  |  +--| (100)
+            |                                      |  |  |  +--Solanum_pennellii_XP_015070880.1
+            |                                      |  +--| (100)
+            |                                      |     +--Solanum_tuberosum_XP_006348054.1
+            |                            +---------| (100)
+            |                            |         |  +--Nicotiana_attenuata_XP_019236061.1
+            |                            |         +--| (100)
+            |                            |            +--Nicotiana_attenuata_XP_019236062.1
+            |                         +--| (87)
+            |                         |  |  +---------Helianthus_annuus_XP_022029671.1
+            |                         |  +--| (96)
+            |                         |     |                    +--Capsicum_annuum_XP_016568455.1
+            |                         |     |                 +--| (97)
+            |                         |     |                 |  |     +--Solanum_lycopersicum_XP_004245687.1
+            |                         |     |                 |  |  +--| (99)
+            |                         |     |                 |  |  |  |  +--Solanum_lycopersicum_XP_010325446.1
+            |                         |     |                 |  |  |  +--| (52)
+            |                         |     |                 |  |  |     |  +--Solanum_pennellii_XP_015084962.1
+            |                         |     |                 |  |  |     +--| (99)
+            |                         |     |                 |  |  |        +--Solanum_pennellii_XP_015084964.1
+            |                         |     |                 |  +--| (100)
+            |                         |     |                 |     +--Solanum_tuberosum_XP_006363709.1
+            |                         |     |           +-----| (100)
+            |                         |     |           |     |     +--Nicotiana_attenuata_XP_019242319.1
+            |                         |     |           |     |  +--| (100)
+            |                         |     |           |     |  |  +--Nicotiana_attenuata_XP_019242320.1
+            |                         |     |           |     +--| (100)
+            |                         |     |           |        |  +--Nicotiana_attenuata_XP_019252279.1
+            |                         |     |           |        +--| (49)
+            |                         |     |           |           +--Nicotiana_attenuata_XP_019252280.1
+            |                         |     |        +--| (99)
+            |                         |     |        |  |                  +--Helianthus_annuus_XP_022021405.1
+            |                         |     |        |  +------------------| (100)
+            |                         |     |        |                     +--Helianthus_annuus_XP_022021411.1
+            |                         |     |     +--| (91)
+            |                         |     |     |  |                 +-----Carica_papaya_XP_021901739.1
+            |                         |     |     |  |              +--| (97)
+            |                         |     |     |  |              |  |                  +--Arabidopsis_lyrata_XP_002886443.1
+            |                         |     |     |  |              |  |               +--| (97)
+            |                         |     |     |  |              |  |               |  +--Arabidopsis_thaliana_NP_564804.1
+            |                         |     |     |  |              |  |            +--| (100)
+            |                         |     |     |  |              |  |            |  +--Capsella_rubella_XP_006302086.1
+            |                         |     |     |  |              |  |         +--| (98)
+            |                         |     |     |  |              |  |         |  |     +--Eutrema_salsugineum_XP_006391802.1
+            |                         |     |     |  |              |  |         |  |  +--| (100)
+            |                         |     |     |  |              |  |         |  |  |  +--Eutrema_salsugineum_XP_024015949.1
+            |                         |     |     |  |              |  |         |  +--| (94)
+            |                         |     |     |  |              |  |         |     |   +--Brassica_oleracea_XP_013606155.1
+            |                         |     |     |  |              |  |         |     +---| (100)
+            |                         |     |     |  |              |  |         |         +--Brassica_rapa_XP_009113033.2
+            |                         |     |     |  |              |  +---------| (100)
+            |                         |     |     |  |              |            |    +--Arabidopsis_lyrata_XP_002892690.2
+            |                         |     |     |  |              |            +----| (100)
+            |                         |     |     |  |              |                 +---Capsella_rubella_XP_023645062.1
+            |                         |     |     |  |           +--| (90)
+            |                         |     |     |  |           |  |  +----Gossypium_hirsutum_XP_016724623.1
+            |                         |     |     |  |           |  +--| (100)
+            |                         |     |     |  |           |     +---Gossypium_hirsutum_XP_016733578.1
+            |                         |     |     |  |        +--| (77)
+            |                         |     |     |  |        |  |     +----Jatropha_curcas_XP_012087062.2
+            |                         |     |     |  |        |  |  +--| (100)
+            |                         |     |     |  |        |  |  |  |       +--Populus_euphratica_XP_011015431.1
+            |                         |     |     |  |        |  |  |  |    +--| (100)
+            |                         |     |     |  |        |  |  |  |    |  +--Populus_euphratica_XP_011033857.1
+            |                         |     |     |  |        |  |  |  +----| (100)
+            |                         |     |     |  |        |  |  |       +--Populus_trichocarpa_XP_002304448.1
+            |                         |     |     |  |        |  +--| (68)
+            |                         |     |     |  |        |     +--------Citrus_sinensis_XP_006477323.1
+            |                         |     |     |  |     +--| (77)
+            |                         |     |     |  |     |  |     +----Fragaria_vesca_XP_004298716.1
+            |                         |     |     |  |     |  |  +--| (100)
+            |                         |     |     |  |     |  |  |  |     +--Malus_domestica_XP_008373865.2
+            |                         |     |     |  |     |  |  |  |  +--| (100)
+            |                         |     |     |  |     |  |  |  |  |  +--Pyrus_x_bretschneideri_XP_009373340.1
+            |                         |     |     |  |     |  |  |  +--| (99)
+            |                         |     |     |  |     |  |  |     |  +--Prunus_mume_XP_008238682.1
+            |                         |     |     |  |     |  |  |     +--| (100)
+            |                         |     |     |  |     |  |  |        +--Prunus_persica_XP_007209879.1
+            |                         |     |     |  |     |  +--| (98)
+            |                         |     |     |  |     |     |              +--Cucumis_melo_XP_008437168.1
+            |                         |     |     |  |     |     +--------------| (100)
+            |                         |     |     |  |     |                    +--Cucumis_sativus_XP_004147561.1
+            |                         |     |     |  |  +--| (59)
+            |                         |     |     |  |  |  |              +--Cicer_arietinum_XP_004511632.1
+            |                         |     |     |  |  |  |          +---| (100)
+            |                         |     |     |  |  |  |          |   +---Medicago_truncatula_XP_003611203.1
+            |                         |     |     |  |  |  +----------| (100)
+            |                         |     |     |  |  |             |       +--Glycine_max_XP_003517444.1
+            |                         |     |     |  |  |             |    +--| (100)
+            |                         |     |     |  |  |             |    |  +--Glycine_max_XP_003538521.1
+            |                         |     |     |  |  |             +----| (100)
+            |                         |     |     |  |  |                  +--Phaseolus_vulgaris_XP_007158426.1
+            |                         |     |     |  +--| (87)
+            |                         |     |     |     |      +--Vitis_vinifera_XP_002281504.4
+            |                         |     |     |     +------| (100)
+            |                         |     |     |            +--Vitis_vinifera_XP_002281516.3
+            |                         |     +-----| (100)
+            |                         |           |        +--Papaver_somniferum_XP_026380299.1
+            |                         |           +--------| (100)
+            |                         |                    +--Papaver_somniferum_XP_026409612.1
+            |                      +--| (98)
+            |                      |  |       +--Vitis_vinifera_XP_002268932.2
+            |                      |  +-------| (100)
+            |                      |          +--Vitis_vinifera_XP_010662365.1
+            |                   +--| (75)
+            |                   |  |      +----Fragaria_vesca_XP_011470445.1
+            |                   |  |  +---| (100)
+            |                   |  |  |   |     +--Malus_domestica_XP_008343708.1
+            |                   |  |  |   |  +--| (100)
+            |                   |  |  |   |  |  |  +--Pyrus_x_bretschneideri_XP_009374544.1
+            |                   |  |  |   |  |  +--| (100)
+            |                   |  |  |   |  |     +--Pyrus_x_bretschneideri_XP_018506959.1
+            |                   |  |  |   +--| (90)
+            |                   |  |  |      |     +--Prunus_mume_XP_008234348.1
+            |                   |  |  |      |  +--| (100)
+            |                   |  |  |      |  |  +--Prunus_mume_XP_016650302.1
+            |                   |  |  |      +--| (100)
+            |                   |  |  |         +--Prunus_persica_XP_007219026.1
+            |                   |  +--| (37)
+            |                   |     |          +--Cucumis_melo_XP_008439119.1
+            |                   |     |  +-------| (100)
+            |                   |     |  |       +--Cucumis_sativus_XP_004148155.1
+            |                   |     +--| (54)
+            |                   |        |           +--Cicer_arietinum_XP_004506280.1
+            |                   |        |        +--| (100)
+            |                   |        |        |  +--Medicago_truncatula_XP_013452470.1
+            |                   |        +--------| (100)
+            |                   |                 |     +--Glycine_max_XP_003533255.1
+            |                   |                 |  +--| (100)
+            |                   |                 |  |  +--Glycine_max_XP_003549142.1
+            |                   |                 +--| (100)
+            |                   |                    +--Phaseolus_vulgaris_XP_007152395.1
+            |                +--| (51)
+            |                |  |  +-----Citrus_sinensis_XP_006490258.1
+            |                |  +--| (61)
+            |                |     |        +--Jatropha_curcas_XP_012090384.1
+            |                |     |     +--| (100)
+            |                |     |     |  +--Jatropha_curcas_XP_037492284.1
+            |                |     |  +--| (99)
+            |                |     |  |  |  +--Manihot_esculenta_XP_021592085.1
+            |                |     |  |  +--| (100)
+            |                |     |  |     +---Manihot_esculenta_XP_021616259.1
+            |                |     +--| (76)
+            |                |        |        +--Populus_euphratica_XP_011041679.1
+            |                |        +--------| (100)
+            |                |                 |  +--Populus_trichocarpa_XP_024442625.1
+            |                |                 +--| (100)
+            |                |                    +--Populus_trichocarpa_XP_024442627.1
+            |             +--| (72)
+            |             |  |      +--Carica_papaya_XP_021909254.1
+            |             |  +------| (100)
+            |             |         +--Carica_papaya_XP_021909255.1
+            +-------------| (100)
+                          |          +--Gossypium_hirsutum_XP_016720767.1
+                          +----------| (100)
+                                     +--Gossypium_hirsutum_XP_016744516.1
+
+
+Consensus tree in newick format: 
+
+(Arabidopsis_lyrata_XP_002865872.1:0.0000023841,Arabidopsis_lyrata_XP_020884717.1:0.0000023841,((Arabidopsis_thaliana_NP_001330155.1:0.0000023841,Arabidopsis_thaliana_NP_199982.2:0.0000020414)100:0.0209074761,(Capsella_rubella_XP_023636072.1:0.0338136875,(Eutrema_salsugineum_XP_024011619.1:0.0316981987,(((Brassica_oleracea_XP_013621567.1:0.0000023841,Brassica_oleracea_XP_013621568.1:0.0000023841)100:0.0222839543,(Brassica_rapa_XP_009127276.1:0.0000023841,Brassica_rapa_XP_009127280.1:0.0000023841)100:0.0050263093)100:0.0611789773,((((((((Capsicum_annuum_XP_016564777.1:0.0687142854,((Solanum_lycopersicum_XP_004234155.1:0.0063660199,Solanum_pennellii_XP_015070880.1:0.0042287987)100:0.0407639099,Solanum_tuberosum_XP_006348054.1:0.0181291092)100:0.0376741548)99:0.0325656450,(Nicotiana_attenuata_XP_019236061.1:0.0000027772,Nicotiana_attenuata_XP_019236062.1:0.0000023841)100:0.0577248235)100:0.2628685112,(Helianthus_annuus_XP_022029671.1:0.2629098585,(((((Capsicum_annuum_XP_016568455.1:0.0767026561,((Solanum_lycopersicum_XP_004245687.1:0.0000023841,(Solanum_lycopersicum_XP_010325446.1:0.0000023841,(Solanum_pennellii_XP_015084962.1:0.0000023841,Solanum_pennellii_XP_015084964.1:0.0000023841)99:0.0057447553)52:0.0000023841)99:0.0111084606,Solanum_tuberosum_XP_006363709.1:0.0095588211)100:0.0275916142)97:0.0310179216,((Nicotiana_attenuata_XP_019242319.1:0.0000023841,Nicotiana_attenuata_XP_019242320.1:0.0040017312)100:0.0245245781,(Nicotiana_attenuata_XP_019252279.1:0.0000023841,Nicotiana_attenuata_XP_019252280.1:0.0020063203)49:0.0000027772)100:0.0458001729)100:0.1724408979,(Helianthus_annuus_XP_022021405.1:0.0000023607,Helianthus_annuus_XP_022021411.1:0.0000023841)100:0.4712120401)99:0.0671808918,((((((Carica_papaya_XP_021901739.1:0.1520042473,((((Arabidopsis_lyrata_XP_002886443.1:0.0202023681,Arabidopsis_thaliana_NP_564804.1:0.0109149537)97:0.0129730131,Capsella_rubella_XP_006302086.1:0.0303407319)100:0.0267645920,((Eutrema_salsugineum_XP_006391802.1:0.0000023841,Eutrema_salsugineum_XP_024015949.1:0.0000023841)100:0.0451837912,(Brassica_oleracea_XP_013606155.1:0.0287369377,Brassica_rapa_XP_009113033.2:0.0210363512)100:0.1070953798)94:0.0226173382)98:0.0775673559,(Arabidopsis_lyrata_XP_002892690.2:0.0388499712,Capsella_rubella_XP_023645062.1:0.0996185274)100:0.1406877933)100:0.2583905603)97:0.0304696489,(Gossypium_hirsutum_XP_016724623.1:0.1474446028,Gossypium_hirsutum_XP_016733578.1:0.1114494271)100:0.0974077491)90:0.0272516803,((Jatropha_curcas_XP_012087062.2:0.1472473720,((Populus_euphratica_XP_011015431.1:0.0000023841,Populus_euphratica_XP_011033857.1:0.0019631662)100:0.0342655125,Populus_trichocarpa_XP_002304448.1:0.0104526045)100:0.1438245797)100:0.0730380146,Citrus_sinensis_XP_006477323.1:0.2285147314)68:0.0134357966)77:0.0303024404,((Fragaria_vesca_XP_004298716.1:0.1244208642,((Malus_domestica_XP_008373865.2:0.0055548390,Pyrus_x_bretschneideri_XP_009373340.1:0.0192658626)100:0.0653455081,(Prunus_mume_XP_008238682.1:0.0042560091,Prunus_persica_XP_007209879.1:0.0064699810)100:0.0732916825)99:0.0249683038)100:0.0766039194,(Cucumis_melo_XP_008437168.1:0.0167865857,Cucumis_sativus_XP_004147561.1:0.0151112893)100:0.3744400829)98:0.0330921809)77:0.0273549368,((Cicer_arietinum_XP_004511632.1:0.0538030970,Medicago_truncatula_XP_003611203.1:0.1194133621)100:0.1200264851,((Glycine_max_XP_003517444.1:0.0618278111,Glycine_max_XP_003538521.1:0.0477135148)100:0.0459901923,Phaseolus_vulgaris_XP_007158426.1:0.0783896368)100:0.1343796648)100:0.2927784362)59:0.0160196333,(Vitis_vinifera_XP_002281504.4:0.0000023841,Vitis_vinifera_XP_002281516.3:0.0021151914)100:0.1968194995)87:0.0330416162)91:0.0334030927,(Papaver_somniferum_XP_026380299.1:0.0167258972,Papaver_somniferum_XP_026409612.1:0.0214740032)100:0.2284031946)100:0.1495491346)96:0.0330795847)87:0.0204570016,(Vitis_vinifera_XP_002268932.2:0.0000022337,Vitis_vinifera_XP_010662365.1:0.0000023841)100:0.2099002981)98:0.0609864701,((Fragaria_vesca_XP_011470445.1:0.1333789132,((Malus_domestica_XP_008343708.1:0.0095994871,(Pyrus_x_bretschneideri_XP_009374544.1:0.0023918411,Pyrus_x_bretschneideri_XP_018506959.1:0.0000023841)100:0.0098114312)100:0.0600206343,((Prunus_mume_XP_008234348.1:0.0000023841,Prunus_mume_XP_016650302.1:0.0000023983)100:0.0130004683,Prunus_persica_XP_007219026.1:0.0085655260)100:0.0550246145)90:0.0185276391)100:0.1058247208,((Cucumis_melo_XP_008439119.1:0.0035418261,Cucumis_sativus_XP_004148155.1:0.0107497580)100:0.2079471014,((Cicer_arietinum_XP_004506280.1:0.0398150679,Medicago_truncatula_XP_013452470.1:0.0850447364)100:0.0826876583,((Glycine_max_XP_003533255.1:0.0282206783,Glycine_max_XP_003549142.1:0.0185805117)100:0.0440701250,Phaseolus_vulgaris_XP_007152395.1:0.0486049910)100:0.0905040971)100:0.2391438613)54:0.0402032181)37:0.0146555627)75:0.0321529860,(Citrus_sinensis_XP_006490258.1:0.1690613476,(((Jatropha_curcas_XP_012090384.1:0.0000023841,Jatropha_curcas_XP_037492284.1:0.0000023841)100:0.0982053302,(Manihot_esculenta_XP_021592085.1:0.0635767925,Manihot_esculenta_XP_021616259.1:0.1136356362)100:0.0491878272)99:0.0520294479,(Populus_euphratica_XP_011041679.1:0.0258978932,(Populus_trichocarpa_XP_024442625.1:0.0000022218,Populus_trichocarpa_XP_024442627.1:0.0000023841)100:0.0199173886)100:0.2270765138)76:0.0388684719)61:0.0103588134)51:0.0189715257,(Carica_papaya_XP_021909254.1:0.0000023983,Carica_papaya_XP_021909255.1:0.0000023841)100:0.1782417619)72:0.0423744801,(Gossypium_hirsutum_XP_016720767.1:0.0314338108,Gossypium_hirsutum_XP_016744516.1:0.0246543184)100:0.2774669340)100:0.3680005631)86:0.0190122193)90:0.0232642099)99:0.0051441741)100:0.0175788484);
+
+TIME STAMP
+----------
+
+Date and time: Tue May  3 13:05:26 2022
+Total CPU time used: 4267.283033 seconds (1h:11m:7s)
+Total wall-clock time used: 202.6953846 seconds (0h:3m:22s)
+

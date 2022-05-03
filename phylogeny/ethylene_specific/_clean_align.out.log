@@ -1,0 +1,11 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jul 10 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cn-mem (AVX2, FMA3, 3023 GB RAM)
+Command: iqtree2 -s _clean_align.out -T 24 -B 1000 -m MFP
+Seed:    533948 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May  3 11:45:57 2022
+Kernel:  AVX+FMA - 24 threads (144 CPU cores detected)
+
+Reading alignment file _clean_align.out ... ERROR: File not found _clean_align.out
