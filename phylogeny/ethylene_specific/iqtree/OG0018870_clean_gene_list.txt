@@ -1,0 +1,6 @@
+Arabidopsis_lyrata_XP_002892208.1
+Arabidopsis_thaliana_NP_001323287.1
+Brassica_oleracea_XP_013638399.1
+Brassica_rapa_XP_009119315.1
+Capsella_rubella_XP_006306986.1
+Eutrema_salsugineum_XP_006418141.1
