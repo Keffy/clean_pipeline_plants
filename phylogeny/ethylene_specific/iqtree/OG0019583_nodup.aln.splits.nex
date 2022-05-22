@@ -1,0 +1,36 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=8;
+TAXLABELS
+[1] 'Arabidopsis_lyrata_XP_002871968.2'
+[2] 'Arabidopsis_lyrata_XP_020876260.1'
+[3] 'Arabidopsis_thaliana_NP_001318615.1'
+[4] 'Arabidopsis_thaliana_NP_001332194.1'
+[5] 'Capsella_rubella_XP_006287498.1'
+[6] 'Brassica_oleracea_XP_013619618.1'
+[7] 'Brassica_rapa_XP_033141945.1'
+[8] 'Eutrema_salsugineum_XP_006400682.1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=8 nsplits=13;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 3 4,
+	100	 5,
+	100	 6,
+	100	 7,
+	100	 6 7,
+	100	 8,
+	100	 6 7 8,
+	100	 1 2 3 4,
+	100	 1 2,
+	100	 1,
+;
+END; [Splits]
+

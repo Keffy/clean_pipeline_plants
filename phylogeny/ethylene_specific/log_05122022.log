@@ -1,0 +1,316 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jul 10 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cn-mem (AVX2, FMA3, 3023 GB RAM)
+Command: iqtree2 -s mafft/OG0001017_orig_align.out -T 24 -B 10000 -m MFP
+Seed:    702146 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 12 16:53:20 2022
+Kernel:  AVX+FMA - 24 threads (144 CPU cores detected)
+
+Reading alignment file mafft/OG0001017_orig_align.out ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 169 sequences with 1246 columns, 944 distinct patterns
+602 parsimony-informative, 161 singleton sites, 483 constant sites
+                                       Gap/Ambiguity  Composition  p-value
+   1  Arabidopsis_lyrata_XP_020884280.1       53.53%    passed     92.47%
+   2  Arabidopsis_thaliana_NP_180273.1        53.13%    passed     68.33%
+   3  Capsella_rubella_XP_006293460.1         52.89%    passed     87.92%
+   4  Brassica_oleracea_XP_013629558.1        54.17%    passed     74.24%
+   5  Brassica_oleracea_XP_013629559.1        54.17%    passed     74.24%
+   6  Brassica_oleracea_XP_013629560.1        54.17%    passed     74.24%
+   7  Brassica_rapa_XP_009133914.1            54.17%    passed     65.29%
+   8  Brassica_rapa_XP_009133915.1            54.17%    passed     65.29%
+   9  Brassica_rapa_XP_009133916.1            54.17%    passed     65.29%
+  10  Brassica_rapa_XP_009133918.1            54.17%    passed     65.29%
+  11  Eutrema_salsugineum_XP_006408669.1      53.37%    passed     95.64%
+  12  Arabidopsis_lyrata_XP_020888534.1       49.60%    passed     96.22%
+  13  Arabidopsis_thaliana_NP_188713.1        49.60%    passed     94.10%
+  14  Capsella_rubella_XP_006297205.1         49.68%    passed     99.74%
+  15  Eutrema_salsugineum_XP_006406351.1      49.52%    passed     90.84%
+  16  Brassica_oleracea_XP_013586213.1        50.72%    passed     99.65%
+  17  Brassica_rapa_XP_009145591.2            50.80%    passed     99.44%
+  18  Brassica_oleracea_XP_013629394.1        53.53%    passed     82.51%
+  19  Brassica_rapa_XP_033143641.1            53.37%    passed     90.59%
+  20  Brassica_rapa_XP_033143642.1            53.37%    passed     90.59%
+  21  Brassica_oleracea_XP_013608113.1        51.44%    passed     74.64%
+  22  Brassica_oleracea_XP_013608117.1        51.44%    passed     74.64%
+  23  Brassica_rapa_XP_033131295.1            51.44%    passed     99.39%
+  24  Brassica_rapa_XP_033131317.1            51.44%    passed     99.39%
+  25  Brassica_rapa_XP_033131342.1            51.44%    passed     99.39%
+  26  Brassica_rapa_XP_033131366.1            51.44%    passed     99.39%
+  27  Brassica_rapa_XP_033131379.1            51.44%    passed     99.39%
+  28  Brassica_rapa_XP_033131404.1            51.44%    passed     99.39%
+  29  Brassica_rapa_XP_033131425.1            51.44%    passed     99.39%
+  30  Brassica_rapa_XP_033131442.1            51.44%    passed     99.39%
+  31  Brassica_rapa_XP_033131461.1            51.44%    passed     99.39%
+  32  Brassica_rapa_XP_033131475.1            51.44%    passed     99.39%
+  33  Brassica_rapa_XP_033131508.1            51.44%    passed     99.39%
+  34  Brassica_rapa_XP_033131527.1            51.44%    passed     99.39%
+  35  Brassica_rapa_XP_033131544.1            51.44%    passed     99.39%
+  36  Brassica_rapa_XP_033131568.1            51.44%    passed     99.39%
+  37  Brassica_rapa_XP_033131603.1            51.44%    passed     99.39%
+  38  Brassica_rapa_XP_033131627.1            51.44%    passed     99.39%
+  39  Brassica_rapa_XP_033131646.1            51.44%    passed     99.39%
+  40  Capsicum_annuum_XP_016552934.1          50.80%    passed     97.39%
+  41  Nicotiana_attenuata_XP_019237798.1      50.72%    passed     99.90%
+  42  Nicotiana_attenuata_XP_019237799.1      50.72%    passed     99.90%
+  43  Solanum_lycopersicum_NP_001234721.1     50.72%    passed     99.40%
+  44  Solanum_pennellii_XP_015060507.1        50.72%    passed     99.78%
+  45  Solanum_tuberosum_XP_006364491.1        50.72%    passed     99.39%
+  46  Capsicum_annuum_XP_016578009.1          50.72%    passed     99.97%
+  47  Solanum_lycopersicum_NP_001234541.1     51.04%    passed    100.00%
+  48  Solanum_pennellii_XP_015079066.1        51.04%    passed    100.00%
+  49  Solanum_tuberosum_XP_006361129.1        50.56%    passed     99.99%
+  50  Solanum_tuberosum_XP_006361130.1        50.56%    passed     99.99%
+  51  Nicotiana_attenuata_XP_019257279.1      51.85%    passed     98.11%
+  52  Nicotiana_attenuata_XP_019257280.1      51.85%    passed     98.11%
+  53  Nicotiana_attenuata_XP_019257281.1      51.85%    passed     98.11%
+  54  Nicotiana_attenuata_XP_019257282.1      50.64%    passed     99.75%
+  55  Capsicum_annuum_XP_016578010.1          51.20%    passed     92.93%
+  56  Solanum_lycopersicum_NP_001233931.1     51.44%    passed     93.75%
+  57  Solanum_pennellii_XP_015079068.1        51.44%    passed     95.96%
+  58  Solanum_tuberosum_XP_006361131.1        51.44%    passed     99.64%
+  59  Carica_papaya_XP_021892566.1            50.80%    passed     99.94%
+  60  Carica_papaya_XP_021892567.1            50.80%    passed     99.94%
+  61  Carica_papaya_XP_021892569.1            50.80%    passed     99.94%
+  62  Gossypium_hirsutum_XP_016688618.2       50.88%    passed     99.97%
+  63  Gossypium_hirsutum_XP_016750498.2       50.80%    passed     99.93%
+  64  Gossypium_hirsutum_XP_016732408.1       50.80%    passed     99.99%
+  65  Gossypium_hirsutum_XP_016754801.2       50.72%    passed    100.00%
+  66  Gossypium_hirsutum_XP_016732307.1       50.64%    passed    100.00%
+  67  Gossypium_hirsutum_XP_016732308.1       50.64%    passed    100.00%
+  68  Gossypium_hirsutum_XP_016718322.1       52.17%    passed     95.81%
+  69  Gossypium_hirsutum_XP_016724169.1       52.33%    passed     95.76%
+  70  Gossypium_hirsutum_XP_016724170.1       52.33%    passed     95.76%
+  71  Jatropha_curcas_XP_037491497.1          50.32%    passed     97.16%
+  72  Jatropha_curcas_XP_037491498.1          50.32%    passed     97.16%
+  73  Jatropha_curcas_XP_037491499.1          50.32%    passed     97.16%
+  74  Jatropha_curcas_XP_037491500.1          50.32%    passed     97.16%
+  75  Manihot_esculenta_XP_021611396.1        50.16%    passed     96.17%
+  76  Manihot_esculenta_XP_021611397.1        50.16%    passed     96.17%
+  77  Populus_euphratica_XP_011006497.1       50.48%    passed     99.86%
+  78  Populus_euphratica_XP_011006504.1       50.48%    passed     99.86%
+  79  Populus_trichocarpa_XP_006384758.1      50.48%    passed     99.85%
+  80  Populus_trichocarpa_XP_024455970.1      50.48%    passed     99.85%
+  81  Populus_euphratica_XP_011043514.1       49.28%    passed     99.25%
+  82  Populus_trichocarpa_XP_002312841.3      49.36%    passed     99.57%
+  83  Populus_trichocarpa_XP_024463931.1      49.36%    passed     99.57%
+  84  Populus_trichocarpa_XP_024463932.1      49.36%    passed     99.57%
+  85  Citrus_sinensis_XP_006470438.1          50.16%    passed     99.99%
+  86  Citrus_sinensis_XP_006470439.1          50.16%    passed     99.99%
+  87  Cucumis_melo_XP_008451093.1             49.84%    passed     99.50%
+  88  Cucumis_sativus_NP_001295791.1          49.04%    passed     94.03%
+  89  Cucumis_sativus_XP_004144109.2          49.44%    passed     97.66%
+  90  Cicer_arietinum_XP_004491182.1          50.96%    passed     99.80%
+  91  Cicer_arietinum_XP_004491183.1          50.96%    passed     99.80%
+  92  Medicago_truncatula_XP_003617086.1      50.64%    passed    100.00%
+  93  Glycine_max_XP_003519487.1              50.72%    passed     99.95%
+  94  Glycine_max_XP_003545483.1              51.04%    passed     99.91%
+  95  Phaseolus_vulgaris_XP_007141570.1       50.96%    passed     99.64%
+  96  Glycine_max_XP_003543154.1              50.40%    passed     97.22%
+  97  Phaseolus_vulgaris_XP_007146083.1       50.32%    passed     89.07%
+  98  Phaseolus_vulgaris_XP_007146084.1       49.92%    passed     99.35%
+  99  Glycine_max_XP_003543159.1              50.16%    passed     99.97%
+ 100  Glycine_max_XP_003555660.1              49.92%    passed     99.53%
+ 101  Cicer_arietinum_XP_004501972.1          49.92%    passed     96.71%
+ 102  Cicer_arietinum_XP_004501973.1          49.92%    passed     96.71%
+ 103  Fragaria_vesca_XP_004288382.1           50.40%    passed     98.48%
+ 104  Medicago_truncatula_XP_013461072.1      49.52%    passed     86.88%
+ 105  Vitis_vinifera_XP_002275284.2           51.04%    passed     95.48%
+ 106  Vitis_vinifera_XP_010651613.1           51.04%    passed     95.48%
+ 107  Capsicum_annuum_XP_016538319.1          51.20%    passed     97.55%
+ 108  Solanum_lycopersicum_NP_001234546.1     51.77%    passed     84.50%
+ 109  Solanum_pennellii_XP_015062250.1        51.77%    passed     77.77%
+ 110  Solanum_tuberosum_XP_006347695.1        51.52%    passed     89.96%
+ 111  Nicotiana_attenuata_XP_019259027.1      51.12%    passed     97.98%
+ 112  Citrus_sinensis_NP_001275851.1          50.72%    passed    100.00%
+ 113  Populus_euphratica_XP_011012998.1       47.19%    passed     99.53%
+ 114  Populus_euphratica_XP_011012999.1       47.19%    passed     99.53%
+ 115  Populus_euphratica_XP_011013000.1       47.19%    passed     99.53%
+ 116  Populus_euphratica_XP_011013001.1       47.19%    passed     99.53%
+ 117  Populus_euphratica_XP_011046481.1       47.19%    passed     99.69%
+ 118  Populus_euphratica_XP_011046482.1       47.19%    passed     99.69%
+ 119  Populus_trichocarpa_XP_024465823.1      47.11%    passed     99.71%
+ 120  Populus_trichocarpa_XP_024465824.1      47.11%    passed     99.71%
+ 121  Populus_euphratica_XP_011032978.1       46.87%    passed     98.99%
+ 122  Populus_trichocarpa_XP_024461972.1      46.87%    passed     94.74%
+ 123  Populus_trichocarpa_XP_024461973.1      46.87%    passed     94.74%
+ 124  Vitis_vinifera_XP_002276380.1           50.56%    passed     99.66%
+ 125  Vitis_vinifera_XP_010659025.1           50.56%    passed     99.66%
+ 126  Malus_domestica_NP_001315772.1          49.84%    passed     99.77%
+ 127  Malus_domestica_XP_008357657.2          49.84%    passed     99.74%
+ 128  Malus_domestica_XP_028962117.1          49.84%    passed     99.74%
+ 129  Pyrus_x_bretschneideri_XP_009355361.1   49.68%    passed     99.99%
+ 130  Malus_domestica_NP_001315847.1          47.11%    passed     93.86%
+ 131  Malus_domestica_XP_028949099.1          41.33%    passed     89.62%
+ 132  Malus_domestica_XP_028949100.1          41.33%    passed     89.62%
+ 133  Malus_domestica_XP_028949101.1          47.11%    passed     95.86%
+ 134  Malus_domestica_XP_028949102.1          47.11%    passed     95.86%
+ 135  Pyrus_x_bretschneideri_XP_009341360.1   47.11%    passed     91.10%
+ 136  Malus_domestica_NP_001315821.1          50.96%    passed     99.70%
+ 137  Malus_domestica_XP_008364747.2          50.96%    passed     99.70%
+ 138  Malus_domestica_XP_017185886.2          50.96%    passed     99.70%
+ 139  Pyrus_x_bretschneideri_XP_009339246.1   50.96%    passed     99.69%
+ 140  Pyrus_x_bretschneideri_XP_009339251.1   50.96%    passed     99.69%
+ 141  Malus_domestica_XP_008346133.2          51.36%    passed     99.99%
+ 142  Malus_domestica_XP_008346139.2          51.36%    passed     99.99%
+ 143  Pyrus_x_bretschneideri_XP_009355060.1   51.36%    passed     99.98%
+ 144  Prunus_mume_XP_008231879.1              51.77%    passed    100.00%
+ 145  Prunus_persica_XP_020411970.1           51.77%    passed    100.00%
+ 146  Prunus_mume_XP_008231880.1              50.08%    passed     99.99%
+ 147  Prunus_persica_XP_020412378.1           49.92%    passed     99.97%
+ 148  Fragaria_vesca_XP_004306440.1           51.52%    passed    100.00%
+ 149  Cucumis_melo_NP_001284429.1             50.64%    passed     86.54%
+ 150  Cucumis_melo_XP_008456656.1             50.64%    passed     88.46%
+ 151  Cucumis_sativus_XP_004140927.1          50.64%    passed     93.24%
+ 152  Cucumis_sativus_XP_031743072.1          50.64%    passed     93.24%
+ 153  Cucumis_sativus_XP_031743073.1          50.64%    passed     93.24%
+ 154  Papaver_somniferum_XP_026387725.1       47.51%    passed     86.04%
+ 155  Papaver_somniferum_XP_026418456.1       47.51%    passed     91.44%
+ 156  Helianthus_annuus_XP_022005275.1        50.24%    passed     97.95%
+ 157  Helianthus_annuus_XP_022012310.1        53.21%    passed     94.74%
+ 158  Carica_papaya_XP_021897659.1            54.01%    passed     15.28%
+ 159  Carica_papaya_XP_021897660.1            54.01%    passed     15.28%
+ 160  Carica_papaya_XP_021897661.1            54.01%    passed     15.28%
+ 161  Papaver_somniferum_XP_026384865.1       50.24%    passed     87.71%
+ 162  Papaver_somniferum_XP_026384873.1       50.24%    passed     87.71%
+ 163  Papaver_somniferum_XP_026395230.1       50.24%    passed     88.03%
+ 164  Papaver_somniferum_XP_026395231.1       50.24%    passed     88.03%
+ 165  Helianthus_annuus_XP_021982638.1        54.01%    passed     88.22%
+ 166  Helianthus_annuus_XP_022006414.1        52.57%    passed     96.33%
+ 167  Phaseolus_vulgaris_XP_007148764.1       55.14%    passed     36.76%
+ 168  Cicer_arietinum_XP_012571061.1          35.15%    failed      0.00%
+ 169  Medicago_truncatula_XP_003598364.3      59.95%    failed      0.07%
+WARNING: 128 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                   50.61%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Brassica_oleracea_XP_013629559.1 is identical to Brassica_oleracea_XP_013629558.1 but kept for subsequent analysis
+NOTE: Brassica_rapa_XP_009133915.1 is identical to Brassica_rapa_XP_009133914.1 but kept for subsequent analysis
+NOTE: Brassica_rapa_XP_033143642.1 is identical to Brassica_rapa_XP_033143641.1 but kept for subsequent analysis
+NOTE: Brassica_oleracea_XP_013608117.1 is identical to Brassica_oleracea_XP_013608113.1 but kept for subsequent analysis
+NOTE: Brassica_rapa_XP_033131317.1 is identical to Brassica_rapa_XP_033131295.1 but kept for subsequent analysis
+NOTE: Nicotiana_attenuata_XP_019237799.1 is identical to Nicotiana_attenuata_XP_019237798.1 but kept for subsequent analysis
+NOTE: Solanum_tuberosum_XP_006361130.1 is identical to Solanum_tuberosum_XP_006361129.1 but kept for subsequent analysis
+NOTE: Nicotiana_attenuata_XP_019257280.1 is identical to Nicotiana_attenuata_XP_019257279.1 but kept for subsequent analysis
+NOTE: Carica_papaya_XP_021892567.1 is identical to Carica_papaya_XP_021892566.1 but kept for subsequent analysis
+NOTE: Gossypium_hirsutum_XP_016732308.1 is identical to Gossypium_hirsutum_XP_016732307.1 but kept for subsequent analysis
+NOTE: Gossypium_hirsutum_XP_016724170.1 is identical to Gossypium_hirsutum_XP_016724169.1 but kept for subsequent analysis
+NOTE: Jatropha_curcas_XP_037491498.1 is identical to Jatropha_curcas_XP_037491497.1 but kept for subsequent analysis
+NOTE: Manihot_esculenta_XP_021611397.1 is identical to Manihot_esculenta_XP_021611396.1 but kept for subsequent analysis
+NOTE: Populus_euphratica_XP_011006504.1 is identical to Populus_euphratica_XP_011006497.1 but kept for subsequent analysis
+NOTE: Populus_trichocarpa_XP_024455970.1 is identical to Populus_trichocarpa_XP_006384758.1 but kept for subsequent analysis
+NOTE: Populus_trichocarpa_XP_024463931.1 is identical to Populus_trichocarpa_XP_002312841.3 but kept for subsequent analysis
+NOTE: Citrus_sinensis_XP_006470439.1 is identical to Citrus_sinensis_XP_006470438.1 but kept for subsequent analysis
+NOTE: Cicer_arietinum_XP_004491183.1 is identical to Cicer_arietinum_XP_004491182.1 but kept for subsequent analysis
+NOTE: Cicer_arietinum_XP_004501973.1 is identical to Cicer_arietinum_XP_004501972.1 but kept for subsequent analysis
+NOTE: Vitis_vinifera_XP_010651613.1 is identical to Vitis_vinifera_XP_002275284.2 but kept for subsequent analysis
+NOTE: Populus_euphratica_XP_011012999.1 is identical to Populus_euphratica_XP_011012998.1 but kept for subsequent analysis
+NOTE: Populus_euphratica_XP_011046482.1 is identical to Populus_euphratica_XP_011046481.1 but kept for subsequent analysis
+NOTE: Populus_trichocarpa_XP_024465824.1 is identical to Populus_trichocarpa_XP_024465823.1 but kept for subsequent analysis
+NOTE: Populus_trichocarpa_XP_024461973.1 is identical to Populus_trichocarpa_XP_024461972.1 but kept for subsequent analysis
+NOTE: Vitis_vinifera_XP_010659025.1 is identical to Vitis_vinifera_XP_002276380.1 but kept for subsequent analysis
+NOTE: Malus_domestica_XP_028962117.1 is identical to Malus_domestica_XP_008357657.2 but kept for subsequent analysis
+NOTE: Malus_domestica_XP_028949100.1 is identical to Malus_domestica_XP_028949099.1 but kept for subsequent analysis
+NOTE: Malus_domestica_XP_028949102.1 is identical to Malus_domestica_XP_028949101.1 but kept for subsequent analysis
+NOTE: Malus_domestica_XP_008364747.2 is identical to Malus_domestica_NP_001315821.1 but kept for subsequent analysis
+NOTE: Pyrus_x_bretschneideri_XP_009339251.1 is identical to Pyrus_x_bretschneideri_XP_009339246.1 but kept for subsequent analysis
+NOTE: Malus_domestica_XP_008346139.2 is identical to Malus_domestica_XP_008346133.2 but kept for subsequent analysis
+NOTE: Cucumis_sativus_XP_031743072.1 is identical to Cucumis_sativus_XP_004140927.1 but kept for subsequent analysis
+NOTE: Carica_papaya_XP_021897660.1 is identical to Carica_papaya_XP_021897659.1 but kept for subsequent analysis
+NOTE: Papaver_somniferum_XP_026384873.1 is identical to Papaver_somniferum_XP_026384865.1 but kept for subsequent analysis
+NOTE: Papaver_somniferum_XP_026395231.1 is identical to Papaver_somniferum_XP_026395230.1 but kept for subsequent analysis
+NOTE: 28 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Brassica_oleracea_XP_013629560.1 (identical to Brassica_oleracea_XP_013629558.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_009133916.1 (identical to Brassica_rapa_XP_009133914.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_009133918.1 (identical to Brassica_rapa_XP_009133914.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131342.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131366.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131379.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131404.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131425.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131442.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131461.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131475.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131508.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131527.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131544.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131568.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131603.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131627.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Brassica_rapa_XP_033131646.1 (identical to Brassica_rapa_XP_033131295.1) is ignored but added at the end
+NOTE: Nicotiana_attenuata_XP_019257281.1 (identical to Nicotiana_attenuata_XP_019257279.1) is ignored but added at the end
+NOTE: Carica_papaya_XP_021892569.1 (identical to Carica_papaya_XP_021892566.1) is ignored but added at the end
+NOTE: Jatropha_curcas_XP_037491499.1 (identical to Jatropha_curcas_XP_037491497.1) is ignored but added at the end
+NOTE: Jatropha_curcas_XP_037491500.1 (identical to Jatropha_curcas_XP_037491497.1) is ignored but added at the end
+NOTE: Populus_trichocarpa_XP_024463932.1 (identical to Populus_trichocarpa_XP_002312841.3) is ignored but added at the end
+NOTE: Populus_euphratica_XP_011013000.1 (identical to Populus_euphratica_XP_011012998.1) is ignored but added at the end
+NOTE: Populus_euphratica_XP_011013001.1 (identical to Populus_euphratica_XP_011012998.1) is ignored but added at the end
+NOTE: Malus_domestica_XP_017185886.2 (identical to Malus_domestica_NP_001315821.1) is ignored but added at the end
+NOTE: Cucumis_sativus_XP_031743073.1 (identical to Cucumis_sativus_XP_004140927.1) is ignored but added at the end
+NOTE: Carica_papaya_XP_021897661.1 (identical to Carica_papaya_XP_021897659.1) is ignored but added at the end
+Alignment was printed to mafft/OG0001017_orig_align.out.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to mafft/OG0001017_orig_align.out.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.202 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -36394.703
+Optimal log-likelihood: -36394.290
+Proportion of invariable sites: 0.080
+Gamma shape alpha: 1.085
+Parameters optimization took 1 rounds (37.791 sec)
+Time for fast ML tree search: 483.532 seconds
+
+NOTE: ModelFinder requires 246 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 1246) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            38319.639    279 77197.277    77359.016    78627.904
+  2  LG+I          37692.066    280 75944.131    76107.198    77379.885
+  3  LG+G4         36414.212    280 73388.423    73551.490    74824.177
+  4  LG+I+G4       36394.098    281 73350.196    73514.599    74791.078
+  5  LG+R2         36631.874    281 73825.749    73990.151    75266.631
+  6  LG+R3         36400.862    283 73367.724    73534.818    74818.862
+  7  LG+R4         36338.031    285 73246.062    73415.875    74707.455
+  8  LG+R5         36331.944    287 73237.889    73410.448    74709.537
+ 20  LG+F+R4       36188.945    304 72985.889    73182.956    74544.708
+ 21  LG+F+R5       36183.984    306 72979.967    73180.057    74549.041
+ 33  WAG+R4        36209.029    285 72988.059    73157.871    74449.452
+ 34  WAG+R5        36206.537    287 72987.074    73159.634    74458.722
+ 46  WAG+F+R4      36220.192    304 73048.385    73245.451    74607.203
+ 47  WAG+F+R5      36219.523    306 73051.046    73251.135    74620.120
+ 59  JTT+R4        35337.800    285 71245.601    71415.413    72706.993
+ 60  JTT+R5        35334.838    287 71243.677    71416.236    72715.325
+ 72  JTT+F+R4      35317.551    304 71243.102    71440.169    72801.921
+ 73  JTT+F+R5      35314.959    306 71241.918    71442.007    72810.992
+ 85  JTTDCMut+R4   35360.851    285 71291.701    71461.514    72753.094
+ 86  JTTDCMut+R5   35358.118    287 71290.237    71462.796    72761.885
+ 98  JTTDCMut+F+R4 35339.142    304 71286.284    71483.351    72845.103
+ 99  JTTDCMut+F+R5 35336.471    306 71284.941    71485.031    72854.016
+111  DCMut+R4      36141.427    285 72852.855    73022.667    74314.247
+112  DCMut+R5      36136.359    287 72846.718    73019.278    74318.366
+124  DCMut+F+R4    36133.731    304 72875.461    73072.528    74434.280
+125  DCMut+F+R5    36129.421    306 72870.841    73070.930    74439.915
+137  VT+R4         36175.838    285 72921.676    73091.488    74383.068
+138  VT+R5         36173.547    287 72921.094    73093.654    74392.742
+150  VT+F+R4       36176.050    304 72960.100    73157.167    74518.919
+151  VT+F+R5       36175.259    306 72962.518    73162.608    74531.593
+163  PMB+R4        36937.677    285 74445.353    74615.166    75906.746
+164  PMB+R5        36934.107    287 74442.215    74614.774    75913.863
+176  PMB+F+R4      36986.147    304 74580.294    74777.361    76139.113
+177  PMB+F+R5      36985.016    306 74582.031    74782.121    76151.105
+189  Blosum62+R4   37040.631    285 74651.263    74821.075    76112.655
+190  Blosum62+R5   37037.154    287 74648.307    74820.867    76119.955
+202  Blosum62+F+R4 37019.275    304 74646.549    74843.616    76205.368
+203  Blosum62+F+R5 37017.604    306 74647.207    74847.297    76216.282
+215  Dayhoff+R4    36137.593    285 72845.185    73014.998    74306.578
+216  Dayhoff+R5    36132.485    287 72838.970    73011.530    74310.618
+228  Dayhoff+F+R4  36130.665    304 72869.329    73066.396    74428.148
+229  Dayhoff+F+R5  36126.378    306 72864.757    73064.846    74433.831
+241  mtREV+R4      36827.889    285 74225.777    74395.590    75687.170
+242  mtREV+R5      36820.522    287 74215.044    74387.603    75686.692
+254  mtREV+F+R4    36156.495    304 72920.990    73118.057    74479.809
+255  mtREV+F+R5    36145.741    306 72903.483    73103.572    74472.557

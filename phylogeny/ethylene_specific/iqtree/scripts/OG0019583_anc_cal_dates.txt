@@ -1,0 +1,8 @@
+Arabidopsis_lyrata_XP_002871968.2,Arabidopsis_thaliana_NP_001318615.1	-7.5
+Arabidopsis_lyrata_XP_002871968.2,Arabidopsis_thaliana_NP_001332194.1	-7.5
+Arabidopsis_lyrata_XP_020876260.1,Arabidopsis_thaliana_NP_001318615.1	-7.5
+Arabidopsis_lyrata_XP_020876260.1,Arabidopsis_thaliana_NP_001332194.1	-7.5
+Capsella_rubella_XP_006287498.1,Arabidopsis_lyrata_XP_020876260.1,Arabidopsis_thaliana_NP_001332194.1	-18.13
+Brassica_oleracea_XP_013619618.1,Brassica_rapa_XP_033141945.1	-2.64
+Eutrema_salsugineum_XP_006400682.1,Brassica_oleracea_XP_013619618.1,Brassica_rapa_XP_033141945.1	-40.92
+Eutrema_salsugineum_XP_006400682.1,Brassica_oleracea_XP_013619618.1,Brassica_rapa_XP_033141945.1,Capsella_rubella_XP_006287498.1,Arabidopsis_lyrata_XP_020876260.1,Arabidopsis_thaliana_NP_001332194.1	-47.51
