@@ -1,0 +1,171 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built Jul 10 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cn046 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree2 -s mafft/OG0003776_nodup.aln -T 24 -B 1000 -m Q.plant+FO
+Seed:    265769 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 18 17:45:45 2022
+Kernel:  AVX+FMA - 24 threads (24 CPU cores detected)
+
+Reading alignment file mafft/OG0003776_nodup.aln ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 61 sequences with 851 columns, 525 distinct patterns
+350 parsimony-informative, 65 singleton sites, 436 constant sites
+                                       Gap/Ambiguity  Composition  p-value
+   1  Arabidopsis_lyrata_XP_020891032.1       13.28%    passed    100.00%
+   2  Arabidopsis_thaliana_NP_176808.3        13.28%    passed    100.00%
+   3  Capsella_rubella_XP_006300779.1         13.28%    passed    100.00%
+   4  Brassica_oleracea_XP_013591391.1        13.51%    passed    100.00%
+   5  Brassica_rapa_XP_009105200.1            13.51%    passed    100.00%
+   6  Eutrema_salsugineum_XP_006391377.1      13.75%    passed    100.00%
+   7  Carica_papaya_XP_021894230.1            13.28%    passed    100.00%
+   8  Citrus_sinensis_NP_001275863.1          13.04%    passed    100.00%
+   9  Manihot_esculenta_XP_021617838.1        13.63%    passed    100.00%
+  10  Manihot_esculenta_XP_021617840.1        25.50%    passed     99.80%
+  11  Manihot_esculenta_XP_021625986.1        13.16%    passed    100.00%
+  12  Populus_euphratica_XP_011009895.1       13.40%    passed    100.00%
+  13  Populus_trichocarpa_XP_002299688.1      13.40%    passed    100.00%
+  14  Populus_euphratica_XP_011044844.1       13.28%    passed    100.00%
+  15  Populus_trichocarpa_XP_006385310.1      13.40%    passed    100.00%
+  16  Populus_trichocarpa_XP_024453424.1      28.67%    passed     99.99%
+  17  Populus_euphratica_XP_011044845.1       24.44%    passed     99.98%
+  18  Fragaria_vesca_XP_004288086.1           12.93%    passed    100.00%
+  19  Malus_domestica_NP_001280831.1          12.93%    passed    100.00%
+  20  Malus_domestica_XP_008338216.2           0.71%    passed     99.76%
+  21  Malus_domestica_XP_028949082.1           1.06%    passed     99.84%
+  22  Pyrus_x_bretschneideri_XP_009376488.2   30.20%    passed     99.75%
+  23  Prunus_mume_XP_008218930.1              12.93%    passed    100.00%
+  24  Prunus_persica_XP_007225223.1           12.93%    passed    100.00%
+  25  Prunus_persica_XP_020420391.1           13.28%    passed    100.00%
+  26  Malus_domestica_NP_001280890.1          13.40%    passed    100.00%
+  27  Malus_domestica_XP_008394303.1          12.69%    passed    100.00%
+  28  Pyrus_x_bretschneideri_XP_009366243.1   12.69%    passed    100.00%
+  29  Vitis_vinifera_NP_001268102.1           12.93%    passed     99.92%
+  30  Vitis_vinifera_XP_010644801.1           12.81%    passed     99.93%
+  31  Cucumis_melo_NP_001284453.1             13.04%    passed    100.00%
+  32  Cucumis_melo_XP_008450396.1             13.04%    passed    100.00%
+  33  Cucumis_sativus_NP_001267562.1          13.04%    passed    100.00%
+  34  Cicer_arietinum_XP_004515179.1          13.40%    passed     99.99%
+  35  Cicer_arietinum_XP_027186575.1          13.04%    passed    100.00%
+  36  Cicer_arietinum_XP_004515182.1          26.09%    passed     99.91%
+  37  Medicago_truncatula_XP_024638620.1      12.93%    passed    100.00%
+  38  Glycine_max_XP_003534452.1              13.04%    passed    100.00%
+  39  Glycine_max_XP_006586749.1              20.80%    passed     99.89%
+  40  Glycine_max_XP_006592983.1              13.16%    passed    100.00%
+  41  Phaseolus_vulgaris_XP_007133875.1       12.81%    passed    100.00%
+  42  Capsicum_annuum_XP_016552559.1          13.28%    passed    100.00%
+  43  Solanum_lycopersicum_NP_001234153.2     13.51%    passed    100.00%
+  44  Solanum_pennellii_XP_015080294.1        13.51%    passed    100.00%
+  45  Solanum_tuberosum_XP_006348376.1        13.51%    passed    100.00%
+  46  Solanum_tuberosum_XP_015164676.1        26.67%    passed     99.92%
+  47  Nicotiana_attenuata_XP_019226569.1      17.74%    passed    100.00%
+  48  Capsicum_annuum_XP_016555239.1          11.28%    passed    100.00%
+  49  Solanum_lycopersicum_NP_001234149.1     11.40%    passed    100.00%
+  50  Solanum_lycopersicum_XP_010313639.1     11.75%    passed    100.00%
+  51  Solanum_lycopersicum_XP_010313640.1     15.16%    passed    100.00%
+  52  Solanum_pennellii_XP_015061763.1        11.40%    passed    100.00%
+  53  Solanum_pennellii_XP_015061764.1        11.75%    passed    100.00%
+  54  Solanum_pennellii_XP_027769444.1        15.16%    passed    100.00%
+  55  Solanum_tuberosum_XP_006349996.1        11.40%    passed    100.00%
+  56  Solanum_tuberosum_XP_006349997.1        11.75%    passed    100.00%
+  57  Nicotiana_attenuata_XP_019239919.1      11.40%    passed    100.00%
+  58  Papaver_somniferum_XP_026393070.1       13.04%    passed     99.98%
+  59  Papaver_somniferum_XP_026405705.1       13.04%    passed     99.98%
+  60  Helianthus_annuus_XP_021969162.1        13.98%    passed     99.95%
+  61  Helianthus_annuus_XP_035842487.1        13.40%    passed     99.97%
+****  TOTAL                                   14.19%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.017 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 265769)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -11464.090
+2. Current log-likelihood: -11399.715
+3. Current log-likelihood: -11399.605
+Optimal log-likelihood: -11399.605
+Parameters optimization took 3 rounds (0.657 sec)
+Computing ML distances based on estimated model parameters... 0.179 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -11448.117
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.478 second
+Computing log-likelihood of 98 initial trees ... 1.445 seconds
+Current best score: -11395.430
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -11394.465
+BETTER TREE FOUND at iteration 2: -11394.465
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -11393.047
+Iteration 10 / LogL: -11394.578 / Time: 0h:0m:5s
+Iteration 20 / LogL: -11397.101 / Time: 0h:0m:7s
+Finish initializing candidate tree set (5)
+Current best tree score: -11393.047 / CPU time: 6.582
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -11391.792
+Iteration 30 / LogL: -11393.107 / Time: 0h:0m:10s (0h:0m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -11391.731
+Iteration 40 / LogL: -11409.474 / Time: 0h:0m:14s (0h:0m:34s left)
+Iteration 50 / LogL: -11397.499 / Time: 0h:0m:17s (0h:0m:30s left)
+Log-likelihood cutoff on original alignment: -11446.585
+UPDATE BEST LOG-LIKELIHOOD: -11391.730
+Iteration 60 / LogL: -11391.796 / Time: 0h:0m:21s (0h:0m:26s left)
+Iteration 70 / LogL: -11393.591 / Time: 0h:0m:24s (0h:0m:22s left)
+Iteration 80 / LogL: -11410.256 / Time: 0h:0m:27s (0h:0m:19s left)
+Iteration 90 / LogL: -11391.732 / Time: 0h:0m:31s (0h:0m:15s left)
+Iteration 100 / LogL: -11391.735 / Time: 0h:0m:34s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -11446.585
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -11393.594 / Time: 0h:0m:37s (0h:0m:31s left)
+Iteration 120 / LogL: -11391.734 / Time: 0h:0m:41s (0h:0m:27s left)
+Iteration 130 / LogL: -11393.590 / Time: 0h:0m:44s (0h:0m:24s left)
+TREE SEARCH COMPLETED AFTER 136 ITERATIONS / Time: 0h:0m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -11391.730
+Optimal log-likelihood: -11391.730
+Parameters optimization took 1 rounds (0.038 sec)
+BEST SCORE FOUND : -11391.730
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafft/OG0003776_nodup.aln.splits.nex
+Total tree length: 2.049
+
+Total number of iterations: 136
+CPU time used for tree search: 1040.515 sec (0h:17m:20s)
+Wall-clock time used for tree search: 45.628 sec (0h:0m:45s)
+Total CPU time used: 1058.569 sec (0h:17m:38s)
+Total wall-clock time used: 46.573 sec (0h:0m:46s)
+
+Computing bootstrap consensus tree...
+Reading input file mafft/OG0003776_nodup.aln.splits.nex...
+61 taxa and 244 splits.
+Consensus tree written to mafft/OG0003776_nodup.aln.contree
+Reading input trees file mafft/OG0003776_nodup.aln.contree
+Log-likelihood of consensus tree: -11391.755
+
+Analysis results written to: 
+  IQ-TREE report:                mafft/OG0003776_nodup.aln.iqtree
+  Maximum-likelihood tree:       mafft/OG0003776_nodup.aln.treefile
+  Likelihood distances:          mafft/OG0003776_nodup.aln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafft/OG0003776_nodup.aln.splits.nex
+  Consensus tree:                mafft/OG0003776_nodup.aln.contree
+  Screen log file:               mafft/OG0003776_nodup.aln.log
+
+Date and Time: Wed May 18 17:46:31 2022
