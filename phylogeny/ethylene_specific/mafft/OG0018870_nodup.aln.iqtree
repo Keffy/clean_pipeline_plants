@@ -1,8 +1,8 @@
-IQ-TREE 2.0.6 built Jul 10 2020
+IQ-TREE 2.2.0 COVID-edition built May 22 2022
 
 Input file name: mafft/OG0018870_nodup.aln
 Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
-Random seed number: 75249
+Random seed number: 530272
 
 REFERENCES
 ----------
@@ -21,6 +21,12 @@ Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
 and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
 approximation. Mol. Biol. Evol., 35:518–522.
 https://doi.org/10.1093/molbev/msx281
+
+Since you used least square dating (LSD) please also cite: 
+
+Thu-Hien To, Matthieu Jung, Samantha Lycett, Olivier Gascuel (2016)
+Fast dating using least-squares criteria and algorithms. Syst. Biol. 65:82-97.
+https://doi.org/10.1093/sysbio/syv068
 
 SEQUENCE ALIGNMENT
 ------------------
@@ -64,7 +70,7 @@ Model of rate heterogeneity: Uniform
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -3313.5516 (s.e. 87.2436)
+Log-likelihood of the tree: -3313.5516 (s.e. 87.2437)
 Unconstrained log-likelihood (without tree): -2806.8590
 Number of free parameters (#branches + #model parameters): 28
 Akaike information criterion (AIC) score: 6683.1032
@@ -72,7 +78,7 @@ Corrected Akaike information criterion (AICc) score: 6685.6527
 Bayesian information criterion (BIC) score: 6809.1394
 
 Total tree length (sum of branch lengths): 0.3820
-Sum of internal branch lengths: 0.1721 (45.0538% of tree length)
+Sum of internal branch lengths: 0.1721 (45.0539% of tree length)
 
 NOTE: Tree is UNROOTED although outgroup taxon 'Arabidopsis_lyrata_XP_002892208.1' is drawn at root
 Numbers in parentheses are  ultrafast bootstrap support (%)
@@ -91,7 +97,7 @@ Numbers in parentheses are  ultrafast bootstrap support (%)
 
 Tree in newick format:
 
-(Arabidopsis_lyrata_XP_002892208.1:0.0209508741,Arabidopsis_thaliana_NP_001323287.1:0.0327551147,(Capsella_rubella_XP_006306986.1:0.0550533192,(Eutrema_salsugineum_XP_006418141.1:0.0747842696,(Brassica_oleracea_XP_013638399.1:0.0125343287,Brassica_rapa_XP_009119315.1:0.0138217252)100:0.0812768060)100:0.0477583977)100:0.0430743917);
+(Arabidopsis_lyrata_XP_002892208.1:0.0209502507,Arabidopsis_thaliana_NP_001323287.1:0.0327551310,(Capsella_rubella_XP_006306986.1:0.0550534017,(Eutrema_salsugineum_XP_006418141.1:0.0747843296,(Brassica_oleracea_XP_013638399.1:0.0125340250,Brassica_rapa_XP_009119315.1:0.0138217848)100:0.0812767924)100:0.0477584676)100:0.0430743294);
 
 CONSENSUS TREE
 --------------
@@ -119,12 +125,12 @@ Numbers in parentheses are bootstrap supports (%)
 
 Consensus tree in newick format: 
 
-(Arabidopsis_lyrata_XP_002892208.1:0.0209508074,Arabidopsis_thaliana_NP_001323287.1:0.0327566792,(Capsella_rubella_XP_006306986.1:0.0550534389,(Eutrema_salsugineum_XP_006418141.1:0.0747706221,(Brassica_oleracea_XP_013638399.1:0.0125316486,Brassica_rapa_XP_009119315.1:0.0138215585)100:0.0812563280)100:0.0477587723)100:0.0430749539);
+(Arabidopsis_lyrata_XP_002892208.1:0.0209508071,Arabidopsis_thaliana_NP_001323287.1:0.0327566784,(Capsella_rubella_XP_006306986.1:0.0550534380,(Eutrema_salsugineum_XP_006418141.1:0.0747706205,(Brassica_oleracea_XP_013638399.1:0.0125316484,Brassica_rapa_XP_009119315.1:0.0138215582)100:0.0812563261)100:0.0477587712)100:0.0430749525);
 
 TIME STAMP
 ----------
 
-Date and time: Wed May 18 17:49:30 2022
-Total CPU time used: 31.280211 seconds (0h:0m:31s)
-Total wall-clock time used: 2.660113996 seconds (0h:0m:2s)
+Date and time: Sun May 22 21:41:51 2022
+Total CPU time used: 1.014774 seconds (0h:0m:1s)
+Total wall-clock time used: 1.206156969 seconds (0h:0m:1s)
 

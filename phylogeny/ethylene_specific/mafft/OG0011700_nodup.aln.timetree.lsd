@@ -1,0 +1,48 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : mafft/OG0011700_nodup.aln.timetree.subst
+  d                                               Input date file : mafft/OG0011700_nodup.aln.timetree.date
+  p                                                Partition file : No
+  g                                               Given outgroups : No
+Output file:
+  o                                                  Output file  : mafft/OG0011700_nodup.aln.timetree
+Parameters:
+  a                                                     Root date : No
+  z                                                     Tips date : 0
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : Use fast method to search on all branches
+  w                                       Given substitution rate : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : No
+  e                                          Exclude outlier tips : No
+  u                Min internal branch length of time scaled tree : 0
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 0.00119617
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.0239234 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+
+*WARNINGS:
+- There's not enough input date information to have a unique solution. 
+The reported results show the upper solution: upper_rate and upper_dates.
+For any coefficient k<=1, there's a corresponding solution where the rate is upper_rate*k,
+and the date of any node i is upper_dates[i]/k
+
+*RESULTS:
+- Dating results:
+ rate NA:nan, tMRCA NA:nan , objective function nan
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 0.006674 seconds

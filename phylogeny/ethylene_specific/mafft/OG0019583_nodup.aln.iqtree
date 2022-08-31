@@ -1,8 +1,8 @@
-IQ-TREE 2.0.6 built Jul 10 2020
+IQ-TREE 2.2.0 COVID-edition built May 22 2022
 
 Input file name: mafft/OG0019583_nodup.aln
 Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
-Random seed number: 405126
+Random seed number: 678946
 
 REFERENCES
 ----------
@@ -21,6 +21,12 @@ Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
 and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
 approximation. Mol. Biol. Evol., 35:518–522.
 https://doi.org/10.1093/molbev/msx281
+
+Since you used least square dating (LSD) please also cite: 
+
+Thu-Hien To, Matthieu Jung, Samantha Lycett, Olivier Gascuel (2016)
+Fast dating using least-squares criteria and algorithms. Syst. Biol. 65:82-97.
+https://doi.org/10.1093/sysbio/syv068
 
 SEQUENCE ALIGNMENT
 ------------------
@@ -95,7 +101,7 @@ Numbers in parentheses are  ultrafast bootstrap support (%)
 
 Tree in newick format:
 
-(Arabidopsis_lyrata_XP_002871968.2:0.0000027101,Arabidopsis_lyrata_XP_020876260.1:0.0000010000,((Arabidopsis_thaliana_NP_001318615.1:0.0000010000,Arabidopsis_thaliana_NP_001332194.1:0.0000010000)100:0.0709502515,(Capsella_rubella_XP_006287498.1:0.1162826045,((Brassica_oleracea_XP_013619618.1:0.0109740994,Brassica_rapa_XP_033141945.1:0.0218758892)100:0.2053479239,Eutrema_salsugineum_XP_006400682.1:0.1178878339)100:0.1355690836)100:0.0678856532)100:0.0527401683);
+(Arabidopsis_lyrata_XP_002871968.2:0.0000027101,Arabidopsis_lyrata_XP_020876260.1:0.0000010000,((Arabidopsis_thaliana_NP_001318615.1:0.0000010000,Arabidopsis_thaliana_NP_001332194.1:0.0000010000)100:0.0709502515,(Capsella_rubella_XP_006287498.1:0.1162826044,((Brassica_oleracea_XP_013619618.1:0.0109740994,Brassica_rapa_XP_033141945.1:0.0218758892)100:0.2053479240,Eutrema_salsugineum_XP_006400682.1:0.1178878339)100:0.1355690836)100:0.0678856532)100:0.0527401683);
 
 CONSENSUS TREE
 --------------
@@ -132,7 +138,7 @@ Consensus tree in newick format:
 TIME STAMP
 ----------
 
-Date and time: Wed May 18 17:49:34 2022
-Total CPU time used: 55.070917 seconds (0h:0m:55s)
-Total wall-clock time used: 2.612369958 seconds (0h:0m:2s)
+Date and time: Sun May 22 22:41:21 2022
+Total CPU time used: 1.45269 seconds (0h:0m:1s)
+Total wall-clock time used: 1.394620895 seconds (0h:0m:1s)
 

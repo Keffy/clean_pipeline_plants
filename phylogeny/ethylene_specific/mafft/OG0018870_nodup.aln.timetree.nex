@@ -1,0 +1,4 @@
+#NEXUS
+Begin trees;
+tree 1 = ((Eutrema_salsugineum_XP_006418141.1[&date="0"]:19.6236,(Brassica_oleracea_XP_013638399.1[&date="0"]:2.64,Brassica_rapa_XP_009119315.1[&date="0"]:2.64)100[&date="-2.64"]:16.9836)100[&date="-19.6236"]:3.04585,((Arabidopsis_lyrata_XP_002892208.1[&date="0"]:5.66659,Arabidopsis_thaliana_NP_001323287.1[&date="0"]:5.66659)[&date="-5.66659"]:8.81031,Capsella_rubella_XP_006306986.1[&date="0"]:14.4769)100[&date="-14.4769"]:8.19252)[&date="-22.6694"];
+End;

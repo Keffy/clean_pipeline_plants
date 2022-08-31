@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Mac OS X 64-bit built May 22 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Keffys-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -s mafft/OG0011780_nodup.aln --date iqtree/scripts/OG0011780_anc_cal_dates.txt --date-tip 0 --date-root 125.5783 --redo -T 1 -B 1000 -m Q.plant+FO
+Seed:    454257 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 23 03:33:24 2022
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file mafft/OG0011780_nodup.aln ... ERROR: File not found mafft/OG0011780_nodup.aln

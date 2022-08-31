@@ -1,0 +1,4 @@
+#NEXUS
+Begin trees;
+tree 1 = (((Brassica_oleracea_XP_013619618.1[&date="0"]:2.64,Brassica_rapa_XP_033141945.1[&date="0"]:2.64)100[&date="-2.64"]:38.28,Eutrema_salsugineum_XP_006400682.1[&date="0"]:40.92)100[&date="-40.92"]:6.59,(((Arabidopsis_lyrata_XP_002871968.2[&date="0"]:0,Arabidopsis_lyrata_XP_020876260.1[&date="0"]:0)[&date="0"]:7.5,(Arabidopsis_thaliana_NP_001318615.1[&date="0"]:0,Arabidopsis_thaliana_NP_001332194.1[&date="0"]:0)100[&date="0"]:7.5)100[&date="-7.5"]:10.63,Capsella_rubella_XP_006287498.1[&date="0"]:18.13)100[&date="-18.13"]:29.38)[&date="-47.51"];
+End;

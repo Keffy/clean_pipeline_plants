@@ -284,7 +284,7 @@ OG0001017_exprs[9,3] <- mean(c(OG0001017_exprs[9,3],OG0001017_exprs[10,3],OG0001
 OG0001017_exprs[6,3] <- mean(c(OG0001017_exprs[6,3],OG0001017_exprs[7,3]))
 
 
-rows_to_remove <- c(7,10,11,13,14,15,17,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,35,43,44,46,47,49,51,55,62,63,75,77,84,85,87,90,93,95,97,98,100,105,107,108,112,115,122,124,125,126,130,133,135,136,137,138,164,165)
+rows_to_remove <- c(7,10,11,13,14,15,17,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,35,43,44,46,47,49,51,55,62,63,75,77,84,85,87,90,93,95,97,98,100,105,107,108,112,115,122,124,125,126,130,133,135,136,137,138,159,164,165)
 
 OG0001017_exprs <- OG0001017_exprs[-rows_to_remove,]
 
@@ -374,7 +374,7 @@ OG0002845_exprs[3,3] <- mean(c(OG0002845_exprs[3,3],OG0002845_exprs[4,3]))
 
 rows_to_remove <- c(4,14,21,24,25,31,35,37,38,40,43,47,49,52,57,58,59,60,62,63,64,66,67,68,71,72,73,74,75,77,80,81,84,89,91,93,94,95,97)
 
-OG0002845_id <- OG0002845_id[-rows_to_remove,]
+OG0002845_exprs <- OG0002845_exprs[-rows_to_remove,]
 
 write.table(OG0002845_exprs, "/Volumes/MagicalHDD/DissertationGits/clean_pipeline_plants/meta/eth_quants_by_OG/OG0002845_expr_clean.txt", col.names=FALSE, row.names=FALSE, quote=FALSE)
 
@@ -385,7 +385,7 @@ OG0002899_exprs[4,3] <- mean(c(OG0002899_exprs[4,3],OG0002899_exprs[5,3]))
 
 rows_to_remove <- c(2,5,15,22,39)
 
-OG0002899_exprs <- OG0002899_id[-rows_to_remove,]
+OG0002899_exprs <- OG0002899_exprs[-rows_to_remove,]
 
 write.table(OG0002899_exprs, "/Volumes/MagicalHDD/DissertationGits/clean_pipeline_plants/meta/eth_quants_by_OG/OG0002899_expr_clean.txt", col.names=FALSE, row.names=FALSE, quote=FALSE)
 
@@ -424,7 +424,7 @@ OG0003879_exprs[69,3] <- mean(c(OG0003879_exprs[69,3],OG0003879_exprs[71,3],OG00
 OG0003879_exprs[64,3] <- mean(c(OG0003879_exprs[64,3],OG0003879_exprs[65,3],OG0003879_exprs[66,3],OG0003879_exprs[67,3]))
 OG0003879_exprs[55,3] <- mean(c(OG0003879_exprs[55,3],OG0003879_exprs[56,3],OG0003879_exprs[57,3]))
 
-rows_to_remove <- c(56,57,71,72,75,78,79,84,85,94)
+rows_to_remove <- c(56,57,65,66,67,71,72,75,78,79,84,85,94)
 
 OG0003879_exprs <- OG0003879_exprs[-rows_to_remove,]
 
